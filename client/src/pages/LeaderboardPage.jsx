@@ -1,0 +1,16 @@
+import Leaderboard from "../components/Leaderboard";
+
+export default function LeaderboardPage({ leaderboard, questionIndex, total }) {
+  return (
+    <div className="min-h-screen bg-indigo-700 flex flex-col items-center justify-center p-4">
+      <h2 className="text-3xl font-extrabold text-white mb-2">Leaderboard</h2>
+      <p className="text-indigo-300 text-sm mb-6">
+        After question {questionIndex + 1} of {total}
+      </p>
+      <Leaderboard leaderboard={leaderboard} />
+      <p className="text-indigo-300 text-sm mt-8 animate-pulse">
+        Next question coming up…
+      </p>
+    </div>
+  );
+}
