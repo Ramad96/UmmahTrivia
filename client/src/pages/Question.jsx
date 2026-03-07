@@ -1,11 +1,11 @@
 import Timer from "../components/Timer";
 
-// Answer button colors — match Kahoot style
+// Answer button colors — distinct for quick visual identification
 const ANSWER_COLORS = [
   "bg-red-500 hover:bg-red-600",
-  "bg-blue-500 hover:bg-blue-600",
-  "bg-yellow-500 hover:bg-yellow-600",
-  "bg-green-500 hover:bg-green-600",
+  "bg-[#1a6b8a] hover:bg-[#155a75]",
+  "bg-brand-gold hover:opacity-90",
+  "bg-brand-green hover:bg-brand-midnight",
 ];
 
 const ANSWER_SHAPES = ["▲", "■", "●", "✦"];
@@ -20,14 +20,14 @@ export default function Question({
   isHost,
 }) {
   return (
-    <div className="min-h-screen bg-indigo-700 flex flex-col">
+    <div className="min-h-screen bg-brand-green flex flex-col">
       {/* Header bar */}
-      <div className="flex items-center justify-between px-6 py-3 bg-indigo-800">
-        <span className="text-indigo-300 text-sm font-medium">
+      <div className="flex items-center justify-between px-6 py-3 bg-brand-midnight">
+        <span className="text-brand-sky/70 text-sm font-medium">
           Question {questionIndex + 1} / {total}
         </span>
         <Timer timeLeft={timeLeft} total={10} />
-        <span className="text-indigo-300 text-sm font-medium w-24 text-right">
+        <span className="text-brand-sky/70 text-sm font-medium w-24 text-right">
           {isHost ? "HOST VIEW" : ""}
         </span>
       </div>
@@ -66,7 +66,7 @@ export default function Question({
       </div>
 
       {selectedAnswer !== null && !isHost && (
-        <p className="text-center text-indigo-200 pb-4 text-sm animate-pulse">
+        <p className="text-center text-brand-sky pb-4 text-sm animate-pulse">
           Answer locked in! Waiting for others…
         </p>
       )}

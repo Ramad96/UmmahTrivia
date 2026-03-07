@@ -5,7 +5,7 @@ export default function PlayerList({ players }) {
       {players.map((p) => (
         <span
           key={p.id}
-          className="bg-indigo-100 text-indigo-800 font-medium px-3 py-1 rounded-full text-sm"
+          className="bg-brand-sky text-brand-green font-medium px-3 py-1 rounded-full text-sm"
         >
           {p.name}
         </span>

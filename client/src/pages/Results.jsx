@@ -1,5 +1,5 @@
 // Results screen shown after each question
-const ANSWER_COLORS = ["bg-red-500", "bg-blue-500", "bg-yellow-500", "bg-green-500"];
+const ANSWER_COLORS = ["bg-red-500", "bg-[#1a6b8a]", "bg-brand-gold", "bg-brand-green"];
 const ANSWER_SHAPES = ["▲", "■", "●", "✦"];
 
 export default function Results({ results }) {
@@ -7,10 +7,10 @@ export default function Results({ results }) {
   const total = distribution.reduce((a, b) => a + b, 0);
 
   return (
-    <div className="min-h-screen bg-indigo-700 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-brand-green flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-xl">
         <div className="text-center mb-8">
-          <p className="text-indigo-300 text-sm uppercase tracking-widest mb-1">
+          <p className="text-brand-sky/70 text-sm uppercase tracking-widest mb-1">
             Correct Answer
           </p>
           <h2 className="text-3xl font-extrabold text-white">{correctAnswer}</h2>
@@ -40,21 +40,21 @@ export default function Results({ results }) {
                   <div className="h-4 bg-white/20 rounded-full overflow-hidden">
                     <div
                       className={`h-full rounded-full transition-all duration-700 ${
-                        isCorrect ? "bg-green-400" : "bg-white/50"
+                        isCorrect ? "bg-brand-gold" : "bg-white/50"
                       }`}
                       style={{ width: `${pct}%` }}
                     />
                   </div>
                 </div>
                 {isCorrect && (
-                  <span className="text-green-400 text-xl flex-shrink-0">✓</span>
+                  <span className="text-brand-gold text-xl flex-shrink-0">✓</span>
                 )}
               </div>
             );
           })}
         </div>
 
-        <p className="text-center text-indigo-300 mt-8 text-sm animate-pulse">
+        <p className="text-center text-brand-sky/70 mt-8 text-sm animate-pulse">
           Leaderboard coming up…
         </p>
       </div>

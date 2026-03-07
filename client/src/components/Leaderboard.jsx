@@ -15,7 +15,7 @@ export default function Leaderboard({ leaderboard }) {
             </span>
             <span className="font-semibold text-gray-800">{entry.name}</span>
           </div>
-          <span className="font-bold text-indigo-600">{entry.score.toLocaleString()}</span>
+          <span className="font-bold text-brand-gold">{entry.score.toLocaleString()}</span>
         </div>
       ))}
     </div>
