@@ -15,6 +15,7 @@ export default function Question({
   questionIndex,
   total,
   timeLeft,
+  questionTime,
   selectedAnswer,
   onAnswer,
   isHost,
@@ -26,7 +27,7 @@ export default function Question({
         <span className="text-brand-sky/70 text-sm font-medium">
           Question {questionIndex + 1} / {total}
         </span>
-        <Timer timeLeft={timeLeft} total={10} />
+        <Timer timeLeft={timeLeft} total={questionTime} />
         <span className="text-brand-sky/70 text-sm font-medium w-24 text-right">
           {isHost ? "HOST VIEW" : ""}
         </span>

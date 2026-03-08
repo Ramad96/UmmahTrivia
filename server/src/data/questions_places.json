@@ -1,0 +1,344 @@
+[
+  {
+    "id": "locations_easy_001",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "Which city is home to the Masjid al-Haram and the Kaaba?",
+    "options": {
+      "A": "Madinah",
+      "B": "Jerusalem",
+      "C": "Cairo",
+      "D": "Makkah"
+    },
+    "correct_answer": "D",
+    "explanation": "The Masjid al-Haram, the largest mosque in the world, is located in Makkah, Saudi Arabia. It houses the Kaaba, which Muslims face during prayer and circumambulate during Hajj and Umrah. Makkah is considered the holiest city in Islam and non-Muslims are not permitted to enter.",
+    "source": {
+      "name": "Quran, Surah Al-Imran",
+      "reference": "Surah Al-Imran 3:96",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_easy_002",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "Which city contains the Masjid an-Nabawi, the mosque of the Prophet (SAW)?",
+    "options": {
+      "A": "Makkah",
+      "B": "Jerusalem",
+      "C": "Madinah",
+      "D": "Taif"
+    },
+    "correct_answer": "C",
+    "explanation": "Masjid an-Nabawi (the Prophet's Mosque) is located in Madinah, Saudi Arabia. It was originally built by the Prophet Muhammad (SAW) after his migration (Hijra) from Makkah. It contains the Prophet's (SAW) tomb and is the second holiest mosque in Islam.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 20, Hadith 281",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_easy_003",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "What is the name of the third holiest mosque in Islam, located in Jerusalem?",
+    "options": {
+      "A": "Masjid al-Qiblatayn",
+      "B": "Masjid al-Aqsa",
+      "C": "Masjid al-Quba",
+      "D": "Masjid Ibrahim"
+    },
+    "correct_answer": "B",
+    "explanation": "Masjid al-Aqsa, located in Jerusalem (Al-Quds), is the third holiest mosque in Islam. It was the first Qibla (direction of prayer) for Muslims before it was changed to the Kaaba in Makkah. It is also the site from which the Prophet (SAW) ascended to the heavens during the Miraj.",
+    "source": {
+      "name": "Quran, Surah Al-Isra",
+      "reference": "Surah Al-Isra 17:1",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_easy_004",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "What is the name of the well near the Kaaba in Makkah whose water is considered blessed?",
+    "options": {
+      "A": "Bir Uthman",
+      "B": "Bir al-Baida",
+      "C": "Zamzam",
+      "D": "Kawthar"
+    },
+    "correct_answer": "C",
+    "explanation": "The Well of Zamzam is located within Masjid al-Haram in Makkah. It miraculously sprang forth for Hajar (AS), the wife of Prophet Ibrahim (AS), when she desperately searched for water for her infant son Ismail (AS). Its water is considered blessed and pilgrims drink from it during Hajj and Umrah.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 55, Hadith 584",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_easy_005",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "On which mountain did Prophet Musa (AS) receive the Tawrah (Torah) from Allah?",
+    "options": {
+      "A": "Mount Uhud",
+      "B": "Mount Arafat",
+      "C": "Mount Sinai (Tur Sina)",
+      "D": "Mount Hira"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Musa (AS) received the Tawrah and spoke directly with Allah on Mount Sinai (known in the Quran as Tur Sina or al-Tur). This mountain is mentioned multiple times in the Quran and Allah even swears by it in Surah At-Tur, indicating its sacred significance.",
+    "source": {
+      "name": "Quran, Surah Al-Araf; Surah At-Tur",
+      "reference": "Surah Al-Araf 7:143; Surah At-Tur 52:1",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_easy_006",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "What is the name of the plain outside Makkah where pilgrims must stand during Hajj, considered the most essential pillar of the pilgrimage?",
+    "options": {
+      "A": "Mina",
+      "B": "Muzdalifah",
+      "C": "Arafat",
+      "D": "Safa"
+    },
+    "correct_answer": "C",
+    "explanation": "The standing at Arafat (Wuquf al-Arafat) on the 9th of Dhul Hijjah is the most essential pillar of Hajj. The Prophet (SAW) said 'Hajj is Arafat', meaning that missing this standing invalidates the entire Hajj. Pilgrims spend the afternoon there in dua and remembrance of Allah.",
+    "source": {
+      "name": "Sunan Abu Dawud; Sahih al-Tirmidhi",
+      "reference": "Sunan Abu Dawud Book 11, Hadith 1949; Jami at-Tirmidhi Book 9, Hadith 889",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_medium_001",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "What is the name of the cave where the Prophet (SAW) received the first revelation of the Quran?",
+    "options": {
+      "A": "Cave of Thawr",
+      "B": "Cave of Uhud",
+      "C": "Cave of Hira",
+      "D": "Cave of Badr"
+    },
+    "correct_answer": "C",
+    "explanation": "The first revelation was received by Prophet Muhammad (SAW) in the Cave of Hira (Ghar Hira), located on Jabal al-Nour (Mountain of Light) near Makkah. The angel Jibril (AS) appeared and revealed the first verses of Surah Al-Alaq. The Prophet (SAW) used to retreat there for contemplation before prophethood.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 1, Hadith 3",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_medium_002",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "Which mosque, built by the Prophet (SAW) upon his arrival in Madinah, is considered the first mosque in Islamic history?",
+    "options": {
+      "A": "Masjid an-Nabawi",
+      "B": "Masjid al-Qiblatayn",
+      "C": "Masjid al-Haram",
+      "D": "Masjid Quba"
+    },
+    "correct_answer": "D",
+    "explanation": "Masjid Quba was the first mosque built in Islamic history. The Prophet (SAW) laid its foundation stones upon arriving in the outskirts of Madinah during the Hijra. The Prophet (SAW) said that praying two rak'ahs in Masjid Quba is equivalent to the reward of performing Umrah.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sunan Ibn Majah",
+      "reference": "Sahih al-Bukhari Book 20, Hadith 1193; Sunan Ibn Majah Book 5, Hadith 1412",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_medium_003",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "What is the significance of the location of Hudaybiyyah in Islamic history?",
+    "options": {
+      "A": "It was the site of the Battle of Badr",
+      "B": "It was where the Prophet (SAW) received the first revelation",
+      "C": "It was where the Prophet (SAW) signed a peace treaty with the Quraysh",
+      "D": "It was the location of the first Jumuah prayer"
+    },
+    "correct_answer": "C",
+    "explanation": "Al-Hudaybiyyah is a location near Makkah where the Prophet (SAW) signed a pivotal peace treaty with the Quraysh in the 6th year of Hijra. Though it appeared unfavourable to some companions at the time, the Quran described it as a 'manifest victory.' It paved the way for the spread of Islam and the eventual conquest of Makkah.",
+    "source": {
+      "name": "Quran, Surah Al-Fath; Sahih al-Bukhari",
+      "reference": "Surah Al-Fath 48:1; Sahih al-Bukhari Book 54, Hadith 408",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_medium_004",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "During the Hajj pilgrimage, what significant ritual takes place at the Jamarat in Mina?",
+    "options": {
+      "A": "The sacrifice of an animal",
+      "B": "The standing and supplication at sunset",
+      "C": "The stoning of the pillars representing Shaytan",
+      "D": "The running between Safa and Marwa"
+    },
+    "correct_answer": "C",
+    "explanation": "At the Jamarat in Mina, pilgrims perform the ritual stoning (Rami al-Jamarat) by throwing pebbles at three pillars. This commemorates Prophet Ibrahim (AS) stoning Shaytan when he tried to dissuade him from obeying Allah's command. It is performed over the days of Eid al-Adha and the subsequent days of Tashreeq.",
+    "source": {
+      "name": "Sahih al-Bukhari; Ibn Khuzaymah",
+      "reference": "Sahih al-Bukhari Book 25, Hadith 1748; Sunan Ibn Majah Book 25, Hadith 3029",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_medium_005",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "What is Bayt al-Maqdis and why is it significant in Islam?",
+    "options": {
+      "A": "The sacred valley near Makkah where Ibrahim (AS) settled his family",
+      "B": "Another name for Jerusalem, which houses Masjid al-Aqsa and was the first Qibla",
+      "C": "The name of the Prophet's (SAW) house in Madinah",
+      "D": "A mountain in the Hijaz region blessed by Allah in the Quran"
+    },
+    "correct_answer": "B",
+    "explanation": "Bayt al-Maqdis is the Arabic name for Jerusalem (Al-Quds). It is of immense significance in Islam as the location of Masjid al-Aqsa, the third holiest mosque, Islam's first Qibla, and the destination of the Isra (night journey) of the Prophet (SAW). It is also associated with many prophets including Dawud, Sulaiman, and Isa (AS).",
+    "source": {
+      "name": "Quran, Surah Al-Isra; Sahih al-Bukhari",
+      "reference": "Surah Al-Isra 17:1; Sahih al-Bukhari Book 8, Hadith 392",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_medium_006",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "What is the name of the valley in Makkah mentioned in the Quran where Prophet Ibrahim (AS) settled his wife Hajar and infant son Ismail (AS)?",
+    "options": {
+      "A": "Valley of Taif",
+      "B": "Valley of Wadi al-Qura",
+      "C": "Valley of Bakkah (Makkah)",
+      "D": "Valley of Tabuk"
+    },
+    "correct_answer": "C",
+    "explanation": "The Quran refers to Makkah as 'Bakkah' in Surah Al-Imran, describing it as the first house of worship established for mankind. It was in this barren valley that Prophet Ibrahim (AS) settled his wife Hajar and son Ismail (AS) by Allah's command. Hajar's search for water between Safa and Marwa in this valley became a permanent rite of Hajj.",
+    "source": {
+      "name": "Quran, Surah Al-Imran; Sahih al-Bukhari",
+      "reference": "Surah Al-Imran 3:96; Sahih al-Bukhari Book 55, Hadith 584",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_hard_001",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "During the Prophet's (SAW) Isra wal-Miraj, from which specific location in Jerusalem did the heavenly ascent (Miraj) begin?",
+    "options": {
+      "A": "The Mount of Olives",
+      "B": "The Rock beneath the Dome of the Rock, within Masjid al-Aqsa",
+      "C": "The Western Wall",
+      "D": "The Valley of Kidron"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Islamic tradition, after the Prophet (SAW) led all the previous prophets in prayer at Masjid al-Aqsa, the Miraj (heavenly ascent) began from the sacred rock known as the Foundation Stone (al-Sakhra), over which the Dome of the Rock was later built by Caliph Abd al-Malik ibn Marwan. The Prophet (SAW) was taken from there on the Buraq through the seven heavens.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 58, Hadith 227; Sahih Muslim Book 1, Hadith 309",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_hard_002",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "What is Bayt al-Mamur, mentioned in the Quran and hadith, and where is it located?",
+    "options": {
+      "A": "A sacred mosque in Madinah visited by 70,000 angels daily",
+      "B": "The heavenly house in the seventh heaven directly above the Kaaba, circumambulated by 70,000 angels daily",
+      "C": "The original Kaaba built by Adam (AS) before the flood of Nuh (AS)",
+      "D": "A blessed valley near Makkah where the Prophet (SAW) used to make i'tikaf"
+    },
+    "correct_answer": "B",
+    "explanation": "Bayt al-Mamur is the heavenly house (al-bayt al-mamur) located in the seventh heaven, directly above the Kaaba on earth. The Prophet (SAW) saw it during the Miraj and was informed that 70,000 angels enter it every day to worship Allah and never return — such is the abundance of angels in creation. It is the celestial counterpart of the Kaaba.",
+    "source": {
+      "name": "Quran, Surah At-Tur; Sahih al-Bukhari",
+      "reference": "Surah At-Tur 52:4; Sahih al-Bukhari Book 58, Hadith 227",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_hard_003",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "The Battle of Badr took place near a well and settlement. In which year of the Hijri calendar did it occur, and what was its strategic significance?",
+    "options": {
+      "A": "1 AH; it established the Islamic state in Madinah",
+      "B": "2 AH; it was the first major military victory of the Muslims and is called 'Yawm al-Furqan' in the Quran",
+      "C": "3 AH; it followed the Treaty of Hudaybiyyah and opened the path to Makkah",
+      "D": "5 AH; it was fought during the Siege of Madinah"
+    },
+    "correct_answer": "B",
+    "explanation": "The Battle of Badr took place in 2 AH (624 CE) near the wells of Badr in the Hijaz region. A Muslim force of approximately 313 fighters defeated a Qurayshi army of around 1,000. The Quran refers to it as 'Yawm al-Furqan' (the Day of Distinction), as it was the first decisive military victory that established the strength and credibility of the early Muslim community.",
+    "source": {
+      "name": "Quran, Surah Al-Anfal; Sahih al-Bukhari",
+      "reference": "Surah Al-Anfal 8:41; Sahih al-Bukhari Book 64, Hadith 3992",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_hard_004",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "What is the Al-Hijr (also known as Hijr Ismail) within Masjid al-Haram, and what is its jurisprudential significance during Tawaf?",
+    "options": {
+      "A": "A raised platform where the imam leads prayer; pilgrims must walk around it during Tawaf",
+      "B": "A semicircular wall adjacent to the Kaaba enclosing an area that is considered part of the original Kaaba structure; pilgrims must include it in their Tawaf circuit",
+      "C": "The black stone (Hajar al-Aswad) embedded in the corner of the Kaaba",
+      "D": "The station of Ibrahim (AS) where he stood while building the Kaaba"
+    },
+    "correct_answer": "B",
+    "explanation": "The Hijr Ismail is a semicircular low wall (hatim) on the northwest side of the Kaaba. According to authentic hadith, the Prophet (SAW) informed Aisha (RA) that the Hijr is part of the original Kaaba structure that the Quraysh could not include in the rebuilding due to lack of pure funds. Therefore, scholars agree that Tawaf must go around the outside of the Hijr — entering it during Tawaf invalidates that circuit.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 25, Hadith 1583; Sahih Muslim Book 15, Hadith 1333",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_hard_005",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "Which Quranic surah is named after a blessed valley where Allah spoke directly to Prophet Musa (AS) and he was commanded to remove his sandals?",
+    "options": {
+      "A": "Surah Al-Araf",
+      "B": "Surah Maryam",
+      "C": "Surah Ta-Ha",
+      "D": "Surah Al-Qasas"
+    },
+    "correct_answer": "C",
+    "explanation": "In Surah Ta-Ha, Allah recounts the moment Prophet Musa (AS) saw a fire near Mount Sinai and approached it. Allah called out to him from the sacred valley of Tuwa and commanded him to remove his sandals as he was standing on holy ground. It was here that Musa (AS) first received prophethood and was given his initial miracles of the staff and luminous hand.",
+    "source": {
+      "name": "Quran, Surah Ta-Ha",
+      "reference": "Surah Ta-Ha 20:11-12",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_hard_006",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "What is the Multazam, and what is its significance within Islamic worship at Masjid al-Haram?",
+    "options": {
+      "A": "The black cloth covering the Kaaba, replaced annually during Hajj season",
+      "B": "The area between the Hajar al-Aswad (Black Stone) and the door of the Kaaba, considered a place where duas are especially accepted",
+      "C": "The elevated platform inside the Kaaba where the Prophet (SAW) prayed after the Conquest of Makkah",
+      "D": "The designated area in Masjid al-Haram reserved for women's prayer behind the Maqam Ibrahim"
+    },
+    "correct_answer": "B",
+    "explanation": "The Multazam is the section of the Kaaba's wall between the Hajar al-Aswad (Black Stone) and the Kaaba's door, spanning approximately two metres. It is a highly virtuous spot where pilgrims press their chests, hands, and faces against the wall while making sincere dua. Scholars such as Ibn Abbas (RA) narrated its virtue, and it is a well-established practice of the companions and classical scholars to supplicate there during Tawaf.",
+    "source": {
+      "name": "Sunan Abu Dawud; Ibn Abbas narration",
+      "reference": "Sunan Abu Dawud Book 11, Hadith 1899; Al-Mustadrak of al-Hakim Vol. 1",
+      "type": "hadith"
+    }
+  }
+]

@@ -9,7 +9,8 @@
       "Bash(node --check src/game/gameManager.js)",
       "Bash(node --check src/game/playerManager.js)",
       "Bash(node --check src/game/questions.js)",
-      "Bash(node --check src/socket/socketHandlers.js)"
+      "Bash(node --check src/socket/socketHandlers.js)",
+      "Bash(ls /Users/ramiz/Documents/dev/UmmahTrivia/questions_*.json)"
     ]
   }
 }

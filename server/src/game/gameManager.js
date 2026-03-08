@@ -1,5 +1,4 @@
 import { generatePlayerName, calculateScore } from "./playerManager.js";
-import { questions } from "./questions.js";
 
 // In-memory store: gameCode → gameState
 const games = new Map();
@@ -19,6 +18,9 @@ export function createGame(hostSocketId) {
     hostId: hostSocketId,
     status: "lobby", // lobby | question | results | leaderboard | finished
     players: new Map(), // socketId → { id, name, score, answeredThisRound }
+    questions: [], // set when the host starts the game
+    questionTime: 10, // seconds per question, set on start
+    together: false, // together mode — no leaderboard between questions
     currentQuestionIndex: 0,
     currentAnswers: new Map(), // socketId → { answerIndex, timeLeft }
     timerInterval: null,
@@ -26,6 +28,10 @@ export function createGame(hostSocketId) {
   };
   games.set(code, game);
   return game;
+}
+
+export function setGameQuestions(game, questions) {
+  game.questions = questions;
 }
 
 export function getGame(code) {
@@ -56,13 +62,13 @@ export function removePlayer(game, socketId) {
 
 // Returns the current question safe to send to clients (no correctIndex)
 export function getCurrentQuestion(game) {
-  const q = questions[game.currentQuestionIndex];
+  const q = game.questions[game.currentQuestionIndex];
   return {
     id: q.id,
     text: q.text,
     answers: q.answers,
     questionIndex: game.currentQuestionIndex,
-    total: questions.length,
+    total: game.questions.length,
   };
 }
 
@@ -80,7 +86,7 @@ export function recordAnswer(game, socketId, answerIndex) {
 
 // Build results for current question
 export function buildResults(game) {
-  const q = questions[game.currentQuestionIndex];
+  const q = game.questions[game.currentQuestionIndex];
   const correctIndex = q.correctIndex;
 
   // Answer distribution: count per option (0–3)
@@ -118,7 +124,7 @@ export function advanceQuestion(game) {
   for (const player of game.players.values()) {
     player.answeredThisRound = false;
   }
-  game.timeLeft = 10;
+  game.timeLeft = game.questionTime;
   game.status = "question";
 }
 
@@ -127,7 +133,7 @@ export function getPlayersArray(game) {
 }
 
 export function hasMoreQuestions(game) {
-  return game.currentQuestionIndex < questions.length - 1;
+  return game.currentQuestionIndex < game.questions.length - 1;
 }
 
 export function getGameByHostId(hostId) {

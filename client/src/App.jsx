@@ -25,10 +25,13 @@ export default function App() {
   const [gameCode, setGameCode] = useState("");
   const [playerName, setPlayerName] = useState("");
   const [players, setPlayers] = useState([]);
+  const [topics, setTopics] = useState([]);
   const [question, setQuestion] = useState(null);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(10);
+  const [questionTime, setQuestionTime] = useState(10);
   const [timeLeft, setTimeLeft] = useState(10);
+  const [togetherMode, setTogetherMode] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [results, setResults] = useState(null);
   const [leaderboard, setLeaderboard] = useState([]);
@@ -47,6 +50,7 @@ export default function App() {
       setQuestion({ text: data.text, answers: data.answers });
       setQuestionIndex(data.questionIndex);
       setTotalQuestions(data.total);
+      setQuestionTime(data.timeLeft); // first timeLeft = full question duration
       setTimeLeft(data.timeLeft);
       setSelectedAnswer(null);
       setResults(null);
@@ -96,18 +100,21 @@ export default function App() {
     setGameCode("");
     setPlayerName("");
     setPlayers([]);
+    setTopics([]);
     setQuestion(null);
     setResults(null);
     setLeaderboard([]);
     setSelectedAnswer(null);
+    setTogetherMode(false);
   }, []);
 
   function handleHostGame() {
-    socket.emit("host:createGame", ({ success, gameCode }) => {
+    socket.emit("host:createGame", ({ success, gameCode, topics }) => {
       if (success) {
         setIsHost(true);
         setGameCode(gameCode);
         setPlayers([]);
+        setTopics(topics);
         setScreen(SCREENS.LOBBY);
       }
     });
@@ -131,8 +138,9 @@ export default function App() {
     );
   }
 
-  function handleStartGame() {
-    socket.emit("host:startGame", { gameCode });
+  function handleStartGame({ topic, difficulty, mode, timePerQuestion, together }) {
+    setTogetherMode(together);
+    socket.emit("host:startGame", { gameCode, topic, difficulty, mode, timePerQuestion, together });
   }
 
   function handleAnswerSelect(answerIndex) {
@@ -156,6 +164,7 @@ export default function App() {
           players={players}
           isHost={isHost}
           playerName={playerName}
+          topics={topics}
           onStart={handleStartGame}
         />
       );
@@ -167,9 +176,10 @@ export default function App() {
           questionIndex={questionIndex}
           total={totalQuestions}
           timeLeft={timeLeft}
+          questionTime={questionTime}
           selectedAnswer={selectedAnswer}
           onAnswer={handleAnswerSelect}
-          isHost={isHost}
+          isHost={isHost && !togetherMode}
         />
       ) : null;
 

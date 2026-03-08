@@ -13,9 +13,17 @@ import {
   hasMoreQuestions,
   getGameByHostId,
   getGameByPlayerId,
+  setGameQuestions,
 } from "../game/gameManager.js";
+import {
+  TOPICS,
+  getQuestions,
+  getIncreasingDifficultyQuestions,
+  getRandomTopicQuestions,
+} from "../game/questions.js";
 
-const QUESTION_TIME = 10; // seconds
+const ALLOWED_QUESTION_TIMES = [10, 15, 20];
+const DEFAULT_QUESTION_TIME = 10;
 const RESULTS_DISPLAY_TIME = 5000; // ms before leaderboard
 const LEADERBOARD_DISPLAY_TIME = 4000; // ms before next question
 
@@ -26,7 +34,7 @@ export function registerSocketHandlers(io, socket) {
     socket.join(game.code);
     socket.join(`host:${game.code}`);
     console.log(`[Game] Created: ${game.code} by host ${socket.id}`);
-    callback({ success: true, gameCode: game.code });
+    callback({ success: true, gameCode: game.code, topics: TOPICS });
   });
 
   // ── Player: Join Game ────────────────────────────────────────
@@ -51,13 +59,46 @@ export function registerSocketHandlers(io, socket) {
   });
 
   // ── Host: Start Game ─────────────────────────────────────────
-  socket.on("host:startGame", ({ gameCode }) => {
+  // topic: "duas"|"fiqh"|"places"|"prophets"|"random"
+  // mode:  "normal"|"increasing"
+  // difficulty: "easy"|"medium"|"hard" (ignored when mode is "increasing")
+  socket.on("host:startGame", ({ gameCode, topic, difficulty, mode, timePerQuestion, together }) => {
     const game = getGame(gameCode);
     if (!game || game.hostId !== socket.id) return;
     if (game.status !== "lobby") return;
-    if (game.players.size === 0) return;
+    // Together mode: host plays solo — no other players required
+    if (!together && game.players.size === 0) return;
+    if (together) {
+      // Add the host as a participant so their answers are recorded
+      addPlayer(game, socket.id);
+      socket.join(`player:${gameCode}`);
+      game.together = true;
+    }
 
+    game.questionTime = ALLOWED_QUESTION_TIMES.includes(timePerQuestion)
+      ? timePerQuestion
+      : DEFAULT_QUESTION_TIME;
+
+    let questions;
+    let resolvedTopic = topic;
+
+    if (topic === "random") {
+      const result = getRandomTopicQuestions(difficulty, mode);
+      questions = result.questions;
+      resolvedTopic = result.topic;
+    } else if (mode === "increasing") {
+      questions = getIncreasingDifficultyQuestions(topic);
+    } else {
+      questions = getQuestions(topic, difficulty);
+    }
+
+    setGameQuestions(game, questions);
     game.status = "question";
+
+    console.log(
+      `[Game] ${game.code} started — topic: ${resolvedTopic}, mode: ${mode}, difficulty: ${difficulty}, time: ${game.questionTime}s, questions: ${questions.length}${together ? " [TOGETHER]" : ""}`
+    );
+
     startQuestion(io, game);
   });
 
@@ -107,12 +148,12 @@ export function registerSocketHandlers(io, socket) {
 // ── Internal: Start a question ───────────────────────────────
 function startQuestion(io, game) {
   game.status = "question";
-  game.timeLeft = QUESTION_TIME;
+  game.timeLeft = game.questionTime;
 
   const question = getCurrentQuestion(game);
   io.to(game.code).emit("game:startQuestion", {
     ...question,
-    timeLeft: QUESTION_TIME,
+    timeLeft: game.questionTime,
   });
 
   // Countdown ticker
@@ -139,23 +180,33 @@ function endQuestion(io, game) {
   const results = buildResults(game);
   io.to(game.code).emit("game:showResults", results);
 
-  // After results, show leaderboard
+  // After results — skip leaderboard in together mode
   setTimeout(() => {
-    const leaderboard = buildLeaderboard(game);
-    game.status = "leaderboard";
-    io.to(game.code).emit("game:updateLeaderboard", { leaderboard });
-
-    // Decide next step
-    setTimeout(() => {
+    if (game.together) {
+      // Go straight to next question or end
       if (hasMoreQuestions(game)) {
         advanceQuestion(game);
         startQuestion(io, game);
       } else {
         game.status = "finished";
-        io.to(game.code).emit("game:finished", {
-          leaderboard: buildLeaderboard(game),
-        });
+        io.to(game.code).emit("game:finished", { leaderboard: [] });
       }
-    }, LEADERBOARD_DISPLAY_TIME);
+    } else {
+      const leaderboard = buildLeaderboard(game);
+      game.status = "leaderboard";
+      io.to(game.code).emit("game:updateLeaderboard", { leaderboard });
+
+      setTimeout(() => {
+        if (hasMoreQuestions(game)) {
+          advanceQuestion(game);
+          startQuestion(io, game);
+        } else {
+          game.status = "finished";
+          io.to(game.code).emit("game:finished", {
+            leaderboard: buildLeaderboard(game),
+          });
+        }
+      }, LEADERBOARD_DISPLAY_TIME);
+    }
   }, RESULTS_DISPLAY_TIME);
 }

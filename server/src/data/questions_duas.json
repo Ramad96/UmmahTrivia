@@ -1,0 +1,344 @@
+[
+  {
+    "id": "duas_easy_001",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What dua should a Muslim say before eating?",
+    "options": {
+      "A": "Alhamdulillah",
+      "B": "SubhanAllah",
+      "C": "Bismillah",
+      "D": "Allahu Akbar"
+    },
+    "correct_answer": "C",
+    "explanation": "A Muslim should say 'Bismillah' (In the name of Allah) before eating. The Prophet (SAW) instructed: 'When one of you eats, let him mention the name of Allah.' If one forgets at the start, they should say 'Bismillahi fi awwalihi wa akhirihi' (In the name of Allah at its beginning and its end).",
+    "source": {
+      "name": "Sunan Abu Dawud; Jami at-Tirmidhi",
+      "reference": "Sunan Abu Dawud Book 27, Hadith 3767; Jami at-Tirmidhi Book 25, Hadith 1858",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_easy_002",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What do Muslims say when someone sneezes?",
+    "options": {
+      "A": "The sneezing person says 'Alhamdulillah' and those who hear respond 'Yarhamukallah'",
+      "B": "Everyone present says 'SubhanAllah'",
+      "C": "The sneezing person says 'Bismillah' and others say 'Alhamdulillah'",
+      "D": "Everyone says 'Allahu Akbar'"
+    },
+    "correct_answer": "A",
+    "explanation": "When a Muslim sneezes, they say 'Alhamdulillah' (All praise is due to Allah). Those who hear respond with 'Yarhamukallah' (May Allah have mercy on you). The sneezing person then replies 'Yahdikumullahu wa yuslihu balakum' (May Allah guide you and rectify your affairs). This exchange is an established sunnah.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 78, Hadith 6224",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_easy_003",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What dua is recommended when entering the home?",
+    "options": {
+      "A": "Allahumma inni as'aluka khayral mawlaj",
+      "B": "Bismillahi walajna wa bismillahi kharajna wa ala Rabbina tawakkalna",
+      "C": "Alhamdulillahilladhi atamana wa saqana",
+      "D": "Subhanakallahumma wa bihamdika"
+    },
+    "correct_answer": "B",
+    "explanation": "The recommended dua when entering the home is: 'Bismillahi walajna wa bismillahi kharajna wa ala Rabbina tawakkalna' — meaning 'In the name of Allah we enter, in the name of Allah we leave, and upon our Lord we place our trust.' The Prophet (SAW) taught this dua and said that Shaytan is repelled when it is recited.",
+    "source": {
+      "name": "Sunan Abu Dawud",
+      "reference": "Sunan Abu Dawud Book 42, Hadith 5096",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_easy_004",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What should a Muslim say when they hear about the death of someone?",
+    "options": {
+      "A": "SubhanAllah wa bihamdihi",
+      "B": "La hawla wa la quwwata illa billah",
+      "C": "Inna lillahi wa inna ilayhi raji'un",
+      "D": "Allahu Akbar wa lillahil hamd"
+    },
+    "correct_answer": "C",
+    "explanation": "'Inna lillahi wa inna ilayhi raji'un' means 'Indeed, to Allah we belong and to Him we shall return.' This statement of patience and submission is commanded in the Quran upon being struck by calamity. Allah promises mercy and guidance to those who recite it during times of loss.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah",
+      "reference": "Surah Al-Baqarah 2:156",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "duas_easy_005",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What dua do Muslims say after completing the wudu (ablution)?",
+    "options": {
+      "A": "Allahumma tabbithni alal iman",
+      "B": "Ashhadu an la ilaha illallah wahdahu la sharika lah, wa ashhadu anna Muhammadan abduhu wa rasuluh",
+      "C": "Allahummaj'alni minat tawwabin",
+      "D": "Subhanakallahumma wa bihamdika"
+    },
+    "correct_answer": "B",
+    "explanation": "After completing wudu, the Prophet (SAW) taught the dua of the Shahada: 'Ashhadu an la ilaha illallah wahdahu la sharika lah, wa ashhadu anna Muhammadan abduhu wa rasuluh.' He said that whoever recites this after wudu will have the eight gates of Paradise opened for them to enter through whichever they wish.",
+    "source": {
+      "name": "Sahih Muslim",
+      "reference": "Sahih Muslim Book 2, Hadith 234",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_easy_006",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What is the dua a Muslim should say when beginning any important matter or action?",
+    "options": {
+      "A": "Alhamdulillah",
+      "B": "Allahu Akbar",
+      "C": "Bismillah ir-Rahman ir-Rahim",
+      "D": "La ilaha illallah"
+    },
+    "correct_answer": "C",
+    "explanation": "'Bismillah ir-Rahman ir-Rahim' (In the name of Allah, the Most Gracious, the Most Merciful) is recommended before beginning any important action or matter. It is the opening verse of the Quran and 113 of the 114 Surahs. The Prophet (SAW) said any important matter not begun with Bismillah is cut off from blessing.",
+    "source": {
+      "name": "Sunan Ibn Majah; Quran Surah Al-Fatiha",
+      "reference": "Sunan Ibn Majah Book 1, Hadith 1; Surah Al-Fatiha 1:1",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_medium_001",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "What is the dua said when entering the masjid?",
+    "options": {
+      "A": "Allahummaftah li abwaba rahmatik",
+      "B": "Allahumma inni as'aluka min fadlik",
+      "C": "Rabbighfirli waftah li abwaba jannah",
+      "D": "Allahumma barik lana fi hadhal masjid"
+    },
+    "correct_answer": "A",
+    "explanation": "When entering the masjid, the recommended dua is 'Allahummaftah li abwaba rahmatik' — meaning 'O Allah, open for me the gates of Your mercy.' This is recited after sending salawat (blessings) upon the Prophet (SAW). When leaving, one says 'Allahumma inni as'aluka min fadlik' (O Allah, I ask of You from Your bounty).",
+    "source": {
+      "name": "Sahih Muslim",
+      "reference": "Sahih Muslim Book 4, Hadith 713",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_medium_002",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "Which dua did Prophet Yunus (AS) recite while in the belly of the whale, as mentioned in the Quran?",
+    "options": {
+      "A": "Rabbi inni massaniya addurru wa anta arhamur rahimin",
+      "B": "Hasbunallahu wa ni'mal wakil",
+      "C": "La ilaha illa anta subhanaka inni kuntu minaz zalimin",
+      "D": "Rabbi inni lima anzalta ilayya min khayrin faqir"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Yunus (AS) called out from the darkness of the whale's belly: 'La ilaha illa anta subhanaka inni kuntu minaz zalimin' — meaning 'There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.' Allah responded to this dua and saved him, and the Quran states that this dua will similarly save any believer who calls with it.",
+    "source": {
+      "name": "Quran, Surah Al-Anbiya",
+      "reference": "Surah Al-Anbiya 21:87-88",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "duas_medium_003",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "What is the dua known as Sayyid al-Istighfar (the Master of Seeking Forgiveness), and what did the Prophet (SAW) say about it?",
+    "options": {
+      "A": "Subhanallahi wa bihamdihi subhanallahil azim",
+      "B": "Allahumma anta rabbi la ilaha illa anta khalaqtani wa ana abduka...",
+      "C": "Astaghfirullaha rabbi min kulli dhambin wa atubu ilaih",
+      "D": "La ilaha illallah wahdahu la sharika lah lahul mulku wa lahul hamdu"
+    },
+    "correct_answer": "B",
+    "explanation": "Sayyid al-Istighfar begins with 'Allahumma anta rabbi la ilaha illa anta khalaqtani wa ana abduka...' (O Allah, You are my Lord, there is no god but You, You created me and I am Your servant...). The Prophet (SAW) said that whoever recites it with conviction in the morning and dies before evening enters Paradise, and likewise for the evening.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 80, Hadith 6306",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_medium_004",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "What dua is specifically recommended to be recited on Laylat al-Qadr (the Night of Decree), as taught by the Prophet (SAW) to Aisha (RA)?",
+    "options": {
+      "A": "Allahumma innaka afuwwun tuhibbul afwa fa'fu anni",
+      "B": "Allahumma inni as'aluka al-jannata wa a'udhu bika minan nar",
+      "C": "Allahumma taqabbal minni innaka antas samiul alim",
+      "D": "Rabbi hab li min ladunka rahmatan innaka antal wahhab"
+    },
+    "correct_answer": "A",
+    "explanation": "Aisha (RA) asked the Prophet (SAW) what dua she should make if she found Laylat al-Qadr. He replied: 'Say: Allahumma innaka afuwwun tuhibbul afwa fa'fu anni' — meaning 'O Allah, You are Pardoning, You love to pardon, so pardon me.' This concise but powerful dua focuses on seeking Allah's complete pardon on the most blessed night of the year.",
+    "source": {
+      "name": "Jami at-Tirmidhi; Sunan Ibn Majah",
+      "reference": "Jami at-Tirmidhi Book 48, Hadith 3513; Sunan Ibn Majah Book 34, Hadith 3850",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_medium_005",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "What is the dua recited between the two sajdahs (prostrations) during Salah?",
+    "options": {
+      "A": "Subhana rabbiyal a'la wa bihamdih",
+      "B": "Rabbi inni zalamtu nafsi zulman kathiran",
+      "C": "Rabbighfirli rabbighfirli",
+      "D": "Allahumma salli ala Muhammad"
+    },
+    "correct_answer": "C",
+    "explanation": "Between the two prostrations (sajdahs) in Salah, the Prophet (SAW) would say 'Rabbighfirli, Rabbighfirli' — meaning 'O my Lord, forgive me, O my Lord, forgive me.' This is narrated in authentic hadith and represents one of the recommended adhkar within the prayer itself.",
+    "source": {
+      "name": "Sunan Ibn Majah; Sunan Abu Dawud",
+      "reference": "Sunan Ibn Majah Book 5, Hadith 897; Sunan Abu Dawud Book 2, Hadith 874",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_medium_006",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "What dua did Prophet Ibrahim (AS) make for his parents and the believers, as recorded in the Quran?",
+    "options": {
+      "A": "Rabbi hab li minas saliheen",
+      "B": "Rabbana taqabbal minni wa min walidayya",
+      "C": "Rabbanaghfir li wa liwalidayya wa lilmu'minina yawma yaqumul hisab",
+      "D": "Rabbi awzi'ni an ashkura ni'mataka allati an'amta alayya"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Ibrahim (AS) made the dua: 'Rabbanaghfir li wa liwalidayya wa lilmu'minina yawma yaqumul hisab' — meaning 'Our Lord, forgive me, my parents, and the believers on the Day when the account will be established.' This dua is a model of seeking forgiveness for oneself, one's parents, and the entire Muslim community.",
+    "source": {
+      "name": "Quran, Surah Ibrahim",
+      "reference": "Surah Ibrahim 14:41",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "duas_hard_001",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "What is the dua known as 'Dua Kanzul Arsh' (the Treasure of the Throne), reported in hadith as being recited by the Prophet (SAW) during times of extreme distress?",
+    "options": {
+      "A": "Hasbiyallahu la ilaha illa huwa alayhi tawakkaltu wa huwa rabbul arshil azim",
+      "B": "La ilaha illallahul halimul karim subhanallahi rabbil arshil azim",
+      "C": "Allahumma rahmataka arju fala takilni ila nafsi tarfata ayn",
+      "D": "Ya Hayyu ya Qayyum bi rahmatika astaghith"
+    },
+    "correct_answer": "B",
+    "explanation": "The dua 'La ilaha illallahul halimul karim, subhanallahi rabbil arshil azim' is known as Dua Kanzul Arsh — the Treasure of the Throne. The Prophet (SAW) said this dua is recited when a matter becomes difficult. It translates as: 'There is no god but Allah, the Forbearing, the Generous. Glory be to Allah, Lord of the Magnificent Throne.' It is established in both Sahih al-Bukhari and Sahih Muslim.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 75, Hadith 6346; Sahih Muslim Book 48, Hadith 2730",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_hard_002",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "The Prophet (SAW) taught a dua to recite in the final tashahhud before salam, seeking refuge from four things. What are those four things?",
+    "options": {
+      "A": "Shirk, hypocrisy, arrogance, and envy",
+      "B": "The punishment of Hellfire, the punishment of the grave, the trials of life and death, and the trial of the Dajjal",
+      "C": "Poverty, illness, ignorance, and oppression",
+      "D": "Anger, heedlessness, miserliness, and cowardice"
+    },
+    "correct_answer": "B",
+    "explanation": "In the final tashahhud, the Prophet (SAW) instructed believers to say: 'Allahumma inni a'udhu bika min adhabil jahannam, wa min adhabil qabr, wa min fitnatil mahya wal mamat, wa min sharri fitnatil masihid dajjal' — seeking refuge from the punishment of Hell, punishment of the grave, trials of life and death, and the evil trial of the Dajjal. The Prophet (SAW) commanded this so emphatically that some companions considered it obligatory.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 75, Hadith 6377; Sahih Muslim Book 4, Hadith 588",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_hard_003",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "Which Quranic dua, attributed to Prophet Ayyub (AS), is considered one of the most powerful supplications for relief from hardship and illness?",
+    "options": {
+      "A": "Rabbi inni massaniyad durru wa anta arhamur rahimin",
+      "B": "Allahumma la sahla illa ma ja'altahu sahla",
+      "C": "Rabbi la tadhharni fardan wa anta khayrul waritheen",
+      "D": "Hasbunallahu wa ni'mal wakil ni'mal mawla wa ni'man nasir"
+    },
+    "correct_answer": "A",
+    "explanation": "Prophet Ayyub (AS) cried out to Allah: 'Rabbi inni massaniyad durru wa anta arhamur rahimin' — meaning 'O my Lord, adversity has touched me and You are the Most Merciful of all who show mercy.' This dua, recorded in Surah Al-Anbiya, was the supplication through which Allah lifted the prolonged suffering of Ayyub (AS) and is highly recommended during times of illness and hardship.",
+    "source": {
+      "name": "Quran, Surah Al-Anbiya",
+      "reference": "Surah Al-Anbiya 21:83",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "duas_hard_004",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "What is the virtuous dua the Prophet (SAW) recommended reciting 100 times in the morning and evening, described as equivalent to freeing ten slaves, recording 100 good deeds, erasing 100 sins, and a protection from Shaytan?",
+    "options": {
+      "A": "Subhanallahi wa bihamdihi",
+      "B": "Astaghfirullah wa atubu ilaih",
+      "C": "La ilaha illallah wahdahu la sharika lahu lahul mulku wa lahul hamdu wa huwa ala kulli shayin qadir",
+      "D": "SubhanAllahi wal hamdulillahi wa la ilaha illallahu wallahu akbar"
+    },
+    "correct_answer": "C",
+    "explanation": "The dhikr 'La ilaha illallah wahdahu la sharika lahu lahul mulku wa lahul hamdu wa huwa ala kulli shayin qadir' recited 100 times in a day carries the reward of freeing ten slaves, 100 good deeds are recorded, 100 sins are wiped away, and it serves as a protection from Shaytan throughout the day. No one on the Day of Judgement will bring anything better than this except someone who did more of it.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 80, Hadith 6403; Sahih Muslim Book 48, Hadith 2691",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_hard_005",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "The Prophet (SAW) described two short phrases that are 'light on the tongue, heavy on the scales, and beloved to the Most Merciful.' What are they?",
+    "options": {
+      "A": "La ilaha illallah and Allahu Akbar",
+      "B": "SubhanAllahi wa bihamdihi and SubhanAllahil Azim",
+      "C": "Alhamdulillah and SubhanAllah",
+      "D": "La hawla wa la quwwata illa billah and HasbunAllah"
+    },
+    "correct_answer": "B",
+    "explanation": "The Prophet (SAW) said two phrases are light on the tongue, heavy on the scales of deeds, and beloved to Allah: 'SubhanAllahi wa bihamdihi' (Glory be to Allah and His is the praise) and 'SubhanAllahil Azim' (Glory be to Allah, the Magnificent). This hadith is considered one of the most important reminders of how simple acts of dhikr carry immense weight with Allah.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 80, Hadith 6406; Sahih Muslim Book 48, Hadith 2694",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_hard_006",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "What is the significance of 'Ya Hayyu Ya Qayyum bi rahmatika astaghith' and in which context did the Prophet (SAW) specifically recommend it?",
+    "options": {
+      "A": "It is recited during the adhan and is the dua of breaking the fast",
+      "B": "It is a dua for protection from the evil eye and is recited after Fajr",
+      "C": "It calls upon two of Allah's greatest names and the Prophet (SAW) recommended it for times of distress, and it is connected to the greatest name of Allah (Ism al-Azam)",
+      "D": "It is exclusively recited during the last third of the night as part of Tahajjud"
+    },
+    "correct_answer": "C",
+    "explanation": "'Ya Hayyu Ya Qayyum bi rahmatika astaghith' means 'O Ever-Living, O Sustainer of existence, by Your mercy I seek relief.' Al-Hayy (the Ever-Living) and Al-Qayyum (the Self-Subsisting Sustainer of all) are considered among the greatest names of Allah (Ism al-Azam). The Prophet (SAW) heard a man supplicating using these names and said that he had called upon Allah by His greatest name, through which if asked He gives, and if called upon He responds.",
+    "source": {
+      "name": "Jami at-Tirmidhi; Sunan Abu Dawud",
+      "reference": "Jami at-Tirmidhi Book 48, Hadith 3544; Sunan Abu Dawud Book 8, Hadith 1495",
+      "type": "hadith"
+    }
+  }
+]
