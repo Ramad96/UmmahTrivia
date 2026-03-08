@@ -21,6 +21,8 @@ export default function Question({
   selectedAnswer,
   onAnswer,
   isHost,
+  playerName,
+  isBonusTime,
 }) {
   return (
     <div className="h-screen bg-brand-green flex flex-col overflow-hidden">
@@ -34,9 +36,9 @@ export default function Question({
             <span className="text-brand-sky/40 text-xs">{topicLabel}</span>
           )}
         </div>
-        <Timer timeLeft={timeLeft} total={questionTime} />
+        <Timer timeLeft={timeLeft} total={questionTime} isBonusTime={isBonusTime} />
         <span className="text-brand-sky/70 text-sm font-medium w-24 text-right">
-          {isHost ? "HOST VIEW" : ""}
+          {isHost ? "HOST VIEW" : playerName || ""}
         </span>
       </div>
 

@@ -1,5 +1,5 @@
 // Circular countdown timer displayed during questions
-export default function Timer({ timeLeft, total = 10 }) {
+export default function Timer({ timeLeft, total = 10, isBonusTime = false }) {
   const radius = 40;
   const circumference = 2 * Math.PI * radius;
   const progress = (timeLeft / total) * circumference;
@@ -43,6 +43,11 @@ export default function Timer({ timeLeft, total = 10 }) {
           {timeLeft}
         </text>
       </svg>
+      {isBonusTime && (
+        <span className="text-xs text-brand-gold font-bold -mt-1">
+          ⚡ +10s
+        </span>
+      )}
     </div>
   );
 }

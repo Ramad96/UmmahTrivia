@@ -15,6 +15,7 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
   const [timePerQuestion, setTimePerQuestion] = useState(10);
   const [together, setTogether] = useState(false);
   const [questionCount, setQuestionCount] = useState(10);
+  const [bonusTimeEnabled, setBonusTimeEnabled] = useState(true);
 
   const canStart = (together || players.length > 0) && selectedTopics.size > 0;
 
@@ -43,7 +44,7 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
         : topicKeys.length === 1
         ? topics.find((t) => t.key === topicKeys[0])?.label ?? ""
         : "Mixed Topics";
-    onStart({ topicKeys, topicLabel, difficulty: selectedDifficulty, mode, timePerQuestion, together, questionCount });
+    onStart({ topicKeys, topicLabel, difficulty: selectedDifficulty, mode, timePerQuestion, together, questionCount, bonusTimeEnabled });
   }
 
   return (
@@ -174,6 +175,32 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
                   </button>
                 ))}
               </div>
+            </div>
+
+            {/* Bonus Time */}
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
+                  Bonus Time
+                </p>
+                <p className="text-xs text-gray-400 mt-0.5">
+                  ⚡ +10s for questions with long answers
+                </p>
+              </div>
+              <button
+                onClick={() => setBonusTimeEnabled((v) => !v)}
+                className={`relative inline-flex w-11 h-6 rounded-full transition-colors duration-200 focus:outline-none shrink-0 ${
+                  bonusTimeEnabled ? "bg-brand-green" : "bg-gray-300"
+                }`}
+                role="switch"
+                aria-checked={bonusTimeEnabled}
+              >
+                <span
+                  className={`absolute top-1 left-1 w-4 h-4 bg-white rounded-full shadow transition-transform duration-200 ${
+                    bonusTimeEnabled ? "translate-x-5" : "translate-x-0"
+                  }`}
+                />
+              </button>
             </div>
 
             {/* Number of Questions */}

@@ -78,7 +78,8 @@ export class HostPeer {
         return;
       }
 
-      const name = addPlayer(this.game, conn.peer);
+      const preferredName = conn.metadata?.name || "";
+      const name = addPlayer(this.game, conn.peer, preferredName);
       this.connections.set(conn.peer, conn);
 
       const players = getPlayersArray(this.game);
@@ -99,11 +100,13 @@ export class HostPeer {
 
   _handlePlayerLeft(peerId) {
     if (!this.game.players.has(peerId)) return;
+    const leavingName = this.game.players.get(peerId)?.name || "A player";
     removePlayer(this.game, peerId);
     this.connections.delete(peerId);
     const players = getPlayersArray(this.game);
-    this.broadcast({ type: "game:playerLeft", players });
+    this.broadcast({ type: "game:playerLeft", players, playerName: leavingName });
     this.callbacks.onPlayersChanged(players);
+    this.callbacks.onPlayerLeft?.(leavingName);
   }
 
   _handleMessage(peerId, msg) {
@@ -128,7 +131,7 @@ export class HostPeer {
     }
   }
 
-  async startGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount }) {
+  async startGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount, bonusTimeEnabled }) {
     if (this.game.status !== "lobby") return;
     if (!together && this.game.players.size === 0) return;
 
@@ -137,6 +140,7 @@ export class HostPeer {
       : DEFAULT_QUESTION_TIME;
     this.game.together = !!together;
     this.game.topicLabel = topicLabel || "";
+    this.game.bonusTimeEnabled = bonusTimeEnabled !== false;
 
     let questions;
     if (topicKeys.length === 1) {
@@ -155,10 +159,25 @@ export class HostPeer {
 
   _startQuestion() {
     this.game.status = "question";
-    this.game.timeLeft = this.game.questionTime;
 
     const question = getCurrentQuestion(this.game);
-    const questionData = { ...question, timeLeft: this.game.questionTime, topicLabel: this.game.topicLabel };
+
+    // Add bonus time for questions with any long answer (> 10 words)
+    const hasLongAnswer = this.game.bonusTimeEnabled && question.answers.some(
+      (a) => a.trim().split(/\s+/).length > 10
+    );
+    const bonusTime = hasLongAnswer ? 10 : 0;
+    const totalTime = this.game.questionTime + bonusTime;
+
+    this.game.timeLeft = totalTime;
+
+    const questionData = {
+      ...question,
+      timeLeft: totalTime,
+      questionTime: totalTime,
+      isBonusTime: hasLongAnswer,
+      topicLabel: this.game.topicLabel,
+    };
     this.broadcast({ type: "game:startQuestion", ...questionData });
     // Also fire callback so host UI updates
     this.callbacks.onStartQuestion(questionData);

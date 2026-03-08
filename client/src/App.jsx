@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, Fragment } from "react";
 import { HostPeer } from "./peer/hostPeer";
 import { PlayerPeer } from "./peer/playerPeer";
 
@@ -37,10 +37,20 @@ export default function App() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [results, setResults] = useState(null);
   const [leaderboard, setLeaderboard] = useState([]);
+  const [isBonusTime, setIsBonusTime] = useState(false);
+  const [gameHistory, setGameHistory] = useState([]);
+  const [notification, setNotification] = useState(null);
 
   // Refs so callbacks inside HostPeer/PlayerPeer always see latest state setters
   const hostRef = useRef(null);
   const playerRef = useRef(null);
+  const notifTimerRef = useRef(null);
+
+  function showNotification(message) {
+    if (notifTimerRef.current) clearTimeout(notifTimerRef.current);
+    setNotification(message);
+    notifTimerRef.current = setTimeout(() => setNotification(null), 4000);
+  }
 
   const resetToHome = useCallback(() => {
     hostRef.current?.destroy();
@@ -59,6 +69,9 @@ export default function App() {
     setLeaderboard([]);
     setSelectedAnswer(null);
     setTogetherMode(false);
+    setIsBonusTime(false);
+    setGameHistory([]);
+    setNotification(null);
   }, []);
 
   // Cleanup on unmount
@@ -81,6 +94,7 @@ export default function App() {
           setQuestionTime(data.timeLeft);
           setTimeLeft(data.timeLeft);
           setTopicLabel(data.topicLabel || "");
+          setIsBonusTime(!!data.isBonusTime);
           setSelectedAnswer(null);
           setResults(null);
           setScreen(SCREENS.QUESTION);
@@ -88,6 +102,18 @@ export default function App() {
         onTick: (t) => setTimeLeft(t),
         onShowResults: (data) => {
           setResults(data);
+          setGameHistory((prev) => [
+            ...prev,
+            {
+              questionIndex: data.questionIndex,
+              questionText: data.questionText,
+              answers: data.answers,
+              correctIndex: data.correctIndex,
+              correctAnswer: data.correctAnswer,
+              explanation: data.explanation,
+              source: data.source,
+            },
+          ]);
           setScreen(SCREENS.RESULTS);
         },
         onUpdateLeaderboard: (lb) => {
@@ -98,6 +124,7 @@ export default function App() {
           setLeaderboard(lb);
           setScreen(SCREENS.GAME_OVER);
         },
+        onPlayerLeft: (name) => showNotification(`${name} has left`),
         onError: (err) => alert(`Host error: ${err.message}`),
       });
 
@@ -114,7 +141,7 @@ export default function App() {
   }
 
   // ── Player: Join Game ──────────────────────────────────────────
-  async function handleJoinGame(code) {
+  async function handleJoinGame(code, preferredName = "") {
     const peer = new PlayerPeer({
       onJoinAck: ({ success, playerName: name, players: pl, error }) => {
         if (success) {
@@ -127,7 +154,10 @@ export default function App() {
         }
       },
       onPlayerJoined: ({ players: pl }) => setPlayers(pl),
-      onPlayerLeft: ({ players: pl }) => setPlayers(pl),
+      onPlayerLeft: ({ players: pl, playerName: name }) => {
+        setPlayers(pl);
+        showNotification(`${name || "A player"} has left`);
+      },
       onStartQuestion: (data) => {
         setQuestion({ text: data.text, answers: data.answers });
         setQuestionIndex(data.questionIndex);
@@ -135,6 +165,7 @@ export default function App() {
         setQuestionTime(data.timeLeft);
         setTimeLeft(data.timeLeft);
         setTopicLabel(data.topicLabel || "");
+        setIsBonusTime(!!data.isBonusTime);
         setSelectedAnswer(null);
         setResults(null);
         setScreen(SCREENS.QUESTION);
@@ -142,6 +173,18 @@ export default function App() {
       onTick: ({ timeLeft: t }) => setTimeLeft(t),
       onShowResults: (data) => {
         setResults(data);
+        setGameHistory((prev) => [
+          ...prev,
+          {
+            questionIndex: data.questionIndex,
+            questionText: data.questionText,
+            answers: data.answers,
+            correctIndex: data.correctIndex,
+            correctAnswer: data.correctAnswer,
+            explanation: data.explanation,
+            source: data.source,
+          },
+        ]);
         setScreen(SCREENS.RESULTS);
       },
       onUpdateLeaderboard: ({ leaderboard: lb }) => {
@@ -159,7 +202,7 @@ export default function App() {
     });
 
     try {
-      await peer.join(code);
+      await peer.join(code, preferredName);
       playerRef.current = peer;
       setGameCode(code);
     } catch (err) {
@@ -169,9 +212,9 @@ export default function App() {
   }
 
   // ── Host: Start Game ───────────────────────────────────────────
-  function handleStartGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount }) {
+  function handleStartGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount, bonusTimeEnabled }) {
     setTogetherMode(together);
-    hostRef.current?.startGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount });
+    hostRef.current?.startGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount, bonusTimeEnabled });
   }
 
   // ── Player: Submit Answer ──────────────────────────────────────
@@ -182,15 +225,18 @@ export default function App() {
   }
 
   // ── Render ─────────────────────────────────────────────────────
+  let content = null;
   switch (screen) {
     case SCREENS.HOME:
-      return <Home onHost={handleHostGame} onJoin={() => setScreen(SCREENS.JOIN)} />;
+      content = <Home onHost={handleHostGame} onJoin={() => setScreen(SCREENS.JOIN)} />;
+      break;
 
     case SCREENS.JOIN:
-      return <Join onJoin={handleJoinGame} onBack={() => setScreen(SCREENS.HOME)} />;
+      content = <Join onJoin={handleJoinGame} onBack={() => setScreen(SCREENS.HOME)} />;
+      break;
 
     case SCREENS.LOBBY:
-      return (
+      content = (
         <Lobby
           gameCode={gameCode}
           players={players}
@@ -200,9 +246,10 @@ export default function App() {
           onStart={handleStartGame}
         />
       );
+      break;
 
     case SCREENS.QUESTION:
-      return question ? (
+      content = question ? (
         <Question
           question={question}
           questionIndex={questionIndex}
@@ -213,25 +260,42 @@ export default function App() {
           selectedAnswer={selectedAnswer}
           onAnswer={handleAnswerSelect}
           isHost={isHost && !togetherMode}
+          playerName={!isHost ? playerName : ""}
+          isBonusTime={isBonusTime}
         />
       ) : null;
+      break;
 
     case SCREENS.RESULTS:
-      return results ? <Results results={results} togetherMode={togetherMode} /> : null;
+      content = results ? <Results results={results} togetherMode={togetherMode} /> : null;
+      break;
 
     case SCREENS.LEADERBOARD:
-      return (
+      content = (
         <LeaderboardPage
           leaderboard={leaderboard}
           questionIndex={questionIndex}
           total={totalQuestions}
         />
       );
+      break;
 
     case SCREENS.GAME_OVER:
-      return <GameOver leaderboard={leaderboard} onPlayAgain={resetToHome} />;
+      content = <GameOver leaderboard={leaderboard} gameHistory={gameHistory} onPlayAgain={resetToHome} />;
+      break;
 
     default:
-      return null;
+      content = null;
   }
+
+  return (
+    <Fragment>
+      {content}
+      {notification && (
+        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-brand-midnight text-white px-5 py-2 rounded-2xl shadow-xl text-sm font-medium pointer-events-none">
+          {notification}
+        </div>
+      )}
+    </Fragment>
+  );
 }

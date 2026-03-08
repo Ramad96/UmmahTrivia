@@ -11,6 +11,7 @@ export function createGameState() {
     questionTime: 10,
     together: false,
     topicLabel: "",
+    bonusTimeEnabled: true,
     currentQuestionIndex: 0,
     currentAnswers: new Map(), // peerId → { answerIndex, timeLeft }
     timerInterval: null,
@@ -18,9 +19,10 @@ export function createGameState() {
   };
 }
 
-export function addPlayer(game, peerId) {
+export function addPlayer(game, peerId, preferredName = "") {
   const existingNames = new Set([...game.players.values()].map((p) => p.name));
-  const name = generatePlayerName(existingNames);
+  const trimmed = preferredName.trim().slice(0, 30);
+  const name = trimmed && !existingNames.has(trimmed) ? trimmed : generatePlayerName(existingNames);
   game.players.set(peerId, { id: peerId, name, score: 0, answeredThisRound: false });
   return name;
 }
@@ -73,6 +75,7 @@ export function buildResults(game) {
   }
 
   return {
+    questionIndex: game.currentQuestionIndex,
     correctIndex,
     correctAnswer: q.answers[correctIndex],
     distribution,

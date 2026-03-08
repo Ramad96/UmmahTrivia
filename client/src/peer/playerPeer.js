@@ -13,13 +13,15 @@ export class PlayerPeer {
     this.conn = null;
   }
 
-  join(gameCode) {
+  join(gameCode, preferredName = "") {
     return new Promise((resolve, reject) => {
       const peer = new Peer();
       this.peer = peer;
 
       peer.on("open", () => {
-        const conn = peer.connect(`ut-${gameCode}`);
+        const conn = peer.connect(`ut-${gameCode}`, {
+          metadata: { name: preferredName.trim().slice(0, 30) },
+        });
         this.conn = conn;
 
         const timeout = setTimeout(() => {
