@@ -340,5 +340,214 @@
       "reference": "Sahih al-Bukhari Book 58, Hadith 227; Sahih Muslim Book 1, Hadith 309",
       "type": "hadith"
     }
+  },
+  {
+    "id": "prophets_easy_007",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Which prophet was thrown into a well by his jealous brothers?",
+    "options": {
+      "A": "Prophet Musa (AS)",
+      "B": "Prophet Yusuf (AS)",
+      "C": "Prophet Ismail (AS)",
+      "D": "Prophet Dawud (AS)"
+    },
+    "correct_answer": "B",
+    "explanation": "Prophet Yusuf (AS) was thrown into a well by his jealous brothers who resented the special love their father Prophet Yaqub (AS) had for him. He was later rescued by a passing caravan and taken to Egypt. The entire story of Yusuf (AS) is told in Surah Yusuf, which Allah calls 'the best of stories.'",
+    "source": {
+      "name": "Quran, Surah Yusuf",
+      "reference": "Surah Yusuf 12:3-15",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_easy_008",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Which prophet built an ark to save believers and animals from a great flood?",
+    "options": {
+      "A": "Prophet Ibrahim (AS)",
+      "B": "Prophet Idris (AS)",
+      "C": "Prophet Nuh (AS)",
+      "D": "Prophet Hud (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Nuh (AS) was commanded by Allah to build an ark (safinah) after his people repeatedly rejected his message over 950 years. He loaded pairs of every animal and the small number of believers onto the ark. Allah then sent a catastrophic flood that destroyed the disbelievers. Prophet Nuh (AS) is one of the five Prophets of Firm Resolve (Ulul Azm).",
+    "source": {
+      "name": "Quran, Surah Hud; Surah Nuh",
+      "reference": "Surah Hud 11:37-44; Surah Nuh 71:1-28",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_easy_009",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Which prophet received the Injil (Gospel) as his divine scripture?",
+    "options": {
+      "A": "Prophet Musa (AS)",
+      "B": "Prophet Dawud (AS)",
+      "C": "Prophet Ibrahim (AS)",
+      "D": "Prophet Isa (AS)"
+    },
+    "correct_answer": "D",
+    "explanation": "Prophet Isa (AS) was given the Injil (Gospel) as his divine scripture. The Quran mentions four major revealed books: the Tawrah to Musa (AS), the Zabur (Psalms) to Dawud (AS), the Injil to Isa (AS), and the Quran — the final and preserved revelation — to Prophet Muhammad (SAW). Muslims believe the original Injil, like the Tawrah, has been altered over time.",
+    "source": {
+      "name": "Quran, Surah Al-Maidah; Surah Al-Imran",
+      "reference": "Surah Al-Maidah 5:46; Surah Al-Imran 3:48",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_easy_010",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Which prophet was the father of Prophet Yusuf (AS) and is also known for his great love and patience?",
+    "options": {
+      "A": "Prophet Ibrahim (AS)",
+      "B": "Prophet Ishaq (AS)",
+      "C": "Prophet Yaqub (AS)",
+      "D": "Prophet Ismail (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Yaqub (AS), also known as Israel, was the father of Prophet Yusuf (AS). He is known for his intense love for his son Yusuf (AS) and his extraordinary patience after Yusuf's disappearance. The Quran describes how he wept so much for Yusuf (AS) that he lost his sight, yet never lost hope in Allah's mercy. He was eventually reunited with Yusuf (AS) in Egypt.",
+    "source": {
+      "name": "Quran, Surah Yusuf",
+      "reference": "Surah Yusuf 12:83-96",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_007",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "Who was the mother of Prophet Isa (AS) and what miraculous birth did she experience?",
+    "options": {
+      "A": "Asiyah bint Muzahim, wife of Pharaoh",
+      "B": "Hajar (AS), wife of Prophet Ibrahim (AS)",
+      "C": "Maryam bint Imran, who conceived Prophet Isa (AS) miraculously without a father",
+      "D": "Rahil, wife of Prophet Yaqub (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Isa (AS) was born to Maryam bint Imran (Mary), who was chosen above all women of the world. She conceived him without a father by the command of Allah who said 'Be!' and he was. The Quran dedicates an entire Surah (Surah Maryam) to her story and mentions her more times than the entire New Testament. She is considered one of the four greatest women in Islamic history.",
+    "source": {
+      "name": "Quran, Surah Maryam; Surah Al-Imran",
+      "reference": "Surah Maryam 19:16-21; Surah Al-Imran 3:42-47",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_008",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "Which prophet was given the miraculous ability to raise the dead, heal the blind and lepers, and speak as a newborn in the cradle?",
+    "options": {
+      "A": "Prophet Musa (AS)",
+      "B": "Prophet Sulaiman (AS)",
+      "C": "Prophet Isa (AS)",
+      "D": "Prophet Ilyas (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Isa (AS) was granted extraordinary miracles by Allah's permission: he could raise the dead, heal those born blind and those with leprosy, and even spoke to people while still a newborn in the cradle to defend his mother Maryam (AS). The Quran makes clear these were signs from Allah, not evidence of divinity, and that Isa (AS) always acknowledged that his miracles were by Allah's will alone.",
+    "source": {
+      "name": "Quran, Surah Al-Imran; Surah Al-Maidah",
+      "reference": "Surah Al-Imran 3:49; Surah Al-Maidah 5:110",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_009",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "How many sons did Prophet Yaqub (AS) have, and which of his sons were also prophets?",
+    "options": {
+      "A": "10 sons; none became prophets",
+      "B": "12 sons; only Yusuf (AS) became a prophet",
+      "C": "12 sons; both Yusuf (AS) and Binyamin became prophets",
+      "D": "7 sons; Yusuf (AS) and Lawi became prophets"
+    },
+    "correct_answer": "B",
+    "explanation": "Prophet Yaqub (AS) had twelve sons, corresponding to the twelve tribes of Israel. Among them, only Prophet Yusuf (AS) is explicitly named as a prophet in the Quran and given prophethood. The Quran tells us that Ibrahim, Ishaq, Yaqub, and Yusuf were all part of a single prophetic lineage, with Allah granting prophethood and scripture to that family.",
+    "source": {
+      "name": "Quran, Surah Yusuf; Surah Al-Anaam",
+      "reference": "Surah Yusuf 12:4-6; Surah Al-Anaam 6:84",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_hard_007",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "What was the name of the creature that carried Prophet Muhammad (SAW) during the Isra (night journey), and how is it described?",
+    "options": {
+      "A": "A white horse with wings called Jibreel",
+      "B": "Al-Buraq — a white riding beast, smaller than a mule but larger than a donkey, whose stride reached as far as the eye could see",
+      "C": "A giant white eagle sent down from the highest heaven",
+      "D": "An unnamed camel blessed with the speed of light"
+    },
+    "correct_answer": "B",
+    "explanation": "Al-Buraq was the blessed creature that transported the Prophet (SAW) from Masjid al-Haram in Makkah to Masjid al-Aqsa in Jerusalem during the Isra. The Prophet (SAW) described it as a white animal, larger than a donkey but smaller than a mule, whose each stride reached the farthest point it could see. Tradition also holds that it tethered at the same ring the previous prophets had used at Masjid al-Aqsa.",
+    "source": {
+      "name": "Sahih Muslim; Sahih al-Bukhari",
+      "reference": "Sahih Muslim Book 1, Hadith 309; Sahih al-Bukhari Book 58, Hadith 227",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "prophets_hard_008",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "Which prophet is mentioned the most times by name in the Quran?",
+    "options": {
+      "A": "Prophet Muhammad (SAW)",
+      "B": "Prophet Ibrahim (AS)",
+      "C": "Prophet Musa (AS)",
+      "D": "Prophet Isa (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Musa (AS) is mentioned the most times by name in the Quran — approximately 136 times across numerous Surahs. His story is told in great detail and serves as a central narrative throughout the Quran. By comparison, Prophet Ibrahim (AS) is mentioned approximately 69 times, Prophet Isa (AS) around 25 times, and Prophet Muhammad (SAW) by name only 4 times (though referenced in many other ways).",
+    "source": {
+      "name": "Quran; scholarly studies on Quranic names",
+      "reference": "Al-Mu'jam al-Mufahras li Alfaz al-Quran al-Karim by Muhammad Fu'ad Abd al-Baqi",
+      "type": "scholarly_consensus"
+    }
+  },
+  {
+    "id": "prophets_hard_009",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "According to authentic hadith, approximately how many prophets and messengers were sent by Allah in total?",
+    "options": {
+      "A": "25 prophets and messengers",
+      "B": "124,000 prophets with 315 messengers",
+      "C": "313 messengers only",
+      "D": "1,000 prophets with 100 messengers"
+    },
+    "correct_answer": "B",
+    "explanation": "According to a hadith narrated by Abu Dharr (RA) in the Musnad of Imam Ahmad, the Prophet (SAW) mentioned that 124,000 prophets were sent to humanity and among them 315 were messengers (rasul). Every nation received a messenger (Quran 10:47). Only 25 prophets are mentioned by name in the Quran, though Muslims are required to believe in all prophets and messengers sent by Allah.",
+    "source": {
+      "name": "Musnad Ahmad; Quran Surah Yunus",
+      "reference": "Musnad Ahmad Hadith 22342; Surah Yunus 10:47; Surah An-Nisa 4:164",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "prophets_hard_010",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "What was the specific nature of the trial of Prophet Ibrahim (AS) known as 'Al-Dhabih' (the sacrifice), and who does the majority of Islamic scholars say was the son intended to be sacrificed?",
+    "options": {
+      "A": "Ibrahim (AS) was commanded to sacrifice his son Ishaq (AS) — this is the position of the majority of scholars",
+      "B": "Ibrahim (AS) was commanded to sacrifice his son Ismail (AS) — this is the position of the majority of Islamic scholars",
+      "C": "The Quran does not specify which son, and there is unanimous agreement it was Ishaq (AS)",
+      "D": "Ibrahim (AS) was commanded to sacrifice himself, not his son"
+    },
+    "correct_answer": "B",
+    "explanation": "The majority of classical Islamic scholars, including Ibn Kathir, Ibn al-Qayyim, and others, hold that the son commanded to be sacrificed was Prophet Ismail (AS) — Ibrahim's (AS) firstborn son through Hajar (AS). The key evidence includes that Ishaq's (AS) birth was announced as glad tidings after the sacrifice event, and Ismail (AS) was present in Makkah where Ibrahim (AS) resided. This sacrifice is commemorated annually through the ritual of Qurbani on Eid al-Adha.",
+    "source": {
+      "name": "Quran, Surah As-Saffat; Ibn Kathir, Al-Bidaya wa'l-Nihaya",
+      "reference": "Surah As-Saffat 37:100-113; Ibn Kathir, Al-Bidaya wa'l-Nihaya Vol. 1",
+      "type": "classical_text"
+    }
   }
 ]

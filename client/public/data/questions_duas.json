@@ -340,5 +340,214 @@
       "reference": "Jami at-Tirmidhi Book 48, Hadith 3544; Sunan Abu Dawud Book 8, Hadith 1495",
       "type": "hadith"
     }
+  },
+  {
+    "id": "duas_easy_007",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What dua should a Muslim say when leaving the home?",
+    "options": {
+      "A": "Allahu Akbar wa lillahil hamd",
+      "B": "Bismillah, tawakkaltu alallah, wa la hawla wa la quwwata illa billah",
+      "C": "Subhanakallahumma wa bihamdika",
+      "D": "Alhamdulillahi alladhi ahyana ba'da ma amatana"
+    },
+    "correct_answer": "B",
+    "explanation": "When leaving the home, the Prophet (SAW) taught: 'Bismillah, tawakkaltu alallah, wa la hawla wa la quwwata illa billah' — 'In the name of Allah, I place my trust in Allah, and there is no power or might except with Allah.' The Prophet (SAW) said that when a person says this, they are told: you are guided, protected, and Shaytan turns away from them.",
+    "source": {
+      "name": "Sunan Abu Dawud; Jami at-Tirmidhi",
+      "reference": "Sunan Abu Dawud Book 42, Hadith 5095; Jami at-Tirmidhi Book 48, Hadith 3426",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_easy_008",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What dua does a Muslim say before sleeping?",
+    "options": {
+      "A": "Allahumma inni a'udhu bika minal khabathi wal khaba'ith",
+      "B": "Allahumma bismika amutu wa ahya",
+      "C": "La ilaha illallah wahdahu la sharika lah",
+      "D": "Hasbiyallahu wa ni'mal wakil"
+    },
+    "correct_answer": "B",
+    "explanation": "The dua said before sleeping is: 'Allahumma bismika amutu wa ahya' — 'O Allah, in Your name I die and I live.' The Prophet (SAW) used to say this when he went to sleep. Upon waking he would say: 'Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin nushur' — 'All praise is due to Allah who gave us life after taking it, and to Him is the return.'",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 80, Hadith 6312",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_easy_009",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What should a Muslim say when they are pleased or admire something?",
+    "options": {
+      "A": "Allahu Akbar",
+      "B": "SubhanAllah",
+      "C": "MashaAllah",
+      "D": "Alhamdulillah"
+    },
+    "correct_answer": "C",
+    "explanation": "'MashaAllah' means 'What Allah has willed' and is said when admiring something or expressing pleasure. The Quran references this phrase in Surah Al-Kahf, where the believing man advises his companion to say 'MashaAllah, la quwwata illa billah' when entering his garden. It is also recommended as a protection from the evil eye when praising someone or something.",
+    "source": {
+      "name": "Quran, Surah Al-Kahf",
+      "reference": "Surah Al-Kahf 18:39",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "duas_easy_010",
+    "topic": "duas",
+    "difficulty": "easy",
+    "question": "What dua does a Muslim say when boarding a vehicle or means of transport?",
+    "options": {
+      "A": "Bismillahi wa alhamdulillah",
+      "B": "SubhanAlladhi sakhkhara lana hadha wa ma kunna lahu muqrinin",
+      "C": "Allahu Akbar, Allahu Akbar, Allahu Akbar",
+      "D": "Hasbunallahu wa ni'mal wakil"
+    },
+    "correct_answer": "B",
+    "explanation": "When boarding a vehicle, the Prophet (SAW) taught: 'SubhanAlladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila Rabbina lamunqalibun' — 'Glory be to the One who has subjected this to us, and we could not have [otherwise] subdued it, and verily to our Lord we will return.' This is taken directly from Surah Az-Zukhruf.",
+    "source": {
+      "name": "Sunan Abu Dawud; Quran Surah Az-Zukhruf",
+      "reference": "Sunan Abu Dawud Book 42, Hadith 2602; Surah Az-Zukhruf 43:13-14",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_medium_007",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "What is the dua recommended after completing the adhan (call to prayer)?",
+    "options": {
+      "A": "Repeat the exact words of the muadhdhin and then say Allahu Akbar",
+      "B": "Allahumma Rabba hadhihid da'watit tammah, wa salatil qa'imah, ati Muhammadanil wasilata wal fadilah...",
+      "C": "Subhana Rabbil Alamin wa bihamdih",
+      "D": "Allahumma inni as'aluka min fadlika wa rahmatik"
+    },
+    "correct_answer": "B",
+    "explanation": "After the adhan, the Prophet (SAW) taught the dua: 'Allahumma Rabba hadhihid da'watit tammah, wa salatil qa'imah, ati Muhammadanil wasilata wal fadilah...' — asking Allah to grant the Prophet (SAW) the highest station (al-wasilah) in Paradise. The Prophet (SAW) said whoever says this dua after the adhan will have his intercession on the Day of Judgement.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 11, Hadith 614",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_medium_008",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "What is the dua for Salat al-Istikhara (the prayer of seeking guidance), and when is it performed?",
+    "options": {
+      "A": "It is recited silently during the Fajr sunnah prayer when one is confused",
+      "B": "It is a specific dua recited after two rak'ahs of voluntary prayer when one is uncertain about a decision",
+      "C": "It is performed only during the last ten nights of Ramadan before making a major decision",
+      "D": "It is the dua of Qunut recited in Witr when one needs guidance"
+    },
+    "correct_answer": "B",
+    "explanation": "Salat al-Istikhara is a two-rak'ah voluntary prayer followed by a specific dua in which the worshipper asks Allah to decree what is good for them and turn away what is harmful. The Prophet (SAW) said he used to teach it as he taught the Quran and that it should be made for all matters. After performing it, one proceeds with the matter feeling at ease, trusting in Allah's decree.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 19, Hadith 1166",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_medium_009",
+    "topic": "duas",
+    "difficulty": "medium",
+    "question": "What dua did Prophet Ibrahim (AS) make when he was about to be thrown into the fire, as mentioned in classical Islamic texts?",
+    "options": {
+      "A": "La ilaha illa anta subhanaka inni kuntu minaz zalimin",
+      "B": "Hasbunallahu wa ni'mal wakil",
+      "C": "Rabbi inni massaniya addurru wa anta arhamur rahimin",
+      "D": "Allahumma anta rabbi la ilaha illa ant"
+    },
+    "correct_answer": "B",
+    "explanation": "'Hasbunallahu wa ni'mal wakil' means 'Allah is sufficient for us and He is the best disposer of affairs.' According to classical tafsir, Prophet Ibrahim (AS) uttered this when he was thrown into the fire, and the angel Jibril (AS) offered to help him, to which he replied that Allah is his sufficiency. The Quran also records that the companions of the Prophet (SAW) said this phrase when they were warned of a great enemy force.",
+    "source": {
+      "name": "Sahih al-Bukhari; Quran Surah Al-Imran",
+      "reference": "Sahih al-Bukhari Book 65, Hadith 4563; Surah Al-Imran 3:173",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_hard_007",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "What is the Dua al-Qunoot recited in Witr prayer, and what does it begin with?",
+    "options": {
+      "A": "Allahumma inni a'udhu bika minal kufri wal faqr",
+      "B": "Allahummahdini fiman hadayt...",
+      "C": "Allahumma innaka afuwwun tuhibbul afwa fa'fu anni",
+      "D": "Rabbi zidni ilma wa rzuqni fahma"
+    },
+    "correct_answer": "B",
+    "explanation": "The Dua al-Qunoot, taught by the Prophet (SAW) to Al-Hasan ibn Ali (RA), begins with: 'Allahummahdini fiman hadayt, wa afini fiman afayt, wa tawallani fiman tawallayt, wa barik li fima a'tayt, wa qini sharra ma qadayt...' — asking Allah for guidance, wellbeing, guardianship, blessing, and protection from the evil of what He has decreed. This is recited in the Witr prayer and is established in all major hadith collections.",
+    "source": {
+      "name": "Sunan Abu Dawud; Jami at-Tirmidhi; Sunan an-Nasai",
+      "reference": "Sunan Abu Dawud Book 8, Hadith 1425; Jami at-Tirmidhi Book 3, Hadith 464",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_hard_008",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "What is the dua for rain (Istisqa) and what unique posture does the Prophet (SAW) adopt during the prayer for rain?",
+    "options": {
+      "A": "He would face the Qibla and recite the dua silently while sitting",
+      "B": "He would turn his cloak inside out and face the Qibla while raising his hands and making dua",
+      "C": "He would prostrate for a long time and recite the dua of Prophet Nuh (AS)",
+      "D": "He would recite Surah Al-Fatiha 100 times while standing on the minbar"
+    },
+    "correct_answer": "B",
+    "explanation": "During Salat al-Istisqa (the prayer for rain), the Prophet (SAW) would go out to an open area, offer two rak'ahs, then face the Qibla and make dua with his hands raised. He would also distinctively reverse his cloak — turning it inside out — as a symbolic gesture of hoping Allah would reverse their drought into blessing. This is a well-documented sunnah narrated in multiple authentic narrations.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 15, Hadith 1011; Sahih Muslim Book 6, Hadith 897",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_hard_009",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "What is the dua recited during sujud (prostration) that the Prophet (SAW) particularly emphasised, noting that the servant is nearest to Allah in this position?",
+    "options": {
+      "A": "SubhanAllahi wa bihamdihi subhanAllahil Azim",
+      "B": "Subhana Rabbil A'la",
+      "C": "Allahummaghfirli dhambi kullahu, diqqahu wa jillahu, wa awwalahu wa akhirah, wa alniyatahu wa sirrahu",
+      "D": "Rabbi inni zalamtu nafsi fa'ghfirli"
+    },
+    "correct_answer": "C",
+    "explanation": "The Prophet (SAW) said that the servant is nearest to his Lord during sujud (prostration), so one should make much dua in it. Among the comprehensive duas he recited in sujud was: 'Allahummaghfirli dhambi kullahu, diqqahu wa jillahu, wa awwalahu wa akhirah, wa alniyatahu wa sirrahu' — 'O Allah, forgive me all my sins, the small and the great, the first and the last, the open and the hidden.' This is reported in Sahih Muslim.",
+    "source": {
+      "name": "Sahih Muslim",
+      "reference": "Sahih Muslim Book 4, Hadith 483",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "duas_hard_010",
+    "topic": "duas",
+    "difficulty": "hard",
+    "question": "Which morning and evening dua did the Prophet (SAW) say protects from all harm, and how many times must it be recited?",
+    "options": {
+      "A": "Ayat al-Kursi once after every fard prayer",
+      "B": "Bismillahilladhi la yadurru ma'asmihi shay'un fil ardi wa la fis sama'i wa huwas sami'ul alim — three times",
+      "C": "La ilaha illallah wahdahu la sharika lah — 100 times",
+      "D": "A'udhu bikalimatillahit tammati min sharri ma khalaq — once"
+    },
+    "correct_answer": "B",
+    "explanation": "The Prophet (SAW) said: 'Whoever says in the morning and evening: Bismillahilladhi la yadurru ma'asmihi shay'un fil ardi wa la fis sama'i wa huwas sami'ul alim — three times, nothing will harm him.' It means: 'In the name of Allah with whose name nothing can cause harm on earth or in the heavens, and He is the All-Hearing, the All-Knowing.' This is one of the most highly recommended morning and evening adhkar.",
+    "source": {
+      "name": "Sunan Abu Dawud; Jami at-Tirmidhi",
+      "reference": "Sunan Abu Dawud Book 42, Hadith 5088; Jami at-Tirmidhi Book 48, Hadith 3388",
+      "type": "hadith"
+    }
   }
 ]

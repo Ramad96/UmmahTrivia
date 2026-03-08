@@ -340,5 +340,214 @@
       "reference": "Surah An-Nisa 4:11",
       "type": "quran"
     }
+  },
+  {
+    "id": "fiqh_easy_007",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "What is Ghusl in Islamic law?",
+    "options": {
+      "A": "The dry ablution using sand or earth",
+      "B": "The full ritual bath of the entire body required to remove major ritual impurity",
+      "C": "The washing of hands and face before eating",
+      "D": "The partial washing performed before prayer"
+    },
+    "correct_answer": "B",
+    "explanation": "Ghusl is the full ritual bath in which water must reach every part of the body including the hair roots. It is required to remove major ritual impurity (janabah) caused by marital relations, ejaculation, menstruation, or postnatal bleeding. It is also recommended before Jumu'ah, Eid prayers, and entering the state of ihram for Hajj or Umrah.",
+    "source": {
+      "name": "Quran, Surah Al-Maidah; Sahih al-Bukhari",
+      "reference": "Surah Al-Maidah 5:6; Sahih al-Bukhari Book 5, Hadith 248",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_easy_008",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "Which of the following foods is clearly forbidden (haram) in Islam?",
+    "options": {
+      "A": "Beef",
+      "B": "Chicken",
+      "C": "Pork",
+      "D": "Fish"
+    },
+    "correct_answer": "C",
+    "explanation": "Pork (the flesh of swine) is explicitly forbidden in the Quran in multiple verses. Allah states that He has forbidden carrion, blood, pork, and animals slaughtered in a name other than Allah's. Fish and seafood are generally permissible, while beef and chicken are halal when properly slaughtered with the name of Allah.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah; Surah Al-Maidah",
+      "reference": "Surah Al-Baqarah 2:173; Surah Al-Maidah 5:3",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_easy_009",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "What is the correct order of the five daily prayers?",
+    "options": {
+      "A": "Fajr, Dhuhr, Asr, Isha, Maghrib",
+      "B": "Fajr, Asr, Dhuhr, Maghrib, Isha",
+      "C": "Fajr, Dhuhr, Asr, Maghrib, Isha",
+      "D": "Dhuhr, Fajr, Asr, Isha, Maghrib"
+    },
+    "correct_answer": "C",
+    "explanation": "The five daily prayers in chronological order are: Fajr (pre-dawn), Dhuhr (midday), Asr (afternoon), Maghrib (after sunset), and Isha (night). Each prayer has a specific time window defined by the position of the sun. Praying within these windows is an obligation, and deliberately praying outside them without a valid excuse is a sin.",
+    "source": {
+      "name": "Quran, Surah An-Nisa; Sahih al-Bukhari",
+      "reference": "Surah An-Nisa 4:103; Sahih al-Bukhari Book 9, Hadith 504",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_easy_010",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "What is the term for the Islamic method of slaughtering animals for food?",
+    "options": {
+      "A": "Tayammum",
+      "B": "Dhabihah (Zabihah)",
+      "C": "Sadaqah",
+      "D": "Qurbani"
+    },
+    "correct_answer": "B",
+    "explanation": "Dhabihah (or Zabihah) is the prescribed Islamic method of slaughter. It requires cutting the throat, windpipe, and blood vessels of the neck in a swift, humane manner while saying 'Bismillah, Allahu Akbar.' The blood must be fully drained. Animals slaughtered without mentioning Allah's name are not permissible for Muslims to eat.",
+    "source": {
+      "name": "Quran, Surah Al-Maidah; Sahih al-Bukhari",
+      "reference": "Surah Al-Maidah 5:3-4; Sahih al-Bukhari Book 72, Hadith 5498",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_medium_007",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "What is the ruling on shortening prayers (Qasr) during travel, and at what distance does it apply?",
+    "options": {
+      "A": "It is sunnah and applies once you have left your city limits regardless of distance",
+      "B": "It is a concession (rukhsah) in which four-rak'ah prayers are reduced to two, applying at a travel distance of approximately 80km or more according to the majority of scholars",
+      "C": "It is obligatory and applies to all prayers including Fajr and Maghrib",
+      "D": "It is only permitted during Hajj and military expeditions"
+    },
+    "correct_answer": "B",
+    "explanation": "Qasr (shortening of prayers) is a divine concession granted to travellers. The four-rak'ah Fard prayers (Dhuhr, Asr, Isha) are reduced to two rak'ahs. The majority of scholars (Hanafi, Maliki, Shafi'i, Hanbali) set the minimum travel distance at approximately 48 miles (around 80km). The Quran explicitly mentions the permissibility of shortening prayers during travel.",
+    "source": {
+      "name": "Quran, Surah An-Nisa; Sahih al-Bukhari",
+      "reference": "Surah An-Nisa 4:101; Sahih al-Bukhari Book 18, Hadith 1040",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_medium_008",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "What is the concept of Mahram in Islamic law, and why is it significant?",
+    "options": {
+      "A": "It refers to the period of mourning after a death in the family",
+      "B": "A Mahram is a male relative whom a woman is permanently forbidden to marry, with whom she may travel without restriction",
+      "C": "It is the permission given by a judge for a couple to marry",
+      "D": "A Mahram is any male Muslim who acts as a witness during a marriage contract"
+    },
+    "correct_answer": "B",
+    "explanation": "A Mahram is a man who is permanently forbidden to a woman in marriage due to close blood relation (such as father, brother, son), breastfeeding, or marriage (such as father-in-law). According to the majority of scholars, a woman should be accompanied by a Mahram when travelling long distances. The Prophet (SAW) said a woman should not travel a journey of three days except with a Mahram.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 29, Hadith 1862; Sahih Muslim Book 15, Hadith 1341",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "fiqh_medium_009",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "What is Riba and why is it strictly prohibited in Islam?",
+    "options": {
+      "A": "Riba is any form of trade or commerce between Muslims and non-Muslims",
+      "B": "Riba is interest or usury — any unjust increase in exchange of wealth — explicitly forbidden in the Quran in the strongest terms",
+      "C": "Riba is the Islamic charity given to the poor which is recommended but not obligatory",
+      "D": "Riba is the practice of hoarding gold and silver without paying Zakat"
+    },
+    "correct_answer": "B",
+    "explanation": "Riba refers to any unjust, exploitative increase in a loan or exchange transaction, broadly understood as interest and usury. It is one of the most severely prohibited things in Islam. The Quran states that those who deal in riba are waging war against Allah and His Messenger. The Prophet (SAW) cursed the one who takes riba, the one who gives it, the one who writes it, and the witnesses to it.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah; Sahih Muslim",
+      "reference": "Surah Al-Baqarah 2:275-279; Sahih Muslim Book 22, Hadith 1598",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_hard_007",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "What is the concept of Istihsan (juristic preference) in Islamic law, and which madhab is most associated with its use?",
+    "options": {
+      "A": "Istihsan is the principle of following the opinion of the majority of scholars; it is equally used by all four madhabs",
+      "B": "Istihsan is a method of juristic preference where a jurist departs from strict analogical reasoning to a more equitable ruling; it is most associated with the Hanafi madhab",
+      "C": "Istihsan refers to the scholarly consensus on a matter; it is primarily a Maliki concept",
+      "D": "Istihsan means selecting the strongest hadith on a matter; it is a Shafi'i principle"
+    },
+    "correct_answer": "B",
+    "explanation": "Istihsan is a principle of Islamic jurisprudence in which a jurist departs from a strict analogical ruling (Qiyas) in favour of a more equitable, flexible alternative that better serves the objectives of Sharia. It is most prominently used in the Hanafi madhab, whose founder Imam Abu Hanifah extensively employed it. Imam al-Shafi'i famously opposed it, while Maliki scholars use a similar concept called Maslahah Mursalah.",
+    "source": {
+      "name": "Usul al-Fiqh works; Al-Muwafaqat by al-Shatibi",
+      "reference": "Al-Muwafaqat fi Usul al-Shariah by Imam al-Shatibi; Imam Abu Hanifah's jurisprudence",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "fiqh_hard_008",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "What are the five essential objectives of Islamic law (Al-Maqasid al-Shariah) as identified by classical scholars?",
+    "options": {
+      "A": "Justice, equality, freedom, dignity, and prosperity",
+      "B": "The protection of religion, life, intellect, lineage, and wealth",
+      "C": "Worship, honesty, charity, community, and education",
+      "D": "Tawhid, Sunnah, Fiqh, Akhlaq, and Dawah"
+    },
+    "correct_answer": "B",
+    "explanation": "The five Maqasid al-Shariah (higher objectives of Islamic law) as systematised by Imam al-Ghazali and others are: (1) Hifz al-Din — protection of religion, (2) Hifz al-Nafs — protection of life, (3) Hifz al-Aql — protection of intellect, (4) Hifz al-Nasl — protection of lineage/family, and (5) Hifz al-Mal — protection of wealth. All Islamic rulings are understood as serving these five objectives at various levels of necessity, need, or complementarity.",
+    "source": {
+      "name": "Al-Mustasfa by Imam al-Ghazali; Al-Muwafaqat by al-Shatibi",
+      "reference": "Al-Mustasfa min Ilm al-Usul by Imam al-Ghazali; Al-Muwafaqat fi Usul al-Shariah by al-Shatibi",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "fiqh_hard_009",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "What is the ruling on combining prayers (Jam') during travel or due to hardship, and which prayers can be combined?",
+    "options": {
+      "A": "All five prayers can be combined into two sessions at any time if one is busy",
+      "B": "Dhuhr with Asr and Maghrib with Isha may be combined during travel or genuine hardship; Fajr is never combined",
+      "C": "Only Dhuhr and Asr can be combined, never Maghrib and Isha",
+      "D": "Combining prayers is not permitted; it was only allowed during the time of the Prophet (SAW)"
+    },
+    "correct_answer": "B",
+    "explanation": "The permissible combining (Jam') of prayers applies to Dhuhr with Asr (praying both at the time of either) and Maghrib with Isha. Fajr is never combined with any other prayer. This is established in authentic hadith and is agreed upon for travel. Scholars differ on whether it is permitted for non-travel hardship such as illness, rain, or extreme circumstances — the majority allow it in genuine necessity.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 18, Hadith 1056; Sahih Muslim Book 5, Hadith 703",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "fiqh_hard_010",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "What is the concept of Wali (guardian) in Islamic marriage law, and what is its ruling according to the majority of scholars?",
+    "options": {
+      "A": "The Wali is an optional witness who may attend the nikah but has no legal authority",
+      "B": "The Wali is a mandatory male guardian whose consent is a condition for the validity of a woman's marriage according to the majority of scholars",
+      "C": "The Wali is the Muslim judge who officiates the marriage contract in a court of law",
+      "D": "The Wali is required only when the bride is a non-Muslim woman marrying a Muslim man"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the majority of scholars (Maliki, Shafi'i, Hanbali), the Wali — a woman's male guardian, typically her father or nearest male relative — is a condition for the validity of marriage. The Prophet (SAW) said: 'There is no marriage without a guardian.' The Hanafi madhab holds that an adult, sane woman may contract her own marriage, though the Wali's involvement is strongly preferred. Two witnesses are also required by scholarly consensus.",
+    "source": {
+      "name": "Sunan Abu Dawud; Jami at-Tirmidhi",
+      "reference": "Sunan Abu Dawud Book 12, Hadith 2085; Jami at-Tirmidhi Book 11, Hadith 1101",
+      "type": "hadith"
+    }
   }
 ]

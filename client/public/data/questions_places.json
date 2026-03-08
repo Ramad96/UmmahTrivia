@@ -340,5 +340,214 @@
       "reference": "Sunan Abu Dawud Book 11, Hadith 1899; Al-Mustadrak of al-Hakim Vol. 1",
       "type": "hadith"
     }
+  },
+  {
+    "id": "locations_easy_007",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "What is the name of the mountain near Makkah where the Prophet (SAW) received the first revelation of the Quran?",
+    "options": {
+      "A": "Jabal Uhud",
+      "B": "Jabal al-Nour (Mountain of Light)",
+      "C": "Jabal Thawr",
+      "D": "Jabal Arafat"
+    },
+    "correct_answer": "B",
+    "explanation": "Jabal al-Nour (Mountain of Light) is located near Makkah and contains the Cave of Hira, where the Prophet (SAW) received the first revelation of the Quran. He used to retreat to this cave for extended periods of contemplation before prophethood. It remains one of the most visited sites by pilgrims performing Hajj and Umrah.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 1, Hadith 3",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_easy_008",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "What is the name of the black stone embedded in the corner of the Kaaba that pilgrims kiss or gesture towards during Tawaf?",
+    "options": {
+      "A": "Maqam Ibrahim",
+      "B": "Hajar al-Aswad (the Black Stone)",
+      "C": "Al-Rukn al-Yamani",
+      "D": "Al-Hatim"
+    },
+    "correct_answer": "B",
+    "explanation": "The Hajar al-Aswad (Black Stone) is embedded in the eastern corner of the Kaaba. Pilgrims begin and end each circuit of Tawaf at the Black Stone, kissing it if possible or gesturing towards it. The Prophet (SAW) said it descended from Paradise and was white but became black due to the sins of mankind. Umar ibn al-Khattab (RA) said: 'I know you are a stone and can neither benefit nor harm. Had I not seen the Prophet (SAW) kiss you, I would not kiss you.'",
+    "source": {
+      "name": "Sahih al-Bukhari; Jami at-Tirmidhi",
+      "reference": "Sahih al-Bukhari Book 25, Hadith 1597; Jami at-Tirmidhi Book 9, Hadith 877",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_easy_009",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "Between which two hills do Hajj and Umrah pilgrims perform the Sa'i (walking ritual)?",
+    "options": {
+      "A": "Uhud and Arafat",
+      "B": "Safa and Marwa",
+      "C": "Mina and Muzdalifah",
+      "D": "Hira and Thawr"
+    },
+    "correct_answer": "B",
+    "explanation": "The Sa'i is the ritual of walking seven times between the hills of Safa and Marwa in Masjid al-Haram. It commemorates the desperate search of Hajar (AS), the wife of Prophet Ibrahim (AS), for water for her infant son Ismail (AS). Allah rewarded her patience with the miraculous appearance of the Zamzam well. The Quran states that Safa and Marwa are among the symbols of Allah.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah; Sahih al-Bukhari",
+      "reference": "Surah Al-Baqarah 2:158; Sahih al-Bukhari Book 55, Hadith 584",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_easy_010",
+    "topic": "important_locations",
+    "difficulty": "easy",
+    "question": "In which city was the Prophet Muhammad (SAW) born?",
+    "options": {
+      "A": "Madinah",
+      "B": "Taif",
+      "C": "Makkah",
+      "D": "Jerusalem"
+    },
+    "correct_answer": "C",
+    "explanation": "The Prophet Muhammad (SAW) was born in Makkah in the Year of the Elephant (approximately 570 CE), in the neighbourhood of Banu Hashim. His birthplace is a matter of scholarly discussion and there is debate about the exact house. He grew up in Makkah and received his first revelation there before eventually migrating to Madinah.",
+    "source": {
+      "name": "Ibn Hisham, Al-Sirah al-Nabawiyyah; Sahih al-Bukhari",
+      "reference": "Ibn Hisham, Al-Sirah al-Nabawiyyah Vol. 1; Sahih al-Bukhari Book 63",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "locations_medium_007",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "What is the Rawdah in Masjid an-Nabawi, and what did the Prophet (SAW) say about it?",
+    "options": {
+      "A": "The area designated for women's prayer, established by Caliph Umar (RA)",
+      "B": "The garden area between the Prophet's (SAW) pulpit (minbar) and his tomb, described by the Prophet (SAW) as a garden from the gardens of Paradise",
+      "C": "The raised platform where the call to prayer was made during the Prophet's (SAW) lifetime",
+      "D": "The courtyard outside Masjid an-Nabawi where companions used to study Quran"
+    },
+    "correct_answer": "B",
+    "explanation": "The Rawdah al-Sharifah is the area in Masjid an-Nabawi between the Prophet's (SAW) pulpit (minbar) and his blessed tomb. The Prophet (SAW) said: 'Between my house and my pulpit is a garden from the gardens of Paradise, and my pulpit is upon my Hawd (pool in Paradise).' It is one of the most sought-after places for prayer and supplication for pilgrims visiting Madinah.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 20, Hadith 1196; Sahih Muslim Book 15, Hadith 1391",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_medium_008",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "What is Maqam Ibrahim and where is it located?",
+    "options": {
+      "A": "The grave of Prophet Ibrahim (AS) located in Hebron, Palestine",
+      "B": "A stone near the Kaaba bearing the footprint of Prophet Ibrahim (AS) from when he stood on it to build the Kaaba",
+      "C": "The platform in Masjid al-Haram where Imam leads Tawaf prayers",
+      "D": "The place near Mount Arafat where Prophet Ibrahim (AS) made his famous dua"
+    },
+    "correct_answer": "B",
+    "explanation": "Maqam Ibrahim is a stone located near the Kaaba in Masjid al-Haram, said to bear the impression of Prophet Ibrahim's (AS) feet from when he stood upon it while building the walls of the Kaaba with his son Ismail (AS). The Quran commands believers to take Maqam Ibrahim as a place of prayer. Pilgrims offer two rak'ahs near it after completing their Tawaf.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah; Sahih al-Bukhari",
+      "reference": "Surah Al-Baqarah 2:125; Sahih al-Bukhari Book 25, Hadith 1631",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_medium_009",
+    "topic": "important_locations",
+    "difficulty": "medium",
+    "question": "What is the significance of the city of Taif in Islamic history?",
+    "options": {
+      "A": "It was the location of the Battle of Badr",
+      "B": "It was the city where the Prophet (SAW) was rejected and stoned, yet still prayed for its people",
+      "C": "It was where the Prophet (SAW) signed the Treaty of Hudaybiyyah",
+      "D": "It was the birthplace of Abu Bakr al-Siddiq (RA)"
+    },
+    "correct_answer": "B",
+    "explanation": "Taif was a nearby city the Prophet (SAW) visited after the death of his beloved wife Khadijah (RA) and uncle Abu Talib, seeking support and protection. He was met with mockery and rejection, and the city's people urged their servants and children to stone him until his feet bled. Despite this, when the Angel of Mountains offered to crush them between two mountains, the Prophet (SAW) declined, praying that their descendants would one day worship Allah alone.",
+    "source": {
+      "name": "Sahih al-Bukhari; Ibn Hisham, Sirah",
+      "reference": "Sahih al-Bukhari Book 54, Hadith 3231; Ibn Hisham, Al-Sirah al-Nabawiyyah",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "locations_hard_007",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "What is the Cave of Thawr and why is it significant in Islamic history?",
+    "options": {
+      "A": "It is the cave near Makkah where the Prophet (SAW) received the first revelation",
+      "B": "It is the cave south of Makkah where the Prophet (SAW) and Abu Bakr (RA) hid for three nights during the Hijra while Qurayshi search parties looked for them",
+      "C": "It is the cave in Madinah where the Prophet (SAW) used to make i'tikaf",
+      "D": "It is the cave mentioned in Surah Al-Kahf where the People of the Cave slept for over 300 years"
+    },
+    "correct_answer": "B",
+    "explanation": "The Cave of Thawr (Ghar Thawr) is located on Jabal Thawr, a mountain south of Makkah. During the Hijra, the Prophet (SAW) and Abu Bakr al-Siddiq (RA) took refuge there for three nights while the Quraysh intensified their search. The Quran references this moment in Surah At-Tawbah, where Allah reassured the Prophet (SAW): 'Do not grieve; indeed Allah is with us.' Allah caused a spider to spin its web and a dove to nest at the cave entrance, deterring the searchers.",
+    "source": {
+      "name": "Quran, Surah At-Tawbah; Sahih al-Bukhari",
+      "reference": "Surah At-Tawbah 9:40; Sahih al-Bukhari Book 63, Hadith 3922",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_hard_008",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "What is the Valley of Tuwa and why is it mentioned in the Quran?",
+    "options": {
+      "A": "A valley near Madinah where the Prophet (SAW) camped before major battles",
+      "B": "The sacred valley near Mount Sinai where Allah spoke directly to Prophet Musa (AS) and commanded him to remove his sandals",
+      "C": "A valley in Makkah where the Quraysh used to hold their annual market",
+      "D": "The valley between Safa and Marwa in Masjid al-Haram"
+    },
+    "correct_answer": "B",
+    "explanation": "Wadi Tuwa is the sacred valley near Mount Sinai where Allah first spoke directly to Prophet Musa (AS). Allah called out: 'O Musa, indeed I am your Lord, so remove your sandals. Indeed, you are in the sacred valley of Tuwa.' It is referenced in Surah Ta-Ha and Surah An-Nazi'at. This valley represents one of the holiest places in prophetic history, marking the beginning of Musa's (AS) prophethood.",
+    "source": {
+      "name": "Quran, Surah Ta-Ha; Surah An-Nazi'at",
+      "reference": "Surah Ta-Ha 20:11-12; Surah An-Nazi'at 79:16",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_hard_009",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "What is Muzdalifah and what key ritual do Hajj pilgrims perform there?",
+    "options": {
+      "A": "A site in Makkah where pilgrims perform the opening Tawaf of Hajj",
+      "B": "An open area between Arafat and Mina where pilgrims spend the night after Arafat and collect pebbles for the stoning ritual",
+      "C": "The valley near Mina where the sacrifice of animals takes place on Eid al-Adha",
+      "D": "The site near Masjid al-Haram where pilgrims drink from the Zamzam well"
+    },
+    "correct_answer": "B",
+    "explanation": "Muzdalifah is an open plain between Arafat and Mina. After leaving Arafat on the evening of the 9th of Dhul Hijjah, pilgrims proceed to Muzdalifah where they combine Maghrib and Isha prayers, spend the night under the open sky, and collect pebbles for the Rami (stoning) ritual at Mina. The Quran instructs pilgrims to remember Allah at al-Mash'ar al-Haram, which scholars identify as Muzdalifah.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah; Sahih al-Bukhari",
+      "reference": "Surah Al-Baqarah 2:198; Sahih al-Bukhari Book 25, Hadith 1672",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "locations_hard_010",
+    "topic": "important_locations",
+    "difficulty": "hard",
+    "question": "Which ancient civilisation mentioned in the Quran built elaborate dwellings carved into the mountains, and where are these ruins located today?",
+    "options": {
+      "A": "The people of Ad — their ruins are located in Yemen",
+      "B": "The people of Thamud — their ruins (Madain Salih / Hegra) are located in the Al-Ula region of northwestern Saudi Arabia",
+      "C": "The people of Lut — their ruins are found beneath the Dead Sea",
+      "D": "The people of Shu'ayb — their ruins are in the Sinai Peninsula"
+    },
+    "correct_answer": "B",
+    "explanation": "The people of Thamud were the nation sent Prophet Salih (AS). They were remarkable builders who carved their homes directly into the mountains. Their ruins, known as Madain Salih (also called Hegra or al-Hijr), are located in the Al-Ula region of northwestern Saudi Arabia. The Quran references their skill in carving mountains and their destruction after killing the she-camel. The Prophet (SAW) reportedly passed by these ruins during the Tabuk expedition and instructed his companions not to enter them except in a state of weeping.",
+    "source": {
+      "name": "Quran, Surah Al-Hijr; Quran Surah Ash-Shuara; Sahih al-Bukhari",
+      "reference": "Surah Al-Hijr 15:80-84; Surah Ash-Shuara 26:149; Sahih al-Bukhari Book 60, Hadith 432",
+      "type": "quran"
+    }
   }
 ]
