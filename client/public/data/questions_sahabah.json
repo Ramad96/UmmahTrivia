@@ -1,0 +1,458 @@
+[
+  {
+    "id": "sahabah_easy_001",
+    "topic": "sahabah",
+    "difficulty": "easy",
+    "question": "Who was the first man to accept Islam?",
+    "options": {
+      "A": "Umar ibn al-Khattab (RA)",
+      "B": "Uthman ibn Affan (RA)",
+      "C": "Abu Bakr al-Siddiq (RA)",
+      "D": "Ali ibn Abi Talib (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Abu Bakr al-Siddiq (RA) was the first adult free man to accept Islam. When the Prophet (SAW) received the first revelation and shared it, Abu Bakr (RA) accepted without any hesitation or doubt, earning him the title 'al-Siddiq' (the Truthful). Ali ibn Abi Talib (RA) is considered the first child to accept Islam.",
+    "source": {
+      "name": "Sahih al-Bukhari; Ibn Hisham, Sirah an-Nabawiyyah",
+      "reference": "Sahih al-Bukhari Book 62, Hadith 3671; Ibn Hisham Sirah Vol. 1",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_easy_002",
+    "topic": "sahabah",
+    "difficulty": "easy",
+    "question": "Who was the first woman to accept Islam?",
+    "options": {
+      "A": "Aisha bint Abi Bakr (RA)",
+      "B": "Fatimah bint Muhammad (RA)",
+      "C": "Khadijah bint Khuwaylid (RA)",
+      "D": "Umm Salamah (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Khadijah bint Khuwaylid (RA), the first wife of the Prophet (SAW), was the very first person to accept Islam — male or female. When the Prophet (SAW) returned trembling from the Cave of Hira after the first revelation, it was Khadijah (RA) who comforted him, believed in him completely, and took him to her cousin Waraqah ibn Nawfal.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 1, Hadith 3",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_easy_003",
+    "topic": "sahabah",
+    "difficulty": "easy",
+    "question": "Which Sahabi was known as 'the sword of Allah' (Sayfullah)?",
+    "options": {
+      "A": "Khalid ibn al-Walid (RA)",
+      "B": "Ali ibn Abi Talib (RA)",
+      "C": "Zubayr ibn al-Awwam (RA)",
+      "D": "Amr ibn al-As (RA)"
+    },
+    "correct_answer": "A",
+    "explanation": "Khalid ibn al-Walid (RA) was given the title 'Sayfullah' (Sword of Allah) by the Prophet (SAW) himself after the Battle of Mu'tah, where Khalid (RA) brilliantly led the Muslim forces and managed a tactical retreat. He is considered one of the greatest military commanders in history and never lost a single battle in his career.",
+    "source": {
+      "name": "Sahih al-Bukhari; Ibn Hajar, Al-Isabah",
+      "reference": "Sahih al-Bukhari Book 64, Hadith 4265; Al-Isabah fi Tamyiz al-Sahabah Vol. 2",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_easy_004",
+    "topic": "sahabah",
+    "difficulty": "easy",
+    "question": "Which Sahabi was the closest companion and father-in-law of the Prophet (SAW), who became the first Caliph of Islam?",
+    "options": {
+      "A": "Umar ibn al-Khattab (RA)",
+      "B": "Abu Bakr al-Siddiq (RA)",
+      "C": "Uthman ibn Affan (RA)",
+      "D": "Talha ibn Ubaydullah (RA)"
+    },
+    "correct_answer": "B",
+    "explanation": "Abu Bakr al-Siddiq (RA) was the closest companion of the Prophet (SAW), accompanied him on the Hijra, and was the father of Aisha (RA), the Prophet's beloved wife. After the Prophet's (SAW) passing, the companions unanimously chose Abu Bakr (RA) as the first Caliph. He led the Muslim community through the wars of apostasy (Ridda wars) and consolidated the early Islamic state.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 62, Hadith 3671; Sahih Muslim Book 44, Hadith 2381",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_easy_005",
+    "topic": "sahabah",
+    "difficulty": "easy",
+    "question": "Which Sahabi was known as 'Al-Farooq' (the one who distinguishes between truth and falsehood)?",
+    "options": {
+      "A": "Ali ibn Abi Talib (RA)",
+      "B": "Abu Bakr al-Siddiq (RA)",
+      "C": "Umar ibn al-Khattab (RA)",
+      "D": "Uthman ibn Affan (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Umar ibn al-Khattab (RA) was given the title 'Al-Farooq' by the Prophet (SAW), meaning the one who distinguishes between truth and falsehood. He was the second Caliph of Islam and his acceptance of Islam significantly strengthened the early Muslim community. Under his leadership, the Islamic state expanded dramatically.",
+    "source": {
+      "name": "Sahih al-Bukhari; Ibn Hajar, Al-Isabah",
+      "reference": "Sahih al-Bukhari Book 62, Hadith 3684; Al-Isabah fi Tamyiz al-Sahabah Vol. 3",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_easy_006",
+    "topic": "sahabah",
+    "difficulty": "easy",
+    "question": "Which Sahabi was known as 'Dhul Nurayn' (possessor of two lights) because he married two daughters of the Prophet (SAW)?",
+    "options": {
+      "A": "Ali ibn Abi Talib (RA)",
+      "B": "Abu Bakr al-Siddiq (RA)",
+      "C": "Abd al-Rahman ibn Awf (RA)",
+      "D": "Uthman ibn Affan (RA)"
+    },
+    "correct_answer": "D",
+    "explanation": "Uthman ibn Affan (RA) earned the title 'Dhul Nurayn' (Possessor of Two Lights) because he married Ruqayyah (RA) and after her death, Umm Kulthum (RA), both daughters of the Prophet (SAW). He was the third Caliph of Islam and is renowned for financing the Muslim army and purchasing the Well of Rumah for public use.",
+    "source": {
+      "name": "Ibn Hajar, Al-Isabah; Jami at-Tirmidhi",
+      "reference": "Al-Isabah fi Tamyiz al-Sahabah Vol. 4; Jami at-Tirmidhi Book 46, Hadith 3698",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "sahabah_easy_007",
+    "topic": "sahabah",
+    "difficulty": "easy",
+    "question": "Which Sahabi was called 'the living martyr' after the Prophet (SAW) foretold his entrance into Paradise while still alive?",
+    "options": {
+      "A": "Umar ibn al-Khattab (RA)",
+      "B": "Sa'd ibn Abi Waqqas (RA)",
+      "C": "Talha ibn Ubaydullah (RA)",
+      "D": "Abu Ubayda ibn al-Jarrah (RA)"
+    },
+    "correct_answer": "B",
+    "explanation": "Sa'd ibn Abi Waqqas (RA) was among the ten companions (Asharah Mubasharah) to whom the Prophet (SAW) gave glad tidings of Paradise during their lifetime. He was the first person to shoot an arrow in defence of Islam and later became the commander who led the conquest of Persia at the Battle of al-Qadisiyyah.",
+    "source": {
+      "name": "Sahih al-Bukhari; Jami at-Tirmidhi",
+      "reference": "Sahih al-Bukhari Book 62, Hadith 3727; Jami at-Tirmidhi Book 46, Hadith 3748",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_easy_008",
+    "topic": "sahabah",
+    "difficulty": "easy",
+    "question": "Which Sahabi was the muadhdhin (caller to prayer) of the Prophet (SAW) and had one of the most beautiful voices?",
+    "options": {
+      "A": "Abdullah ibn Masud (RA)",
+      "B": "Bilal ibn Rabah (RA)",
+      "C": "Ammar ibn Yasir (RA)",
+      "D": "Salman al-Farisi (RA)"
+    },
+    "correct_answer": "B",
+    "explanation": "Bilal ibn Rabah (RA) was an Abyssinian slave who was among the earliest converts to Islam. He endured severe torture at the hands of his master Umayyah ibn Khalaf for his faith, before Abu Bakr (RA) purchased and freed him. The Prophet (SAW) appointed him as the first muadhdhin of Islam due to his powerful and moving voice.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 11, Hadith 604",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_medium_001",
+    "topic": "sahabah",
+    "difficulty": "medium",
+    "question": "Which Sahabi narrated the most hadiths of the Prophet (SAW) and is considered the most prolific narrator in hadith literature?",
+    "options": {
+      "A": "Abdullah ibn Umar (RA)",
+      "B": "Aisha bint Abi Bakr (RA)",
+      "C": "Abu Hurairah (RA)",
+      "D": "Anas ibn Malik (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Abu Hurairah (RA) narrated approximately 5,374 hadiths, making him the most prolific narrator in the entire hadith corpus. He accepted Islam in 7 AH and dedicated himself to memorising and transmitting the Prophet's (SAW) words. He famously prayed to Allah for a strong memory and the Prophet (SAW) affirmed his supplication.",
+    "source": {
+      "name": "Sahih al-Bukhari; Ibn Hajar, Tahdhib al-Tahdhib",
+      "reference": "Sahih al-Bukhari Book 3, Hadith 119; Ibn Hajar, Tahdhib al-Tahdhib Vol. 12",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_medium_002",
+    "topic": "sahabah",
+    "difficulty": "medium",
+    "question": "Who were the 'Asharah Mubasharah' (the ten companions given glad tidings of Paradise)?",
+    "options": {
+      "A": "The four Caliphs, plus Bilal, Abu Hurairah, Ibn Masud, Muadh ibn Jabal, Salman al-Farisi, and Ammar ibn Yasir",
+      "B": "Abu Bakr, Umar, Uthman, Ali, Talha, Zubayr, Abd al-Rahman ibn Awf, Sa'd ibn Abi Waqqas, Said ibn Zayd, and Abu Ubayda ibn al-Jarrah",
+      "C": "The four Caliphs, Khadijah, Aisha, Fatimah, Ali, Hasan, and Husayn",
+      "D": "Abu Bakr, Umar, Uthman, Ali, Bilal, Abu Hurairah, Ibn Abbas, Ibn Masud, Anas ibn Malik, and Jabir ibn Abdullah"
+    },
+    "correct_answer": "B",
+    "explanation": "The ten companions given explicit glad tidings of Paradise in a single hadith are: Abu Bakr al-Siddiq, Umar ibn al-Khattab, Uthman ibn Affan, Ali ibn Abi Talib, Talha ibn Ubaydullah, Zubayr ibn al-Awwam, Abd al-Rahman ibn Awf, Sa'd ibn Abi Waqqas, Said ibn Zayd, and Abu Ubayda ibn al-Jarrah (RA). This is known as the hadith of the Asharah Mubasharah.",
+    "source": {
+      "name": "Jami at-Tirmidhi; Sunan Abu Dawud",
+      "reference": "Jami at-Tirmidhi Book 46, Hadith 3748; Sunan Abu Dawud Book 40, Hadith 4649",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_medium_003",
+    "topic": "sahabah",
+    "difficulty": "medium",
+    "question": "Which Sahabi was described by the Prophet (SAW) as the most knowledgeable of his Ummah in matters of halal and haram?",
+    "options": {
+      "A": "Abdullah ibn Abbas (RA)",
+      "B": "Ali ibn Abi Talib (RA)",
+      "C": "Muadh ibn Jabal (RA)",
+      "D": "Abdullah ibn Masud (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Muadh ibn Jabal (RA) was described by the Prophet (SAW) as the most knowledgeable of his Ummah regarding what Allah has permitted and forbidden (halal and haram). The Prophet (SAW) sent him to Yemen as a teacher and judge. He was also described as walking ahead of the scholars on the Day of Judgement by a stone's throw.",
+    "source": {
+      "name": "Sunan Ibn Majah; Musnad Ahmad",
+      "reference": "Sunan Ibn Majah Book 1, Hadith 154; Musnad Ahmad, Hadith 22033",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_medium_004",
+    "topic": "sahabah",
+    "difficulty": "medium",
+    "question": "Which Sahabi served the Prophet (SAW) for ten years, narrated over 2,000 hadiths, and lived to be over 100 years old?",
+    "options": {
+      "A": "Abu Hurairah (RA)",
+      "B": "Jabir ibn Abdullah (RA)",
+      "C": "Anas ibn Malik (RA)",
+      "D": "Abdullah ibn Umar (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Anas ibn Malik (RA) served the Prophet (SAW) from the age of ten until the Prophet's (SAW) passing — a period of ten years. His mother Umm Sulaym (RA) presented him to the Prophet (SAW) as a servant. He narrated approximately 2,286 hadiths and lived to over 100 years old, becoming one of the last surviving companions in Basra.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 73, Hadith 5868; Sahih Muslim Book 43, Hadith 2309",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_medium_005",
+    "topic": "sahabah",
+    "difficulty": "medium",
+    "question": "Which Sahabi was a Persian former slave who suggested digging the trench during the Battle of the Trench (Khandaq)?",
+    "options": {
+      "A": "Ammar ibn Yasir (RA)",
+      "B": "Bilal ibn Rabah (RA)",
+      "C": "Suhayb al-Rumi (RA)",
+      "D": "Salman al-Farisi (RA)"
+    },
+    "correct_answer": "D",
+    "explanation": "Salman al-Farisi (RA) was a Persian who had spent years searching for the true religion before accepting Islam. During the Battle of the Trench (5 AH), he suggested the strategic idea of digging a trench (khandaq) around Madinah — a tactic used in Persian warfare — which proved decisive in repelling the Confederate army. The Prophet (SAW) famously said 'Salman is from us, the Ahl al-Bayt.'",
+    "source": {
+      "name": "Sahih al-Bukhari; Ibn Hisham, Sirah an-Nabawiyyah",
+      "reference": "Sahih al-Bukhari Book 64, Hadith 4101; Ibn Hisham Sirah Vol. 3",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_medium_006",
+    "topic": "sahabah",
+    "difficulty": "medium",
+    "question": "Which Sahabi was known as 'Hibr al-Ummah' (Scholar of the Ummah) and 'Tarjuman al-Quran' (Interpreter of the Quran)?",
+    "options": {
+      "A": "Abdullah ibn Masud (RA)",
+      "B": "Abdullah ibn Umar (RA)",
+      "C": "Abdullah ibn Abbas (RA)",
+      "D": "Abdullah ibn Amr ibn al-As (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Abdullah ibn Abbas (RA), the cousin of the Prophet (SAW), was given the titles 'Hibr al-Ummah' (Scholar of the Ummah) and 'Tarjuman al-Quran' (Interpreter of the Quran). The Prophet (SAW) made dua for him saying: 'O Allah, teach him wisdom and the interpretation of the Quran.' He became the foremost authority in Quranic exegesis (tafsir) among the companions.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 4, Hadith 143",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_medium_007",
+    "topic": "sahabah",
+    "difficulty": "medium",
+    "question": "Which female Sahabi was a renowned scholar, teacher of the companions, and described by Abu Musa al-Ashari (RA) as the companions' last resort when they had difficulty in a matter of religion?",
+    "options": {
+      "A": "Umm Salamah (RA)",
+      "B": "Fatimah bint Muhammad (RA)",
+      "C": "Aisha bint Abi Bakr (RA)",
+      "D": "Hafsa bint Umar (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Aisha bint Abi Bakr (RA), the beloved wife of the Prophet (SAW), was one of the greatest scholars among the companions. Abu Musa al-Ashari (RA) said that whenever the companions faced difficulty in a religious matter and asked Aisha (RA), they would always find knowledge with her. She narrated approximately 2,210 hadiths and taught both men and women from behind a screen.",
+    "source": {
+      "name": "Jami at-Tirmidhi; Ibn Hajar, Al-Isabah",
+      "reference": "Jami at-Tirmidhi Book 46, Hadith 3883; Al-Isabah fi Tamyiz al-Sahabah Vol. 8",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_medium_008",
+    "topic": "sahabah",
+    "difficulty": "medium",
+    "question": "Which Sahabi was the first to be martyred in Islam, and which Sahabi was the first male martyr?",
+    "options": {
+      "A": "Sumayyah bint Khayyat (RA) was the first martyr; Yasir ibn Amir (RA) was the first male martyr",
+      "B": "Khadijah (RA) was the first martyr; Bilal (RA) was the first male martyr",
+      "C": "Umm Ayman (RA) was the first martyr; Ammar ibn Yasir (RA) was the first male martyr",
+      "D": "Sumayyah bint Khayyat (RA) was the first martyr; Hamza ibn Abd al-Muttalib (RA) was the first male martyr"
+    },
+    "correct_answer": "A",
+    "explanation": "Sumayyah bint Khayyat (RA) is recognised as the first martyr in Islam. She and her husband Yasir (RA) were tortured relentlessly by Abu Jahl for their faith. Sumayyah (RA) was killed by Abu Jahl with a spear, and shortly after Yasir (RA) also died under torture, making him the first male martyr. Their son Ammar ibn Yasir (RA) survived and remained a devoted companion.",
+    "source": {
+      "name": "Ibn Hisham, Sirah an-Nabawiyyah; Ibn Hajar, Al-Isabah",
+      "reference": "Ibn Hisham Sirah Vol. 1; Al-Isabah fi Tamyiz al-Sahabah Vol. 7",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "sahabah_hard_001",
+    "topic": "sahabah",
+    "difficulty": "hard",
+    "question": "Which Sahabi was known as 'Amin al-Ummah' (Trustee of the Ummah) and was appointed by the Prophet (SAW) to collect the jizyah from the people of Najran?",
+    "options": {
+      "A": "Abd al-Rahman ibn Awf (RA)",
+      "B": "Abu Ubayda ibn al-Jarrah (RA)",
+      "C": "Muadh ibn Jabal (RA)",
+      "D": "Khalid ibn al-Walid (RA)"
+    },
+    "correct_answer": "B",
+    "explanation": "Abu Ubayda ibn al-Jarrah (RA) was given the title 'Amin al-Ummah' (Trustee of the Nation) by the Prophet (SAW). He was one of the Asharah Mubasharah (ten given glad tidings of Paradise) and later became the supreme commander of the Muslim armies during the conquest of the Levant (Sham) under Caliph Umar (RA). He died of the plague of Amwas in 18 AH.",
+    "source": {
+      "name": "Sahih al-Bukhari; Jami at-Tirmidhi",
+      "reference": "Sahih al-Bukhari Book 64, Hadith 3744; Jami at-Tirmidhi Book 46, Hadith 3762",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_hard_002",
+    "topic": "sahabah",
+    "difficulty": "hard",
+    "question": "Which Sahabi was described by the Prophet (SAW) as the best judge among his companions, and what famous legal principle is attributed to him?",
+    "options": {
+      "A": "Umar ibn al-Khattab (RA); the principle of blocking pretexts (Sadd al-Dhara'i)",
+      "B": "Ali ibn Abi Talib (RA); the principle of judgment by analogy (Qiyas)",
+      "C": "Abdullah ibn Masud (RA); the principle of juristic preference (Istihsan)",
+      "D": "Muadh ibn Jabal (RA); the principle of independent reasoning (Ijtihad) using the Quran, Sunnah, then personal reasoning"
+    },
+    "correct_answer": "D",
+    "explanation": "When the Prophet (SAW) sent Muadh ibn Jabal (RA) to Yemen as a judge, he asked him how he would judge. Muadh said: by the Quran, then the Sunnah, then by his own reasoning (ijtihad). The Prophet (SAW) praised this response, and this exchange became a foundational reference point in the development of usul al-fiqh (principles of Islamic jurisprudence) — establishing the classical hierarchy of legal sources.",
+    "source": {
+      "name": "Sunan Abu Dawud; Jami at-Tirmidhi",
+      "reference": "Sunan Abu Dawud Book 24, Hadith 3592; Jami at-Tirmidhi Book 13, Hadith 1327",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_hard_003",
+    "topic": "sahabah",
+    "difficulty": "hard",
+    "question": "Which Sahabi was the scribe of the Prophet (SAW) who wrote the Treaty of Hudaybiyyah, and later became a renowned Caliph known for major administrative reforms?",
+    "options": {
+      "A": "Ali ibn Abi Talib (RA)",
+      "B": "Zayd ibn Thabit (RA)",
+      "C": "Muawiyah ibn Abi Sufyan (RA)",
+      "D": "Abdullah ibn al-Arqam (RA)"
+    },
+    "correct_answer": "A",
+    "explanation": "Ali ibn Abi Talib (RA) was the scribe who wrote the Treaty of Hudaybiyyah at the Prophet's (SAW) instruction. When the Quraysh objected to the phrase 'Muhammad, Messenger of Allah', the Prophet (SAW) asked Ali (RA) to cross it out — but Ali (RA) said he could not bring himself to do so, and the Prophet (SAW) crossed it himself. Ali (RA) later became the fourth Caliph and is renowned for his scholarship, piety, and justice.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 54, Hadith 2699; Sahih Muslim Book 32, Hadith 1783",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_hard_004",
+    "topic": "sahabah",
+    "difficulty": "hard",
+    "question": "Which Sahabi was the maternal uncle of the Prophet (SAW), embraced Islam late but became a fierce defender of the faith, and was appointed governor of Makkah after its conquest?",
+    "options": {
+      "A": "Abbas ibn Abd al-Muttalib (RA)",
+      "B": "Hamza ibn Abd al-Muttalib (RA)",
+      "C": "Abu Sufyan ibn Harb (RA)",
+      "D": "Attab ibn Asid (RA)"
+    },
+    "correct_answer": "D",
+    "explanation": "Attab ibn Asid (RA) was appointed by the Prophet (SAW) as the governor of Makkah immediately after the Conquest of Makkah (8 AH), making him the youngest governor appointed by the Prophet (SAW) — he was approximately 18-20 years old. He governed Makkah with justice and remained in that role through the caliphates of Abu Bakr and Umar (RA). Abbas ibn Abd al-Muttalib (RA) was the Prophet's uncle, not maternal.",
+    "source": {
+      "name": "Ibn Hisham, Sirah an-Nabawiyyah; Ibn Hajar, Al-Isabah",
+      "reference": "Ibn Hisham Sirah Vol. 4; Al-Isabah fi Tamyiz al-Sahabah Vol. 3",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "sahabah_hard_005",
+    "topic": "sahabah",
+    "difficulty": "hard",
+    "question": "Which Sahabi compiled the first official written registry (diwan) of the Muslim army and state, instituted a stipend system, and is credited with founding the Islamic administrative state?",
+    "options": {
+      "A": "Abu Bakr al-Siddiq (RA)",
+      "B": "Uthman ibn Affan (RA)",
+      "C": "Umar ibn al-Khattab (RA)",
+      "D": "Ali ibn Abi Talib (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Umar ibn al-Khattab (RA), the second Caliph, is credited with establishing many foundational Islamic administrative institutions. He created the diwan (official state registry), instituted a stipend (ata) system for all Muslims, established a network of governors and judges, created the Bayt al-Mal (treasury), introduced the Hijri calendar, and oversaw one of the fastest expansions of any empire in history — all while maintaining legendary personal austerity and justice.",
+    "source": {
+      "name": "Al-Bidaya wa'l-Nihaya; Ibn Kathir",
+      "reference": "Ibn Kathir, Al-Bidaya wa'l-Nihaya Vol. 7; Al-Tabari, Tarikh al-Rusul wa'l-Muluk Vol. 4",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "sahabah_hard_006",
+    "topic": "sahabah",
+    "difficulty": "hard",
+    "question": "Which Sahabi is known for spending his entire wealth to equip the Muslim army during the Tabuk expedition, and what did the Prophet (SAW) say about him?",
+    "options": {
+      "A": "Abd al-Rahman ibn Awf (RA); the Prophet (SAW) said he would enter Paradise crawling due to his wealth",
+      "B": "Uthman ibn Affan (RA); the Prophet (SAW) said nothing Uthman does after today will harm him",
+      "C": "Abu Bakr al-Siddiq (RA); the Prophet (SAW) said no wealth benefited him more than Abu Bakr's",
+      "D": "Talha ibn Ubaydullah (RA); the Prophet (SAW) said Talha is a living martyr"
+    },
+    "correct_answer": "B",
+    "explanation": "During the Tabuk expedition (9 AH), Uthman ibn Affan (RA) outfitted one third of the entire Muslim army — approximately 10,000 soldiers — with horses, weapons, and provisions entirely from his own wealth. When the Prophet (SAW) saw this extraordinary generosity, he said: 'Nothing Uthman does after today will harm him' — meaning his place in Paradise was assured. He repeated this twice.",
+    "source": {
+      "name": "Jami at-Tirmidhi; Musnad Ahmad",
+      "reference": "Jami at-Tirmidhi Book 46, Hadith 3701; Musnad Ahmad, Hadith 447",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_hard_007",
+    "topic": "sahabah",
+    "difficulty": "hard",
+    "question": "Which Sahabi was given the title 'Sayf min suyufillah' (a sword from the swords of Allah) by the Prophet (SAW) at the Battle of Badr, before Khalid ibn al-Walid accepted Islam?",
+    "options": {
+      "A": "Hamza ibn Abd al-Muttalib (RA)",
+      "B": "Zubayr ibn al-Awwam (RA)",
+      "C": "Ali ibn Abi Talib (RA)",
+      "D": "Abu Dujanah al-Ansari (RA)"
+    },
+    "correct_answer": "C",
+    "explanation": "Ali ibn Abi Talib (RA) was celebrated for his extraordinary bravery and skill in combat, often referred to by early scholars as 'a sword from the swords of Allah' for his ferocity in battle. At Badr, Uhud, Khaybar, and Hunayn, Ali (RA) played a decisive military role. At Khaybar, the Prophet (SAW) said he would give the banner to one who loves Allah and His Messenger and Allah will grant victory through him — and gave it to Ali (RA).",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 64, Hadith 4210; Sahih Muslim Book 44, Hadith 2406",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "sahabah_hard_008",
+    "topic": "sahabah",
+    "difficulty": "hard",
+    "question": "Which Sahabi was known as 'the monk of this Ummah' due to his extreme asceticism, and famously had a theological disagreement with Muawiyah (RA) over the use of wealth?",
+    "options": {
+      "A": "Hudhayfah ibn al-Yaman (RA)",
+      "B": "Abu Dharr al-Ghifari (RA)",
+      "C": "Miqdad ibn al-Aswad (RA)",
+      "D": "Khabbab ibn al-Aratt (RA)"
+    },
+    "correct_answer": "B",
+    "explanation": "Abu Dharr al-Ghifari (RA) was known for his extreme zuhd (asceticism) and outspokenness in matters of justice. The Prophet (SAW) said: 'There is no one under the sky or on the earth more truthful than Abu Dharr.' He had a well-documented disagreement with Muawiyah (RA) in Syria over the hoarding of wealth, insisting that all surplus beyond one's needs must be spent in Allah's cause. He eventually withdrew to al-Rabadha where he died in isolation.",
+    "source": {
+      "name": "Sahih Muslim; Jami at-Tirmidhi",
+      "reference": "Sahih Muslim Book 44, Hadith 2458; Jami at-Tirmidhi Book 46, Hadith 3801",
+      "type": "hadith"
+    }
+  }
+]

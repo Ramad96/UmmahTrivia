@@ -23,5 +23,10 @@
     "key": "prophets",
     "label": "Prophets",
     "icon": "📖"
+  },
+  {
+    "key": "sahabah",
+    "label": "Sahabah",
+    "icon": "🌟"
   }
 ]
