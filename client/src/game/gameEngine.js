@@ -10,6 +10,7 @@ export function createGameState() {
     questions: [],
     questionTime: 10,
     together: false,
+    topicLabel: "",
     currentQuestionIndex: 0,
     currentAnswers: new Map(), // peerId → { answerIndex, timeLeft }
     timerInterval: null,
@@ -77,6 +78,8 @@ export function buildResults(game) {
     distribution,
     questionText: q.text,
     answers: q.answers,
+    explanation: q.explanation || null,
+    source: q.source || null,
   };
 }
 

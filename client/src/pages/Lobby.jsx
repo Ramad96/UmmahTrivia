@@ -6,28 +6,44 @@ import PlayerList from "../components/PlayerList";
 
 const DIFFICULTY_LABELS = { easy: "Easy", medium: "Medium", hard: "Hard" };
 const TIMER_OPTIONS = [10, 15, 20];
+const QUESTION_COUNT_OPTIONS = [6, 10, 14, 18];
 
 export default function Lobby({ gameCode, players, isHost, playerName, topics, onStart }) {
-  const [selectedTopic, setSelectedTopic] = useState(null);
+  const [selectedTopics, setSelectedTopics] = useState(new Set());
   const [selectedDifficulty, setSelectedDifficulty] = useState("easy");
   const [mode, setMode] = useState("normal"); // "normal" | "increasing"
   const [timePerQuestion, setTimePerQuestion] = useState(10);
   const [together, setTogether] = useState(false);
+  const [questionCount, setQuestionCount] = useState(10);
 
-  const canStart = (together || players.length > 0) && selectedTopic !== null;
+  const canStart = (together || players.length > 0) && selectedTopics.size > 0;
+
+  function toggleTopic(key) {
+    setSelectedTopics((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
+
+  function toggleAllTopics() {
+    if (selectedTopics.size === topics.length) {
+      setSelectedTopics(new Set());
+    } else {
+      setSelectedTopics(new Set(topics.map((t) => t.key)));
+    }
+  }
 
   function handleStart() {
-    onStart({ topic: selectedTopic, difficulty: selectedDifficulty, mode, timePerQuestion, together });
-  }
-
-  function handleRandomTopic() {
-    setSelectedTopic("random");
-    setMode("normal");
-  }
-
-  function handleIncreasingDifficulty() {
-    setMode("increasing");
-    if (!selectedTopic) setSelectedTopic("random");
+    const topicKeys = [...selectedTopics];
+    const topicLabel =
+      topicKeys.length === topics.length
+        ? "All Topics"
+        : topicKeys.length === 1
+        ? topics.find((t) => t.key === topicKeys[0])?.label ?? ""
+        : "Mixed Topics";
+    onStart({ topicKeys, topicLabel, difficulty: selectedDifficulty, mode, timePerQuestion, together, questionCount });
   }
 
   return (
@@ -64,39 +80,38 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
         {isHost && (
           <div className="border-t border-gray-100 pt-5 space-y-5">
 
-            {/* Topic selection — driven entirely by server manifest */}
+            {/* Topic selection — multi-select */}
             <div>
-              <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                Topic
-              </p>
-              <div className="grid grid-cols-2 gap-2">
-                {topics.map(({ key, label, icon }) => (
-                  <button
-                    key={key}
-                    onClick={() => { setSelectedTopic(key); setMode("normal"); }}
-                    className={`flex items-center gap-2 px-3 py-3 rounded-xl border-2 text-left font-semibold text-sm transition active:scale-95
-                      ${selectedTopic === key && mode !== "increasing"
-                        ? "border-brand-green bg-brand-sky text-brand-green"
-                        : "border-gray-200 text-gray-600 hover:border-brand-green/40"
-                      }`}
-                  >
-                    <span className="text-xl">{icon}</span>
-                    {label}
-                  </button>
-                ))}
-
-                {/* Random topic */}
+              <div className="flex items-center justify-between mb-2">
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
+                  Topics
+                </p>
                 <button
-                  onClick={handleRandomTopic}
-                  className={`flex items-center gap-2 px-3 py-3 rounded-xl border-2 text-left font-semibold text-sm transition active:scale-95 col-span-2
-                    ${selectedTopic === "random" && mode !== "increasing"
-                      ? "border-brand-gold bg-amber-50 text-brand-midnight"
-                      : "border-dashed border-gray-300 text-gray-400 hover:border-brand-gold/60 hover:text-brand-midnight"
-                    }`}
+                  onClick={toggleAllTopics}
+                  className="text-xs text-brand-green font-semibold hover:underline"
                 >
-                  <span className="text-xl">🎲</span>
-                  Random Topic
+                  {selectedTopics.size === topics.length ? "Deselect all" : "Select all"}
                 </button>
+              </div>
+              <div className="grid grid-cols-2 gap-2">
+                {topics.map(({ key, label, icon }) => {
+                  const isSelected = selectedTopics.has(key);
+                  return (
+                    <button
+                      key={key}
+                      onClick={() => toggleTopic(key)}
+                      className={`flex items-center gap-2 px-3 py-3 rounded-xl border-2 text-left font-semibold text-sm transition active:scale-95
+                        ${isSelected
+                          ? "border-brand-green bg-brand-sky text-brand-green"
+                          : "border-gray-200 text-gray-600 hover:border-brand-green/40"
+                        }`}
+                    >
+                      <span className="text-xl">{icon}</span>
+                      <span className="flex-1">{label}</span>
+                      {isSelected && <span className="text-brand-green text-xs">✓</span>}
+                    </button>
+                  );
+                })}
               </div>
             </div>
 
@@ -122,7 +137,7 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
 
                 {/* Increasing difficulty mode */}
                 <button
-                  onClick={handleIncreasingDifficulty}
+                  onClick={() => setMode("increasing")}
                   className={`flex-1 py-2 rounded-xl border-2 text-sm font-semibold transition active:scale-95
                     ${mode === "increasing"
                       ? "border-brand-gold bg-amber-50 text-brand-midnight"
@@ -156,6 +171,28 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
                       }`}
                   >
                     {secs}s
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Number of Questions */}
+            <div>
+              <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
+                Questions
+              </p>
+              <div className="flex gap-2">
+                {QUESTION_COUNT_OPTIONS.map((n) => (
+                  <button
+                    key={n}
+                    onClick={() => setQuestionCount(n)}
+                    className={`flex-1 py-2 rounded-xl border-2 text-sm font-semibold transition active:scale-95
+                      ${questionCount === n
+                        ? "border-brand-green bg-brand-sky text-brand-green"
+                        : "border-gray-200 text-gray-500 hover:border-brand-green/40"
+                      }`}
+                  >
+                    {n}
                   </button>
                 ))}
               </div>
@@ -203,7 +240,7 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
             >
               {canStart
                 ? together ? "Start Session" : "Start Game"
-                : "Pick a topic to start"}
+                : "Pick at least one topic to start"}
             </button>
           </div>
         )}

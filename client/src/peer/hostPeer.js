@@ -20,7 +20,7 @@ import {
   loadTopics,
   getQuestions,
   getIncreasingDifficultyQuestions,
-  getRandomTopicQuestions,
+  getQuestionsFromTopics,
 } from "../game/questions.js";
 
 const RESULTS_DISPLAY_TIME = 5000;
@@ -128,29 +128,26 @@ export class HostPeer {
     }
   }
 
-  async startGame({ topic, difficulty, mode, timePerQuestion, together }) {
+  async startGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount }) {
     if (this.game.status !== "lobby") return;
     if (!together && this.game.players.size === 0) return;
 
     this.game.questionTime = ALLOWED_QUESTION_TIMES.includes(timePerQuestion)
       ? timePerQuestion
       : DEFAULT_QUESTION_TIME;
-
-    if (together) {
-      this.game.together = true;
-    }
+    this.game.together = !!together;
+    this.game.topicLabel = topicLabel || "";
 
     let questions;
-    if (topic === "random") {
-      const result = await getRandomTopicQuestions(this.topics, difficulty, mode);
-      questions = result.questions;
-    } else if (mode === "increasing") {
-      questions = await getIncreasingDifficultyQuestions(topic);
+    if (topicKeys.length === 1) {
+      questions = mode === "increasing"
+        ? await getIncreasingDifficultyQuestions(topicKeys[0])
+        : await getQuestions(topicKeys[0], difficulty);
     } else {
-      questions = await getQuestions(topic, difficulty);
+      questions = await getQuestionsFromTopics(topicKeys, difficulty, mode);
     }
 
-    this.game.questions = questions;
+    this.game.questions = questions.slice(0, questionCount || 10);
     this.game.status = "question";
 
     this._startQuestion();
@@ -161,10 +158,10 @@ export class HostPeer {
     this.game.timeLeft = this.game.questionTime;
 
     const question = getCurrentQuestion(this.game);
-    const msg = { type: "game:startQuestion", ...question, timeLeft: this.game.questionTime };
-    this.broadcast(msg);
+    const questionData = { ...question, timeLeft: this.game.questionTime, topicLabel: this.game.topicLabel };
+    this.broadcast({ type: "game:startQuestion", ...questionData });
     // Also fire callback so host UI updates
-    this.callbacks.onStartQuestion({ ...question, timeLeft: this.game.questionTime });
+    this.callbacks.onStartQuestion(questionData);
 
     this.game.timerInterval = setInterval(() => {
       this.game.timeLeft--;

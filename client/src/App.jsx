@@ -33,6 +33,7 @@ export default function App() {
   const [questionTime, setQuestionTime] = useState(10);
   const [timeLeft, setTimeLeft] = useState(10);
   const [togetherMode, setTogetherMode] = useState(false);
+  const [topicLabel, setTopicLabel] = useState("");
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [results, setResults] = useState(null);
   const [leaderboard, setLeaderboard] = useState([]);
@@ -79,6 +80,7 @@ export default function App() {
           setTotalQuestions(data.total);
           setQuestionTime(data.timeLeft);
           setTimeLeft(data.timeLeft);
+          setTopicLabel(data.topicLabel || "");
           setSelectedAnswer(null);
           setResults(null);
           setScreen(SCREENS.QUESTION);
@@ -132,6 +134,7 @@ export default function App() {
         setTotalQuestions(data.total);
         setQuestionTime(data.timeLeft);
         setTimeLeft(data.timeLeft);
+        setTopicLabel(data.topicLabel || "");
         setSelectedAnswer(null);
         setResults(null);
         setScreen(SCREENS.QUESTION);
@@ -166,9 +169,9 @@ export default function App() {
   }
 
   // ── Host: Start Game ───────────────────────────────────────────
-  function handleStartGame({ topic, difficulty, mode, timePerQuestion, together }) {
+  function handleStartGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount }) {
     setTogetherMode(together);
-    hostRef.current?.startGame({ topic, difficulty, mode, timePerQuestion, together });
+    hostRef.current?.startGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount });
   }
 
   // ── Player: Submit Answer ──────────────────────────────────────
@@ -206,6 +209,7 @@ export default function App() {
           total={totalQuestions}
           timeLeft={timeLeft}
           questionTime={questionTime}
+          topicLabel={topicLabel}
           selectedAnswer={selectedAnswer}
           onAnswer={handleAnswerSelect}
           isHost={isHost && !togetherMode}
@@ -213,7 +217,7 @@ export default function App() {
       ) : null;
 
     case SCREENS.RESULTS:
-      return results ? <Results results={results} /> : null;
+      return results ? <Results results={results} togetherMode={togetherMode} /> : null;
 
     case SCREENS.LEADERBOARD:
       return (

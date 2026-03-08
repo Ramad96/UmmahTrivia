@@ -16,6 +16,8 @@ function toGameFormat(q) {
     text: q.question,
     answers: keys.map((k) => q.options[k]),
     correctIndex: keys.indexOf(q.correct_answer),
+    explanation: q.explanation || null,
+    source: q.source || null,
   };
 }
 
@@ -38,7 +40,7 @@ export async function loadTopics() {
 export async function getQuestions(topicKey, difficulty) {
   const raw = await loadTopic(topicKey);
   const pool = raw.filter((q) => q.difficulty === difficulty).map(toGameFormat);
-  return shuffle(pool).slice(0, 10);
+  return shuffle(pool); // caller slices to questionCount
 }
 
 export async function getIncreasingDifficultyQuestions(topicKey) {
@@ -46,16 +48,30 @@ export async function getIncreasingDifficultyQuestions(topicKey) {
   const result = [];
   for (const diff of ["easy", "medium", "hard"]) {
     const pool = raw.filter((q) => q.difficulty === diff).map(toGameFormat);
-    result.push(...shuffle(pool).slice(0, 5));
+    result.push(...shuffle(pool));
   }
-  return result;
+  return result; // caller slices to questionCount
 }
 
-export async function getRandomTopicQuestions(topics, difficulty, mode) {
-  const topicKey = topics[Math.floor(Math.random() * topics.length)].key;
-  const questions =
-    mode === "increasing"
-      ? await getIncreasingDifficultyQuestions(topicKey)
-      : await getQuestions(topicKey, difficulty);
-  return { topic: topicKey, questions };
+// Load from multiple topics, respecting difficulty mode
+export async function getQuestionsFromTopics(topicKeys, difficulty, mode) {
+  if (mode === "increasing") {
+    // Combine each difficulty band across all topics, maintain easy→medium→hard order
+    const result = [];
+    for (const diff of ["easy", "medium", "hard"]) {
+      const band = [];
+      for (const key of topicKeys) {
+        const raw = await loadTopic(key);
+        band.push(...raw.filter((q) => q.difficulty === diff).map(toGameFormat));
+      }
+      result.push(...shuffle(band));
+    }
+    return result;
+  } else {
+    const all = [];
+    for (const key of topicKeys) {
+      all.push(...(await getQuestions(key, difficulty)));
+    }
+    return shuffle(all);
+  }
 }
