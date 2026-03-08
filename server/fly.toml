@@ -1,0 +1,19 @@
+# Fly.io configuration for UmmahTrivia server
+app = "ummah-trivia"
+primary_region = "lhr"
+
+[build]
+
+[env]
+  PORT = "3001"
+
+[http_service]
+  internal_port = 3001
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
