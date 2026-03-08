@@ -1,0 +1,344 @@
+[
+  {
+    "id": "fiqh_easy_001",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "How many times a day are Muslims required to pray?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "correct_answer": "C",
+    "explanation": "Muslims are obligated to perform five daily prayers (Salah): Fajr, Dhuhr, Asr, Maghrib, and Isha. This is one of the Five Pillars of Islam and is obligatory upon every sane, adult Muslim.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah",
+      "reference": "Surah Al-Baqarah 2:238",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_easy_002",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "What is the minimum number of body parts that must be washed during wudu (ablution)?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "C",
+    "explanation": "The Quran specifies four obligatory acts of wudu: washing the face, washing both arms up to the elbows, wiping over the head, and washing both feet up to the ankles. These four are the fard (obligatory) elements of wudu.",
+    "source": {
+      "name": "Quran, Surah Al-Maidah",
+      "reference": "Surah Al-Maidah 5:6",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_easy_003",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "Which pillar of Islam involves fasting during the month of Ramadan?",
+    "options": {
+      "A": "Zakat",
+      "B": "Hajj",
+      "C": "Salah",
+      "D": "Sawm"
+    },
+    "correct_answer": "D",
+    "explanation": "Sawm refers to the obligatory fast during the month of Ramadan. Muslims abstain from food, drink, and other invalidating acts from dawn (Fajr) until sunset (Maghrib). It is the fourth pillar of Islam.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah",
+      "reference": "Surah Al-Baqarah 2:183-185",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_easy_004",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "What must a Muslim face during prayer?",
+    "options": {
+      "A": "Madinah",
+      "B": "Jerusalem",
+      "C": "The Qibla (direction of the Kaaba in Makkah)",
+      "D": "The rising sun"
+    },
+    "correct_answer": "C",
+    "explanation": "Muslims must face the Qibla — the direction of the Kaaba in Makkah — during their prayers. This was established as a command in the Quran and is a condition for the validity of the prayer.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah",
+      "reference": "Surah Al-Baqarah 2:144",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_easy_005",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "What is the term for the obligatory annual charity paid on wealth that meets the nisab threshold?",
+    "options": {
+      "A": "Sadaqah",
+      "B": "Zakat",
+      "C": "Waqf",
+      "D": "Kaffarah"
+    },
+    "correct_answer": "B",
+    "explanation": "Zakat is the obligatory annual charity given on qualifying wealth held for a full lunar year above the nisab threshold. It is one of the Five Pillars of Islam and is distributed to eight categories of recipients mentioned in the Quran.",
+    "source": {
+      "name": "Quran, Surah At-Tawbah",
+      "reference": "Surah At-Tawbah 9:60",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_easy_006",
+    "topic": "fiqh",
+    "difficulty": "easy",
+    "question": "Which prayer is performed on Friday as a congregational obligation for Muslim men?",
+    "options": {
+      "A": "Tahajjud",
+      "B": "Salat al-Eid",
+      "C": "Salat al-Jumuah",
+      "D": "Salat al-Duha"
+    },
+    "correct_answer": "C",
+    "explanation": "Salat al-Jumuah (Friday prayer) is an obligatory congregational prayer for adult Muslim men, replacing the Dhuhr prayer on Fridays. It includes a khutbah (sermon) before two units of prayer. The Quran explicitly commands believers to hasten to the remembrance of Allah on Friday.",
+    "source": {
+      "name": "Quran, Surah Al-Jumuah",
+      "reference": "Surah Al-Jumuah 62:9",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_medium_001",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "Which of the following actions invalidates wudu (ablution)?",
+    "options": {
+      "A": "Eating cooked food",
+      "B": "Deep sleep in a lying position",
+      "C": "Speaking loudly",
+      "D": "Crying"
+    },
+    "correct_answer": "B",
+    "explanation": "Deep sleep, especially in a lying position, invalidates wudu because one loses consciousness and control over bodily functions. Eating cooked food does not invalidate wudu per the majority opinion. Speaking and crying do not invalidate wudu.",
+    "source": {
+      "name": "Sahih Muslim",
+      "reference": "Book 2, Hadith 469",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "fiqh_medium_002",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "What is the ruling on a Muslim who intentionally misses a Fard (obligatory) prayer without a valid excuse?",
+    "options": {
+      "A": "It is makruh (disliked) but can be made up easily",
+      "B": "It is a major sin and must be made up (qada) as soon as possible",
+      "C": "The prayer is simply lost and cannot be made up",
+      "D": "A monetary penalty (kaffarah) must be paid"
+    },
+    "correct_answer": "B",
+    "explanation": "Intentionally missing a fard prayer without a valid reason is considered a major sin in Islam. The majority of scholars hold that the prayer must still be made up (qada) as soon as possible, alongside sincere repentance. Neglecting prayer entirely is considered one of the gravest sins.",
+    "source": {
+      "name": "Sahih al-Bukhari; scholarly consensus",
+      "reference": "Sahih al-Bukhari Book 9, Hadith 627; Ibn Qudamah, Al-Mughni",
+      "type": "scholarly_consensus"
+    }
+  },
+  {
+    "id": "fiqh_medium_003",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "How many rak'ahs (units of prayer) does the Fajr prayer consist of?",
+    "options": {
+      "A": "4 fard",
+      "B": "3 fard",
+      "C": "2 fard",
+      "D": "2 sunnah and 4 fard"
+    },
+    "correct_answer": "C",
+    "explanation": "The Fajr prayer consists of 2 fard (obligatory) rak'ahs. It is also preceded by 2 sunnah rak'ahs, which the Prophet (SAW) said were more beloved to him than the world and everything in it, but these sunnah rak'ahs are not fard.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Book 11, Hadith 625",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "fiqh_medium_004",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "What is the rate of Zakat that must be paid on gold, silver, and cash savings?",
+    "options": {
+      "A": "5%",
+      "B": "10%",
+      "C": "2.5%",
+      "D": "1%"
+    },
+    "correct_answer": "C",
+    "explanation": "The obligatory rate of Zakat on gold, silver, and cash savings is 2.5% (one-fortieth) of the total wealth that has been held above the nisab threshold for one full lunar year (hawl). This rate is established by authentic hadith and scholarly consensus.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Book 24, Hadith 534",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "fiqh_medium_005",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "Which of the following people is NOT among the eight categories eligible to receive Zakat?",
+    "options": {
+      "A": "A person in debt",
+      "B": "A wealthy businessman travelling abroad",
+      "C": "A new Muslim whose heart is to be reconciled",
+      "D": "A stranded traveller with no funds"
+    },
+    "correct_answer": "B",
+    "explanation": "The eight categories eligible for Zakat are listed in Surah At-Tawbah 9:60: the poor, the needy, Zakat administrators, new Muslims (muallafat al-qulub), those in bondage, the indebted, in the cause of Allah, and the stranded traveller (ibn as-sabil). A wealthy businessman, even abroad, does not qualify as he has access to his wealth.",
+    "source": {
+      "name": "Quran, Surah At-Tawbah",
+      "reference": "Surah At-Tawbah 9:60",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_medium_006",
+    "topic": "fiqh",
+    "difficulty": "medium",
+    "question": "What is Tayammum and when is it permitted?",
+    "options": {
+      "A": "A shortened prayer performed during travel",
+      "B": "Dry ablution using clean earth or dust, permitted when water is unavailable or its use would cause harm",
+      "C": "A supererogatory prayer performed after Isha",
+      "D": "Wiping over leather socks instead of washing the feet in wudu"
+    },
+    "correct_answer": "B",
+    "explanation": "Tayammum is the Islamic practice of dry ablution using clean earth or dust as a substitute for wudu or ghusl. It is permitted when water is unavailable, inaccessible, or when using water would cause harm to health. The procedure involves striking clean earth with both hands and wiping the face and hands.",
+    "source": {
+      "name": "Quran, Surah Al-Maidah; Sahih al-Bukhari",
+      "reference": "Surah Al-Maidah 5:6; Sahih al-Bukhari Book 7, Hadith 334",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "fiqh_hard_001",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "According to the majority of scholars, what is the minimum amount of gold (nisab) that makes Zakat obligatory?",
+    "options": {
+      "A": "100 grams",
+      "B": "70 grams",
+      "C": "85 grams",
+      "D": "92.5 grams"
+    },
+    "correct_answer": "C",
+    "explanation": "The nisab for gold is 20 mithqal, equivalent to approximately 85 grams according to the Hanafi school and the majority of contemporary scholars. If one possesses this amount or its equivalent in wealth for a full lunar year, Zakat becomes obligatory at 2.5%.",
+    "source": {
+      "name": "Reliance of the Traveller; Sahih al-Bukhari",
+      "reference": "Reliance of the Traveller h1.4; Sahih al-Bukhari Book 24, Hadith 534",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "fiqh_hard_002",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "In Hanafi fiqh, what is the ruling on performing Salah behind an imam who belongs to a different madhab?",
+    "options": {
+      "A": "It is completely invalid and must be repeated",
+      "B": "It is valid as long as the imam's prayer is valid according to his own madhab",
+      "C": "It is only valid if the follower does not know the imam's madhab",
+      "D": "It is makruh tahrimi (prohibitively disliked) in all cases"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the Hanafi madhab and the position of the majority of scholars, it is valid to pray behind an imam of a different madhab, provided that the imam's prayer is valid according to his own school of jurisprudence. This position upholds unity in the Muslim community and is based on the principle that the follower's prayer is dependent on the imam's.",
+    "source": {
+      "name": "Fatawa Alamgiri; Ibn Abidin, Radd al-Muhtar",
+      "reference": "Fatawa Alamgiri Vol. 1; Radd al-Muhtar ala al-Durr al-Mukhtar, Book of Prayer",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "fiqh_hard_003",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "What is the difference between Fard Ayn and Fard Kifayah in Islamic law?",
+    "options": {
+      "A": "Fard Ayn is obligatory only for scholars; Fard Kifayah is for all Muslims",
+      "B": "Fard Ayn is an individual obligation on every Muslim; Fard Kifayah is a collective obligation discharged when enough members of the community perform it",
+      "C": "Fard Ayn refers to obligatory acts of worship; Fard Kifayah refers to recommended acts",
+      "D": "Fard Ayn is obligatory in Ramadan only; Fard Kifayah applies year-round"
+    },
+    "correct_answer": "B",
+    "explanation": "Fard Ayn is an individual obligation that every legally responsible Muslim must personally fulfil, such as the five daily prayers and fasting Ramadan. Fard Kifayah is a collective duty that, when fulfilled by a sufficient number in the community, removes the obligation from the rest — such as performing the funeral prayer (Salat al-Janazah) or returning a greeting of salam.",
+    "source": {
+      "name": "Reliance of the Traveller; Usul al-Fiqh works of Imam al-Ghazali",
+      "reference": "Reliance of the Traveller a1.1-a1.2; Al-Mustasfa by Imam al-Ghazali",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "fiqh_hard_004",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "Under which conditions is it permissible to perform Salah while seated, according to classical fiqh?",
+    "options": {
+      "A": "Only when aboard a moving vehicle",
+      "B": "Whenever one feels tired or the prayer is long",
+      "C": "When one is genuinely unable to stand due to illness or severe harm that standing would cause",
+      "D": "Only for elderly people above the age of 60"
+    },
+    "correct_answer": "C",
+    "explanation": "Standing (qiyam) is a pillar of the fard prayer. However, if a person is genuinely unable to stand due to illness, injury, or fear that standing would significantly worsen their condition, they may pray seated. If they cannot sit, they may pray lying on their side. The threshold is genuine inability or fear of serious harm, not mere discomfort or tiredness.",
+    "source": {
+      "name": "Sahih al-Bukhari; Reliance of the Traveller",
+      "reference": "Sahih al-Bukhari Book 19, Hadith 1117; Reliance of the Traveller f8.1",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "fiqh_hard_005",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "What is the ruling on Zakat al-Fitr and when must it be paid?",
+    "options": {
+      "A": "It is sunnah and can be paid any time during Ramadan",
+      "B": "It is wajib and must be paid before the Eid al-Fitr prayer, with the amount being one sa' of staple food per person",
+      "C": "It is fard and equals 2.5% of one's annual savings",
+      "D": "It is only obligatory on the head of the household and not for dependants"
+    },
+    "correct_answer": "B",
+    "explanation": "Zakat al-Fitr is wajib (obligatory according to Hanafi scholars) or fard (according to the majority) upon every Muslim who possesses more than their basic needs on the day of Eid. It must be paid before the Eid al-Fitr prayer. The amount is one sa' (approximately 2.5–3 kg) of the local staple food per person in one's household, including dependants. Its purpose is to purify the fasting person and provide for the poor on Eid.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 25, Hadith 579; Sahih Muslim Book 12, Hadith 984",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "fiqh_hard_006",
+    "topic": "fiqh",
+    "difficulty": "hard",
+    "question": "In Islamic inheritance law (Ilm al-Faraid), what share of the estate does a daughter receive when she is the sole heir with no male siblings?",
+    "options": {
+      "A": "One quarter (1/4)",
+      "B": "One third (1/3)",
+      "C": "One half (1/2)",
+      "D": "Two thirds (2/3)"
+    },
+    "correct_answer": "C",
+    "explanation": "According to Surah An-Nisa, if a man leaves behind a single daughter with no son, she inherits one half (1/2) of the estate as a fixed share (fard). If there are two or more daughters and no sons, they together receive two-thirds (2/3). If there is a son alongside daughters, the rule of asabah applies and the son receives double the share of a daughter.",
+    "source": {
+      "name": "Quran, Surah An-Nisa",
+      "reference": "Surah An-Nisa 4:11",
+      "type": "quran"
+    }
+  }
+]

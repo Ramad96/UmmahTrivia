@@ -1,0 +1,27 @@
+[
+  {
+    "key": "duas",
+    "label": "Du'as",
+    "icon": "🤲"
+  },
+  {
+    "key": "facts",
+    "label": "Islamic Facts",
+    "icon": "🌙"
+  },
+  {
+    "key": "fiqh",
+    "label": "Fiqh",
+    "icon": "⚖️"
+  },
+  {
+    "key": "places",
+    "label": "Islamic Places",
+    "icon": "🕌"
+  },
+  {
+    "key": "prophets",
+    "label": "Prophets",
+    "icon": "📖"
+  }
+]
