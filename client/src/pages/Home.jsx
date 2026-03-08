@@ -2,12 +2,7 @@ export default function Home({ onHost, onJoin }) {
   return (
     <div className="h-screen bg-gradient-to-br from-brand-green to-brand-midnight flex flex-col items-center justify-center p-4 overflow-hidden">
       <div className="text-center mb-8">
-        <img
-          src="/logo.png"
-          alt="Ummah Trivia"
-          className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-3 drop-shadow-lg"
-        />
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white drop-shadow mb-2 tracking-tight">
+<h1 className="text-4xl md:text-5xl font-extrabold text-white drop-shadow mb-2 tracking-tight">
           Ummah Trivia
         </h1>
         <p className="text-brand-gold font-semibold text-base mb-2">
