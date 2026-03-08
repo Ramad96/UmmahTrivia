@@ -144,7 +144,7 @@ export default function App() {
   }
 
   function handleAnswerSelect(answerIndex) {
-    if (selectedAnswer !== null) return;
+    if (answerIndex === selectedAnswer) return;
     setSelectedAnswer(answerIndex);
     socket.emit("player:submitAnswer", { gameCode, answerIndex });
   }

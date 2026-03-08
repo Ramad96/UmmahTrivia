@@ -21,9 +21,9 @@ export default function Question({
   isHost,
 }) {
   return (
-    <div className="min-h-screen bg-brand-green flex flex-col">
+    <div className="h-screen bg-brand-green flex flex-col overflow-hidden">
       {/* Header bar */}
-      <div className="flex items-center justify-between px-6 py-3 bg-brand-midnight">
+      <div className="flex items-center justify-between px-6 py-3 bg-brand-midnight shrink-0">
         <span className="text-brand-sky/70 text-sm font-medium">
           Question {questionIndex + 1} / {total}
         </span>
@@ -34,43 +34,46 @@ export default function Question({
       </div>
 
       {/* Question text */}
-      <div className="flex-1 flex items-center justify-center px-6 py-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-white text-center max-w-2xl leading-snug">
+      <div className="flex-1 flex items-center justify-center px-6 py-4 min-h-0">
+        <h2 className="text-xl md:text-3xl font-bold text-white text-center max-w-2xl leading-snug">
           {question.text}
         </h2>
       </div>
 
       {/* Answer grid */}
-      <div className="grid grid-cols-2 gap-3 p-4 pb-8 max-w-2xl mx-auto w-full">
+      <div className="grid grid-cols-2 gap-2 p-3 max-w-2xl mx-auto w-full shrink-0">
         {question.answers.map((answer, i) => {
           const isSelected = selectedAnswer === i;
           return (
             <button
               key={i}
               onClick={() => !isHost && onAnswer(i)}
-              disabled={selectedAnswer !== null || isHost}
+              disabled={isHost}
               className={`
                 ${ANSWER_COLORS[i]}
-                text-white font-bold py-5 px-4 rounded-2xl text-left
-                flex items-center gap-3 shadow-lg
+                text-white font-bold py-3 md:py-5 px-3 md:px-4 rounded-2xl text-left
+                flex items-center gap-2 shadow-lg
                 transition active:scale-95
                 disabled:cursor-not-allowed
-                ${isSelected ? "ring-4 ring-white scale-95" : ""}
+                ${isSelected ? "ring-4 ring-white scale-[0.97]" : ""}
                 ${selectedAnswer !== null && !isSelected ? "opacity-60" : ""}
               `}
             >
-              <span className="text-2xl">{ANSWER_SHAPES[i]}</span>
-              <span className="text-sm md:text-base leading-tight">{answer}</span>
+              <span className="text-xl md:text-2xl shrink-0">{ANSWER_SHAPES[i]}</span>
+              <span className="text-sm leading-tight">{answer}</span>
             </button>
           );
         })}
       </div>
 
-      {selectedAnswer !== null && !isHost && (
-        <p className="text-center text-brand-sky pb-4 text-sm animate-pulse">
-          Answer locked in! Waiting for others…
-        </p>
-      )}
+      <div className="shrink-0 pb-safe">
+        {selectedAnswer !== null && !isHost && (
+          <p className="text-center text-brand-sky py-3 text-sm">
+            Answer selected – tap another to change
+          </p>
+        )}
+        {(selectedAnswer === null || isHost) && <div className="py-3" />}
+      </div>
     </div>
   );
 }
