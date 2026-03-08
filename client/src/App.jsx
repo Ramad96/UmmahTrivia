@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback } from "react";
-import socket from "./socket/socket";
+import { useState, useEffect, useCallback, useRef } from "react";
+import { HostPeer } from "./peer/hostPeer";
+import { PlayerPeer } from "./peer/playerPeer";
 
 import Home from "./pages/Home";
 import Join from "./pages/Join";
@@ -36,65 +37,16 @@ export default function App() {
   const [results, setResults] = useState(null);
   const [leaderboard, setLeaderboard] = useState([]);
 
-  // ── Socket Event Listeners ──────────────────────────────────
-  useEffect(() => {
-    socket.on("game:playerJoined", ({ players }) => {
-      setPlayers(players);
-    });
+  // Refs so callbacks inside HostPeer/PlayerPeer always see latest state setters
+  const hostRef = useRef(null);
+  const playerRef = useRef(null);
 
-    socket.on("game:playerLeft", ({ players }) => {
-      setPlayers(players);
-    });
-
-    socket.on("game:startQuestion", (data) => {
-      setQuestion({ text: data.text, answers: data.answers });
-      setQuestionIndex(data.questionIndex);
-      setTotalQuestions(data.total);
-      setQuestionTime(data.timeLeft); // first timeLeft = full question duration
-      setTimeLeft(data.timeLeft);
-      setSelectedAnswer(null);
-      setResults(null);
-      setScreen(SCREENS.QUESTION);
-    });
-
-    socket.on("game:tick", ({ timeLeft }) => {
-      setTimeLeft(timeLeft);
-    });
-
-    socket.on("game:showResults", (data) => {
-      setResults(data);
-      setScreen(SCREENS.RESULTS);
-    });
-
-    socket.on("game:updateLeaderboard", ({ leaderboard }) => {
-      setLeaderboard(leaderboard);
-      setScreen(SCREENS.LEADERBOARD);
-    });
-
-    socket.on("game:finished", ({ leaderboard }) => {
-      setLeaderboard(leaderboard);
-      setScreen(SCREENS.GAME_OVER);
-    });
-
-    socket.on("game:hostLeft", () => {
-      alert("The host has left the game.");
-      resetToHome();
-    });
-
-    return () => {
-      socket.off("game:playerJoined");
-      socket.off("game:playerLeft");
-      socket.off("game:startQuestion");
-      socket.off("game:tick");
-      socket.off("game:showResults");
-      socket.off("game:updateLeaderboard");
-      socket.off("game:finished");
-      socket.off("game:hostLeft");
-    };
-  }, []);
-
-  // ── Actions ─────────────────────────────────────────────────
   const resetToHome = useCallback(() => {
+    hostRef.current?.destroy();
+    playerRef.current?.destroy();
+    hostRef.current = null;
+    playerRef.current = null;
+
     setScreen(SCREENS.HOME);
     setIsHost(false);
     setGameCode("");
@@ -108,48 +60,125 @@ export default function App() {
     setTogetherMode(false);
   }, []);
 
-  function handleHostGame() {
-    socket.emit("host:createGame", ({ success, gameCode, topics }) => {
-      if (success) {
-        setIsHost(true);
-        setGameCode(gameCode);
-        setPlayers([]);
-        setTopics(topics);
-        setScreen(SCREENS.LOBBY);
-      }
-    });
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      hostRef.current?.destroy();
+      playerRef.current?.destroy();
+    };
+  }, []);
+
+  // ── Host: Create Game ──────────────────────────────────────────
+  async function handleHostGame() {
+    try {
+      const host = new HostPeer({
+        onPlayersChanged: (players) => setPlayers(players),
+        onStartQuestion: (data) => {
+          setQuestion({ text: data.text, answers: data.answers });
+          setQuestionIndex(data.questionIndex);
+          setTotalQuestions(data.total);
+          setQuestionTime(data.timeLeft);
+          setTimeLeft(data.timeLeft);
+          setSelectedAnswer(null);
+          setResults(null);
+          setScreen(SCREENS.QUESTION);
+        },
+        onTick: (t) => setTimeLeft(t),
+        onShowResults: (data) => {
+          setResults(data);
+          setScreen(SCREENS.RESULTS);
+        },
+        onUpdateLeaderboard: (lb) => {
+          setLeaderboard(lb);
+          setScreen(SCREENS.LEADERBOARD);
+        },
+        onFinished: (lb) => {
+          setLeaderboard(lb);
+          setScreen(SCREENS.GAME_OVER);
+        },
+        onError: (err) => alert(`Host error: ${err.message}`),
+      });
+
+      const { gameCode: code, topics: t } = await host.init();
+      hostRef.current = host;
+      setIsHost(true);
+      setGameCode(code);
+      setTopics(t);
+      setPlayers([]);
+      setScreen(SCREENS.LOBBY);
+    } catch (err) {
+      alert(`Failed to create game: ${err.message}`);
+    }
   }
 
-  function handleJoinGame(code) {
-    socket.emit(
-      "player:joinGame",
-      { gameCode: code },
-      ({ success, playerName, players, error }) => {
+  // ── Player: Join Game ──────────────────────────────────────────
+  async function handleJoinGame(code) {
+    const peer = new PlayerPeer({
+      onJoinAck: ({ success, playerName: name, players: pl, error }) => {
         if (success) {
-          setIsHost(false);
-          setGameCode(code);
-          setPlayerName(playerName);
-          setPlayers(players);
+          setPlayerName(name);
+          setPlayers(pl);
           setScreen(SCREENS.LOBBY);
         } else {
           alert(error || "Failed to join game");
+          peer.destroy();
         }
-      }
-    );
+      },
+      onPlayerJoined: ({ players: pl }) => setPlayers(pl),
+      onPlayerLeft: ({ players: pl }) => setPlayers(pl),
+      onStartQuestion: (data) => {
+        setQuestion({ text: data.text, answers: data.answers });
+        setQuestionIndex(data.questionIndex);
+        setTotalQuestions(data.total);
+        setQuestionTime(data.timeLeft);
+        setTimeLeft(data.timeLeft);
+        setSelectedAnswer(null);
+        setResults(null);
+        setScreen(SCREENS.QUESTION);
+      },
+      onTick: ({ timeLeft: t }) => setTimeLeft(t),
+      onShowResults: (data) => {
+        setResults(data);
+        setScreen(SCREENS.RESULTS);
+      },
+      onUpdateLeaderboard: ({ leaderboard: lb }) => {
+        setLeaderboard(lb);
+        setScreen(SCREENS.LEADERBOARD);
+      },
+      onFinished: ({ leaderboard: lb }) => {
+        setLeaderboard(lb);
+        setScreen(SCREENS.GAME_OVER);
+      },
+      onHostLeft: () => {
+        alert("The host has left the game.");
+        resetToHome();
+      },
+    });
+
+    try {
+      await peer.join(code);
+      playerRef.current = peer;
+      setGameCode(code);
+    } catch (err) {
+      alert(err.message || "Failed to join game");
+      peer.destroy();
+    }
   }
 
+  // ── Host: Start Game ───────────────────────────────────────────
   function handleStartGame({ topic, difficulty, mode, timePerQuestion, together }) {
     setTogetherMode(together);
-    socket.emit("host:startGame", { gameCode, topic, difficulty, mode, timePerQuestion, together });
+    hostRef.current?.startGame({ topic, difficulty, mode, timePerQuestion, together });
   }
 
+  // ── Player: Submit Answer ──────────────────────────────────────
   function handleAnswerSelect(answerIndex) {
     if (answerIndex === selectedAnswer) return;
     setSelectedAnswer(answerIndex);
-    socket.emit("player:submitAnswer", { gameCode, answerIndex });
+    playerRef.current?.submitAnswer(answerIndex);
   }
 
-  // ── Render ──────────────────────────────────────────────────
+  // ── Render ─────────────────────────────────────────────────────
   switch (screen) {
     case SCREENS.HOME:
       return <Home onHost={handleHostGame} onJoin={() => setScreen(SCREENS.JOIN)} />;

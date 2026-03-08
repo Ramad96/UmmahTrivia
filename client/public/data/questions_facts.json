@@ -1,0 +1,344 @@
+[
+  {
+    "id": "facts_about_islam_easy_001",
+    "topic": "facts_about_islam",
+    "difficulty": "easy",
+    "question": "What are the Five Pillars of Islam?",
+    "options": {
+      "A": "Shahada, Salah, Zakat, Jihad, Hajj",
+      "B": "Iman, Salah, Sawm, Zakat, Hajj",
+      "C": "Shahada, Salah, Sawm, Sadaqah, Hajj",
+      "D": "Shahada, Salah, Sawm, Zakat, Hajj"
+    },
+    "correct_answer": "D",
+    "explanation": "The Five Pillars of Islam are: Shahada (declaration of faith), Salah (prayer), Sawm (fasting in Ramadan), Zakat (obligatory charity), and Hajj (pilgrimage to Makkah for those who are able). These form the foundational framework of a Muslim's worship and practice.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 2, Hadith 7 (Hadith of Ibn Umar)",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "facts_about_islam_easy_002",
+    "topic": "facts_about_islam",
+    "difficulty": "easy",
+    "question": "How many chapters (Surahs) are in the Quran?",
+    "options": {
+      "A": "99",
+      "B": "112",
+      "C": "114",
+      "D": "120"
+    },
+    "correct_answer": "C",
+    "explanation": "The Quran contains exactly 114 Surahs (chapters), ranging in length from the longest, Surah Al-Baqarah with 286 verses, to the shortest, Surah Al-Kawthar with 3 verses. The Surahs are arranged roughly in order of decreasing length, not in the order of revelation.",
+    "source": {
+      "name": "Scholarly consensus; Quran",
+      "reference": "Confirmed by ijma (scholarly consensus) of the companions and transmitted generations",
+      "type": "scholarly_consensus"
+    }
+  },
+  {
+    "id": "facts_about_islam_easy_003",
+    "topic": "facts_about_islam",
+    "difficulty": "easy",
+    "question": "What is the meaning of the word 'Islam'?",
+    "options": {
+      "A": "Peace and love",
+      "B": "Submission and surrender to Allah",
+      "C": "Belief and faith",
+      "D": "Worship and devotion"
+    },
+    "correct_answer": "B",
+    "explanation": "The word 'Islam' is derived from the Arabic root 'salama', meaning submission, surrender, and peace. A Muslim is one who submits to the will of Allah. The Quran uses this term to describe the complete submission of one's will to Allah as the essence of true faith.",
+    "source": {
+      "name": "Quran, Surah Al-Imran; Surah Al-Baqarah",
+      "reference": "Surah Al-Imran 3:19; Surah Al-Baqarah 2:112",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "facts_about_islam_easy_004",
+    "topic": "facts_about_islam",
+    "difficulty": "easy",
+    "question": "In which month of the Islamic calendar do Muslims fast?",
+    "options": {
+      "A": "Muharram",
+      "B": "Rajab",
+      "C": "Dhul Hijjah",
+      "D": "Ramadan"
+    },
+    "correct_answer": "D",
+    "explanation": "Muslims fast during the month of Ramadan, the ninth month of the Islamic lunar calendar. Fasting in Ramadan is one of the Five Pillars of Islam. Muslims abstain from food, drink, and other invalidating acts from the Fajr (dawn) prayer until the Maghrib (sunset) prayer.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah",
+      "reference": "Surah Al-Baqarah 2:183-185",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "facts_about_islam_easy_005",
+    "topic": "facts_about_islam",
+    "difficulty": "easy",
+    "question": "What is the Shahada, the Islamic declaration of faith?",
+    "options": {
+      "A": "Allahu Akbar wa lillahil hamd",
+      "B": "La ilaha illallah, Muhammadur Rasulullah",
+      "C": "Subhanallahi wa bihamdihi subhanallahil azim",
+      "D": "Inna lillahi wa inna ilayhi raji'un"
+    },
+    "correct_answer": "B",
+    "explanation": "The Shahada is 'La ilaha illallah, Muhammadur Rasulullah' — meaning 'There is no god worthy of worship except Allah, and Muhammad is the Messenger of Allah.' It is the first and most fundamental pillar of Islam. Uttering it with sincere belief and understanding is the entry point into Islam.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 2, Hadith 7; Sahih Muslim Book 1, Hadith 38",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "facts_about_islam_easy_006",
+    "topic": "facts_about_islam",
+    "difficulty": "easy",
+    "question": "What is the name of the angel who brought revelation to Prophet Muhammad (SAW)?",
+    "options": {
+      "A": "Israfil (AS)",
+      "B": "Mikail (AS)",
+      "C": "Jibril (AS)",
+      "D": "Munkar (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "The angel Jibril (AS), known in English as Gabriel, was the angel of revelation who conveyed the words of Allah to Prophet Muhammad (SAW). He is described in the Quran as 'Ruh al-Qudus' (the Holy Spirit) and 'Ruh al-Amin' (the Trustworthy Spirit). He also appeared to other prophets including Ibrahim, Musa, and Isa (AS).",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah; Surah Ash-Shuara",
+      "reference": "Surah Al-Baqarah 2:97; Surah Ash-Shuara 26:193-194",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "facts_about_islam_medium_001",
+    "topic": "facts_about_islam",
+    "difficulty": "medium",
+    "question": "In which month and city was the Quran first revealed, and what was the first verse revealed?",
+    "options": {
+      "A": "Ramadan in Madinah; Surah Al-Fatiha",
+      "B": "Ramadan in Makkah; 'Iqra bismi rabbikalladhi khalaq' (Surah Al-Alaq)",
+      "C": "Muharram in Makkah; 'Bismillah ir-Rahman ir-Rahim'",
+      "D": "Rajab in Makkah; Surah Al-Muddaththir"
+    },
+    "correct_answer": "B",
+    "explanation": "The first revelation descended during the month of Ramadan in Makkah, in the Cave of Hira. The first verses revealed were the opening of Surah Al-Alaq: 'Iqra bismi rabbikalladhi khalaq' — meaning 'Read in the name of your Lord who created.' The angel Jibril (AS) delivered this to the Prophet (SAW) who was approximately 40 years old at the time.",
+    "source": {
+      "name": "Sahih al-Bukhari; Quran Surah Al-Alaq",
+      "reference": "Sahih al-Bukhari Book 1, Hadith 3; Surah Al-Alaq 96:1",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "facts_about_islam_medium_002",
+    "topic": "facts_about_islam",
+    "difficulty": "medium",
+    "question": "What are the Six Articles of Faith (Arkan al-Iman) in Islam?",
+    "options": {
+      "A": "Allah, Angels, Books, Prophets, Day of Judgement, Divine Decree",
+      "B": "Allah, Angels, Quran, Muhammad, Paradise, Hellfire",
+      "C": "Allah, Angels, Books, Prophets, Prayer, Fasting",
+      "D": "Tawhid, Angels, Books, Prophets, Resurrection, Accountability"
+    },
+    "correct_answer": "A",
+    "explanation": "The Six Articles of Faith are belief in: Allah (His existence and oneness), the Angels, the revealed Books, the Prophets and Messengers, the Day of Judgement, and Divine Decree (Qadar) — both its good and its seemingly difficult aspects. These are established in the famous Hadith of Jibril and confirmed in the Quran.",
+    "source": {
+      "name": "Sahih Muslim; Quran Surah Al-Baqarah",
+      "reference": "Sahih Muslim Book 1, Hadith 8 (Hadith of Jibril); Surah Al-Baqarah 2:177",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "facts_about_islam_medium_003",
+    "topic": "facts_about_islam",
+    "difficulty": "medium",
+    "question": "What is the Islamic lunar calendar called, and in which year does it begin?",
+    "options": {
+      "A": "The Gregorian calendar; begins from the birth of the Prophet (SAW)",
+      "B": "The Hijri calendar; begins from the migration of the Prophet (SAW) from Makkah to Madinah",
+      "C": "The Hijri calendar; begins from the first revelation of the Quran",
+      "D": "The Shamsi calendar; begins from the conquest of Makkah"
+    },
+    "correct_answer": "B",
+    "explanation": "The Islamic calendar is called the Hijri calendar, named after the Hijra — the migration of the Prophet (SAW) from Makkah to Madinah in 622 CE. This event marks year 1 AH (Anno Hegirae). The calendar was formally established during the caliphate of Umar ibn al-Khattab (RA) and consists of 12 lunar months totalling 354 or 355 days.",
+    "source": {
+      "name": "Sahih al-Bukhari; historical scholarly consensus",
+      "reference": "Sahih al-Bukhari Book 56, Hadith 3906; Al-Bidaya wa'l-Nihaya by Ibn Kathir",
+      "type": "scholarly_consensus"
+    }
+  },
+  {
+    "id": "facts_about_islam_medium_004",
+    "topic": "facts_about_islam",
+    "difficulty": "medium",
+    "question": "Which Surah of the Quran is known as the 'heart of the Quran' according to authentic hadith?",
+    "options": {
+      "A": "Surah Al-Fatiha",
+      "B": "Surah Al-Ikhlas",
+      "C": "Surah Ya-Sin",
+      "D": "Surah Al-Baqarah"
+    },
+    "correct_answer": "C",
+    "explanation": "Surah Ya-Sin is referred to as the 'heart of the Quran' in a hadith narrated by Ma'qil ibn Yasar (RA), in which the Prophet (SAW) said: 'Ya-Sin is the heart of the Quran.' It is the 36th Surah and contains powerful themes of resurrection, divine power, and the truth of prophethood. It is traditionally recited for the dying and the deceased.",
+    "source": {
+      "name": "Sunan Abu Dawud; Musnad Ahmad",
+      "reference": "Sunan Abu Dawud Book 20, Hadith 3121; Musnad Ahmad, Hadith 20307",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "facts_about_islam_medium_005",
+    "topic": "facts_about_islam",
+    "difficulty": "medium",
+    "question": "What are the four sacred months (Al-Ashhur al-Hurum) in Islam?",
+    "options": {
+      "A": "Ramadan, Shawwal, Dhul Qadah, Dhul Hijjah",
+      "B": "Muharram, Rajab, Dhul Qadah, Dhul Hijjah",
+      "C": "Muharram, Safar, Rajab, Ramadan",
+      "D": "Rajab, Shaban, Ramadan, Dhul Hijjah"
+    },
+    "correct_answer": "B",
+    "explanation": "The four sacred months are Muharram, Rajab, Dhul Qadah, and Dhul Hijjah. These are explicitly mentioned in the Quran and confirmed in the hadith of the Prophet (SAW) during his Farewell Pilgrimage. Three of these months are consecutive (Dhul Qadah, Dhul Hijjah, Muharram) and one stands alone (Rajab). Sins committed in these months are considered more serious, and acts of worship more rewarding.",
+    "source": {
+      "name": "Quran, Surah At-Tawbah; Sahih al-Bukhari",
+      "reference": "Surah At-Tawbah 9:36; Sahih al-Bukhari Book 59, Hadith 4406",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "facts_about_islam_medium_006",
+    "topic": "facts_about_islam",
+    "difficulty": "medium",
+    "question": "What is the term for the migration of the Prophet Muhammad (SAW) from Makkah to Madinah?",
+    "options": {
+      "A": "Isra",
+      "B": "Ghazwa",
+      "C": "Hijra",
+      "D": "Fatah"
+    },
+    "correct_answer": "C",
+    "explanation": "The Hijra refers to the Prophet Muhammad's (SAW) migration from Makkah to Madinah in 622 CE, undertaken due to the severe persecution of the early Muslim community by the Quraysh. It marks one of the most pivotal events in Islamic history and is so significant that it became the starting point of the Islamic lunar calendar.",
+    "source": {
+      "name": "Sahih al-Bukhari; Quran Surah Al-Anfal",
+      "reference": "Sahih al-Bukhari Book 63, Hadith 3906; Surah Al-Anfal 8:30",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "facts_about_islam_hard_001",
+    "topic": "facts_about_islam",
+    "difficulty": "hard",
+    "question": "How many years did the revelation of the Quran span, and in how many distinct phases was it revealed?",
+    "options": {
+      "A": "20 years; two phases — Makkan and Medinan",
+      "B": "25 years; three phases based on the Prophet's age",
+      "C": "23 years; two phases — Makkan and Medinan",
+      "D": "30 years; four phases corresponding to the major battles"
+    },
+    "correct_answer": "C",
+    "explanation": "The Quran was revealed over approximately 23 years — 13 years in Makkah (from the first revelation until the Hijra) and 10 years in Madinah (from the Hijra until the Prophet's final illness). Makkan verses generally focus on Tawhid, the afterlife, and morality, while Medinan verses tend to address legislation, community affairs, and interfaith relations. This phased revelation (Tanzil) is one of the Quran's unique characteristics.",
+    "source": {
+      "name": "Scholarly consensus; Quran Surah Al-Isra",
+      "reference": "Surah Al-Isra 17:106; Imam al-Suyuti, Al-Itqan fi Ulum al-Quran",
+      "type": "scholarly_consensus"
+    }
+  },
+  {
+    "id": "facts_about_islam_hard_002",
+    "topic": "facts_about_islam",
+    "difficulty": "hard",
+    "question": "Which Caliph formally ordered the compilation of the Quran into a single written mushaf (manuscript), and why?",
+    "options": {
+      "A": "Umar ibn al-Khattab (RA), after the death of the Prophet (SAW)",
+      "B": "Abu Bakr al-Siddiq (RA), after the Battle of Yamama caused the death of many huffaz",
+      "C": "Uthman ibn Affan (RA), to unify the Muslim community around a single dialect",
+      "D": "Ali ibn Abi Talib (RA), to preserve the Quran from foreign influence"
+    },
+    "correct_answer": "B",
+    "explanation": "Abu Bakr al-Siddiq (RA), the first Caliph, ordered the first formal compilation of the Quran into a single written manuscript after the Battle of Yamama (633 CE), in which approximately 70 huffaz (memorisers of the Quran) were martyred. Umar ibn al-Khattab (RA) urged this initiative fearing further loss of memorisers. Zayd ibn Thabit (RA) led the compilation committee. Later, Uthman (RA) standardised and distributed copies of this mushaf across the Muslim world.",
+    "source": {
+      "name": "Sahih al-Bukhari",
+      "reference": "Sahih al-Bukhari Book 66, Hadith 4986",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "facts_about_islam_hard_003",
+    "topic": "facts_about_islam",
+    "difficulty": "hard",
+    "question": "What is the concept of Ijaz al-Quran (the inimitability of the Quran) and what is the primary challenge it presents?",
+    "options": {
+      "A": "The Quran's inimitability refers to its length; no book has ever matched it in volume",
+      "B": "The Quran challenges all of humanity and jinn to produce even one Surah comparable to it in literary quality, guidance, and divine character",
+      "C": "The Quran's inimitability refers exclusively to its scientific accuracy, which no ancient text has matched",
+      "D": "It refers to the fact that the Quran has never been translated accurately into any other language"
+    },
+    "correct_answer": "B",
+    "explanation": "Ijaz al-Quran refers to the miraculous and inimitable nature of the Quran. The Quran itself issues a challenge (tahhaddi) to all of humanity and jinn: if they doubt its divine origin, let them produce even a single Surah comparable to it. This challenge was issued to the most eloquent Arabic speakers of the time — the Quraysh — yet none could meet it. Scholars identify multiple dimensions of this inimitability including linguistic mastery, legislative wisdom, historical accuracy, and spiritual depth.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah; Surah Yunus; Surah Hud",
+      "reference": "Surah Al-Baqarah 2:23-24; Surah Yunus 10:38; Surah Hud 11:13",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "facts_about_islam_hard_004",
+    "topic": "facts_about_islam",
+    "difficulty": "hard",
+    "question": "What are the major signs (Ashraat al-Sa'ah al-Kubra) of the Day of Judgement mentioned in authentic hadith?",
+    "options": {
+      "A": "The appearance of Imam Mahdi, Dajjal, descent of Isa (AS), Gog and Magog, three major landslides, rising of the sun from the west, the Beast, and the fire",
+      "B": "Nuclear war, famine, widespread earthquakes, the death of all scholars, and total moral collapse",
+      "C": "The conquest of Rome, appearance of the Dajjal, death of Isa (AS), and the final trumpet",
+      "D": "Ten years of drought, disappearance of the Quran, the death of all believers, darkness covering the earth"
+    },
+    "correct_answer": "A",
+    "explanation": "The ten major signs of the Day of Judgement, as established in authentic hadith, are: the appearance of the Dajjal (False Messiah), the descent of Prophet Isa (AS), the emergence of Gog and Magog (Ya'juj and Ma'juj), three major landslides (east, west, and Arabian Peninsula), the rising of the sun from the west, the emergence of the Beast (Dabbat al-Ard), a fire driving people to their final gathering place, and smoke (Dukhan). The Imam Mahdi's appearance is referenced in separate hadith as preceding these events.",
+    "source": {
+      "name": "Sahih Muslim",
+      "reference": "Sahih Muslim Book 54, Hadith 2901",
+      "type": "hadith"
+    }
+  },
+  {
+    "id": "facts_about_islam_hard_005",
+    "topic": "facts_about_islam",
+    "difficulty": "hard",
+    "question": "What is the 'Preserved Tablet' (Al-Lawh al-Mahfuz) in Islamic theology and what is its significance?",
+    "options": {
+      "A": "The physical copy of the Quran kept in Masjid al-Haram since the time of the Prophet (SAW)",
+      "B": "A divine record in which Allah has written all of creation, events, and decrees from before the creation of the heavens and earth",
+      "C": "The scrolls of deeds maintained by the recording angels Kiraman Katibin for each individual",
+      "D": "The tablets given to Prophet Musa (AS) on Mount Sinai containing the Tawrah"
+    },
+    "correct_answer": "B",
+    "explanation": "Al-Lawh al-Mahfuz (the Preserved Tablet) is a foundational concept in Islamic theology referring to the divine record in which Allah inscribed all of His decrees, the entirety of creation, and all that will occur, before the creation of the heavens and earth. The Prophet (SAW) said Allah wrote the decrees of all creation 50,000 years before the heavens and earth were created. It represents the doctrine of Qadar (divine decree) and is explicitly referenced in Surah Al-Buruj.",
+    "source": {
+      "name": "Quran, Surah Al-Buruj; Sahih Muslim",
+      "reference": "Surah Al-Buruj 85:22; Sahih Muslim Book 46, Hadith 2653",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "facts_about_islam_hard_006",
+    "topic": "facts_about_islam",
+    "difficulty": "hard",
+    "question": "What is the science of 'Mustalah al-Hadith' (hadith terminology) and what does the classification 'Sahih' require according to hadith scholars?",
+    "options": {
+      "A": "It is the science of Quranic recitation; Sahih means the recitation has been transmitted by a single reliable narrator",
+      "B": "It is the science of hadith authentication; a Sahih hadith requires an unbroken chain of trustworthy narrators, sound memory, absence of anomaly, and absence of hidden defect",
+      "C": "It is the science of Islamic jurisprudence; Sahih means the ruling has been agreed upon by all four major madhabs",
+      "D": "It is the science of Islamic history; Sahih means the event has been corroborated by non-Muslim historical sources"
+    },
+    "correct_answer": "B",
+    "explanation": "Mustalah al-Hadith is the science dedicated to the methodology of evaluating and classifying hadith. For a hadith to be classified as Sahih (authentic), scholars require five conditions: (1) an unbroken chain of narrators (ittisal al-sanad), (2) all narrators must be upright and trustworthy (adalah), (3) all narrators must have precise memory and accuracy (dabt), (4) the hadith must be free from anomaly or contradiction with stronger narrations (adam al-shudhudh), and (5) it must be free from subtle hidden defects (adam al-illah). This rigorous science was developed by early scholars such as Imam al-Shafi'i, Imam al-Bukhari, and Imam Muslim.",
+    "source": {
+      "name": "Ibn Salah, Muqaddimah Ibn Salah; Imam al-Nawawi, Taqrib al-Nawawi",
+      "reference": "Muqaddimah Ibn Salah fi Ulum al-Hadith; Imam al-Nawawi, Al-Taqrib wa al-Taysir",
+      "type": "classical_text"
+    }
+  }
+]

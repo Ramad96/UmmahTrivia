@@ -1,0 +1,344 @@
+[
+  {
+    "id": "prophets_easy_001",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Who was the first prophet sent by Allah?",
+    "options": {
+      "A": "Prophet Ibrahim (AS)",
+      "B": "Prophet Nuh (AS)",
+      "C": "Prophet Adam (AS)",
+      "D": "Prophet Idris (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Adam (AS) was the first human being and the first prophet created by Allah. He was created from clay, taught the names of all things, and sent to earth after the well-known events in Paradise. All of humanity descends from him.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah; Sahih Muslim",
+      "reference": "Surah Al-Baqarah 2:31-33; Sahih Muslim Book 40, Hadith 6809",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_easy_002",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Who was the last prophet sent by Allah?",
+    "options": {
+      "A": "Prophet Isa (AS)",
+      "B": "Prophet Ibrahim (AS)",
+      "C": "Prophet Musa (AS)",
+      "D": "Prophet Muhammad (SAW)"
+    },
+    "correct_answer": "D",
+    "explanation": "Prophet Muhammad (SAW) is the final messenger and prophet of Allah, referred to as the 'Seal of the Prophets' (Khatam an-Nabiyyin). His message is universal and everlasting, and no prophet will come after him.",
+    "source": {
+      "name": "Quran, Surah Al-Ahzab",
+      "reference": "Surah Al-Ahzab 33:40",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_easy_003",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Which prophet built the Kaaba together with his son?",
+    "options": {
+      "A": "Prophet Nuh (AS) and his son Sam",
+      "B": "Prophet Ibrahim (AS) and his son Ismail (AS)",
+      "C": "Prophet Yaqub (AS) and his son Yusuf (AS)",
+      "D": "Prophet Dawud (AS) and his son Sulaiman (AS)"
+    },
+    "correct_answer": "B",
+    "explanation": "Prophet Ibrahim (AS) and his son Prophet Ismail (AS) together raised the foundations of the Kaaba in Makkah as a house of worship for Allah. This is explicitly mentioned in the Quran, where they supplicated to Allah to accept their effort.",
+    "source": {
+      "name": "Quran, Surah Al-Baqarah",
+      "reference": "Surah Al-Baqarah 2:127",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_easy_004",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Which prophet was swallowed by a large fish?",
+    "options": {
+      "A": "Prophet Ayyub (AS)",
+      "B": "Prophet Musa (AS)",
+      "C": "Prophet Yunus (AS)",
+      "D": "Prophet Idris (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Yunus (AS), also known as Dhul-Nun (the companion of the whale), left his people without permission from Allah and was swallowed by a large fish. He called upon Allah from within the darkness, and Allah responded and saved him.",
+    "source": {
+      "name": "Quran, Surah Al-Anbiya",
+      "reference": "Surah Al-Anbiya 21:87-88",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_easy_005",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Which prophet is known for his extraordinary patience while enduring severe illness?",
+    "options": {
+      "A": "Prophet Yusuf (AS)",
+      "B": "Prophet Ayyub (AS)",
+      "C": "Prophet Musa (AS)",
+      "D": "Prophet Sulaiman (AS)"
+    },
+    "correct_answer": "B",
+    "explanation": "Prophet Ayyub (AS) is renowned in Islamic tradition for his extraordinary patience (sabr) during a prolonged period of severe illness and hardship. Allah eventually restored his health and blessed him abundantly as a reward for his steadfastness.",
+    "source": {
+      "name": "Quran, Surah Al-Anbiya",
+      "reference": "Surah Al-Anbiya 21:83-84",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_easy_006",
+    "topic": "prophets",
+    "difficulty": "easy",
+    "question": "Which prophet was given the miracle of being able to speak to animals and control the wind?",
+    "options": {
+      "A": "Prophet Dawud (AS)",
+      "B": "Prophet Idris (AS)",
+      "C": "Prophet Ibrahim (AS)",
+      "D": "Prophet Sulaiman (AS)"
+    },
+    "correct_answer": "D",
+    "explanation": "Prophet Sulaiman (AS) was granted unique miracles by Allah, including the ability to understand and communicate with animals and birds, command the jinn, and have the wind under his control. He ruled over a vast kingdom unlike any given to anyone before or after him.",
+    "source": {
+      "name": "Quran, Surah An-Naml; Surah Sad",
+      "reference": "Surah An-Naml 27:16-17; Surah Sad 38:36",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_001",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "Which prophet is known as 'Khalilullah' (the intimate friend of Allah)?",
+    "options": {
+      "A": "Prophet Musa (AS)",
+      "B": "Prophet Dawud (AS)",
+      "C": "Prophet Ibrahim (AS)",
+      "D": "Prophet Nuh (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Ibrahim (AS) was given the title 'Khalilullah', meaning the intimate friend of Allah. This is explicitly mentioned in Surah An-Nisa. He is also one of the five Ulul Azm — the Prophets of Firm Resolve — alongside Nuh, Musa, Isa, and Muhammad (SAW).",
+    "source": {
+      "name": "Quran, Surah An-Nisa",
+      "reference": "Surah An-Nisa 4:125",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_002",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "Which prophet was given the Zabur (Psalms) as his holy scripture?",
+    "options": {
+      "A": "Prophet Musa (AS)",
+      "B": "Prophet Isa (AS)",
+      "C": "Prophet Ibrahim (AS)",
+      "D": "Prophet Dawud (AS)"
+    },
+    "correct_answer": "D",
+    "explanation": "Prophet Dawud (AS) was given the Zabur (Psalms) as his divine scripture. The Quran mentions four major revealed books: the Tawrah given to Musa (AS), the Zabur to Dawud (AS), the Injil to Isa (AS), and the Quran to Muhammad (SAW).",
+    "source": {
+      "name": "Quran, Surah An-Nisa; Surah Al-Isra",
+      "reference": "Surah An-Nisa 4:163; Surah Al-Isra 17:55",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_003",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "Which prophet was thrown into a fire by his people but was saved by Allah who made the fire cool and safe?",
+    "options": {
+      "A": "Prophet Musa (AS)",
+      "B": "Prophet Ismail (AS)",
+      "C": "Prophet Ibrahim (AS)",
+      "D": "Prophet Idris (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "When Prophet Ibrahim (AS) destroyed the idols of his people, they condemned him to be burned alive. Allah commanded the fire: 'O fire, be coolness and safety upon Ibrahim.' He emerged unharmed, demonstrating Allah's power over creation.",
+    "source": {
+      "name": "Quran, Surah Al-Anbiya",
+      "reference": "Surah Al-Anbiya 21:68-69",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_004",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "Prophet Yusuf (AS) was sold into slavery in which country, where he later rose to a position of great authority?",
+    "options": {
+      "A": "Syria",
+      "B": "Babylon",
+      "C": "Egypt",
+      "D": "Yemen"
+    },
+    "correct_answer": "C",
+    "explanation": "After being thrown into a well by his brothers and found by a passing caravan, Prophet Yusuf (AS) was sold as a slave in Egypt. Through divine guidance, his ability to interpret dreams, and his righteousness, he eventually rose to become the chief minister (Aziz) of Egypt, second only to the Pharaoh.",
+    "source": {
+      "name": "Quran, Surah Yusuf",
+      "reference": "Surah Yusuf 12:21-56",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_005",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "Which prophet is referred to in the Quran as 'Ruhullah' (the Spirit of Allah) and 'Kalimatullah' (the Word of Allah)?",
+    "options": {
+      "A": "Prophet Muhammad (SAW)",
+      "B": "Prophet Ibrahim (AS)",
+      "C": "Prophet Musa (AS)",
+      "D": "Prophet Isa (AS)"
+    },
+    "correct_answer": "D",
+    "explanation": "Prophet Isa (AS) is referred to in the Quran as 'Kalimatullah' (a Word from Allah) and 'Ruhun minhu' (a Spirit from Him), referring to his miraculous creation without a father. These are titles of honour that reflect his unique creation, not a claim to divinity.",
+    "source": {
+      "name": "Quran, Surah An-Nisa",
+      "reference": "Surah An-Nisa 4:171",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_medium_006",
+    "topic": "prophets",
+    "difficulty": "medium",
+    "question": "Which prophet split the sea as one of his miracles, allowing the Children of Israel to cross safely?",
+    "options": {
+      "A": "Prophet Harun (AS)",
+      "B": "Prophet Yusha (AS)",
+      "C": "Prophet Musa (AS)",
+      "D": "Prophet Ibrahim (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Prophet Musa (AS) was commanded by Allah to strike the sea with his staff, upon which it parted into two great walls of water, allowing the Children of Israel to cross safely and escape Pharaoh's army. Pharaoh and his forces were subsequently drowned as the waters returned.",
+    "source": {
+      "name": "Quran, Surah Ash-Shuara",
+      "reference": "Surah Ash-Shuara 26:63-66",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_hard_001",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "How many years did Prophet Nuh (AS) call his people to Islam before the flood, according to the Quran?",
+    "options": {
+      "A": "750 years",
+      "B": "600 years",
+      "C": "1000 years",
+      "D": "950 years"
+    },
+    "correct_answer": "D",
+    "explanation": "The Quran states that Prophet Nuh (AS) remained among his people for 950 years, tirelessly calling them to worship Allah alone. Despite his long and patient effort through both public and private preaching, only a small number believed and were saved on the ark.",
+    "source": {
+      "name": "Quran, Surah Al-Ankabut",
+      "reference": "Surah Al-Ankabut 29:14",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_hard_002",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "What are the five Ulul Azm (Prophets of Firm Resolve), as identified by the majority of Islamic scholars?",
+    "options": {
+      "A": "Adam, Ibrahim, Musa, Dawud, Muhammad (SAW)",
+      "B": "Nuh, Ibrahim, Musa, Isa, Muhammad (SAW)",
+      "C": "Ibrahim, Ismail, Ishaq, Yaqub, Muhammad (SAW)",
+      "D": "Nuh, Ibrahim, Yusuf, Musa, Muhammad (SAW)"
+    },
+    "correct_answer": "B",
+    "explanation": "The five Ulul Azm — Prophets of Firm Resolve — are Nuh, Ibrahim, Musa, Isa, and Muhammad (SAW). They are distinguished by their extraordinary perseverance in delivering Allah's message despite severe opposition. The Quran references them specifically in Surah Al-Ahzab and Surah Ash-Shura.",
+    "source": {
+      "name": "Quran, Surah Al-Ahzab; Surah Ash-Shura",
+      "reference": "Surah Al-Ahzab 33:7; Surah Ash-Shura 42:13",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_hard_003",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "According to authentic hadith, which prophet will intercede on behalf of all of humanity on the Day of Judgement in the station known as Al-Maqam al-Mahmud?",
+    "options": {
+      "A": "Prophet Ibrahim (AS)",
+      "B": "Prophet Isa (AS)",
+      "C": "Prophet Musa (AS)",
+      "D": "Prophet Muhammad (SAW)"
+    },
+    "correct_answer": "D",
+    "explanation": "Al-Maqam al-Mahmud (the Praised Station) is the exclusive honour granted to Prophet Muhammad (SAW), where he will perform the Great Intercession (ash-Shafa'ah al-Uzma) on the Day of Judgement. The hadith of intercession describes how humanity will go to Adam, then Nuh, Ibrahim, Musa, and Isa, each declining, until they come to the Prophet Muhammad (SAW) who accepts.",
+    "source": {
+      "name": "Quran, Surah Al-Isra; Sahih al-Bukhari",
+      "reference": "Surah Al-Isra 17:79; Sahih al-Bukhari Book 60, Hadith 236",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_hard_004",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "Prophet Idris (AS) is mentioned in the Quran as being raised to a high station. Which biblical figure do many classical scholars identify as his equivalent?",
+    "options": {
+      "A": "Elijah",
+      "B": "Enoch",
+      "C": "Ezekiel",
+      "D": "Isaiah"
+    },
+    "correct_answer": "B",
+    "explanation": "The majority of classical Islamic scholars, including Ibn Kathir and others, identify Prophet Idris (AS) with the biblical figure Enoch, who is also described in the Bible as having been taken up by God without dying. The Quran states that Idris (AS) was raised to a high station, and he is considered among the earliest prophets after Adam and Nuh.",
+    "source": {
+      "name": "Quran, Surah Maryam; Ibn Kathir, Al-Bidaya wa'l-Nihaya",
+      "reference": "Surah Maryam 19:56-57; Ibn Kathir, Stories of the Prophets",
+      "type": "classical_text"
+    }
+  },
+  {
+    "id": "prophets_hard_005",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "According to the Quran, what was the specific miracle given to Prophet Salih (AS) as a sign for the people of Thamud?",
+    "options": {
+      "A": "A river that flowed from a rock he struck",
+      "B": "A she-camel that emerged from a mountain",
+      "C": "A tree that bore fruit in an instant",
+      "D": "A staff that turned into a serpent"
+    },
+    "correct_answer": "B",
+    "explanation": "Prophet Salih (AS) was sent to the people of Thamud and was given a she-camel as a divine sign. The people were commanded to let her graze freely and not harm her. When they defiantly hamstrung and killed her, divine punishment descended upon them within three days and destroyed the entire people of Thamud.",
+    "source": {
+      "name": "Quran, Surah Al-Araf; Surah Hud",
+      "reference": "Surah Al-Araf 7:73-77; Surah Hud 11:64-65",
+      "type": "quran"
+    }
+  },
+  {
+    "id": "prophets_hard_006",
+    "topic": "prophets",
+    "difficulty": "hard",
+    "question": "According to authentic hadith, the Prophet Muhammad (SAW) met several prophets during the Miraj (heavenly ascent). Which prophet did he meet in the seventh heaven?",
+    "options": {
+      "A": "Prophet Musa (AS)",
+      "B": "Prophet Isa (AS)",
+      "C": "Prophet Ibrahim (AS)",
+      "D": "Prophet Idris (AS)"
+    },
+    "correct_answer": "C",
+    "explanation": "During the Miraj, the Prophet (SAW) ascended through the seven heavens meeting different prophets at each level. In the seventh and highest heaven, he met Prophet Ibrahim (AS), who was leaning against Bayt al-Mamur — the heavenly house directly above the Kaaba, circumambulated daily by 70,000 angels. Prophet Musa (AS) was encountered in the sixth heaven.",
+    "source": {
+      "name": "Sahih al-Bukhari; Sahih Muslim",
+      "reference": "Sahih al-Bukhari Book 58, Hadith 227; Sahih Muslim Book 1, Hadith 309",
+      "type": "hadith"
+    }
+  }
+]
