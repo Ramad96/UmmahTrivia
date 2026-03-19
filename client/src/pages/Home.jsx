@@ -74,8 +74,9 @@ function HowToPlayModal({ onClose }) {
   );
 }
 
-export default function Home({ onHost, onJoin }) {
+export default function Home({ onHost, onJoin, onAudit }) {
   const [showHowToPlay, setShowHowToPlay] = useState(false);
+  const [versionTaps, setVersionTaps] = useState(0);
 
   return (
     <div className="h-screen bg-gradient-to-br from-brand-green to-brand-midnight flex flex-col items-center justify-center p-4 overflow-hidden">
@@ -123,7 +124,19 @@ export default function Home({ onHost, onJoin }) {
         >
           Powered by <span className="underline">Amanah Digital</span>
         </a>
-        <span className="text-white/30 text-xs">v{__APP_VERSION__}</span>
+        <span
+          className="text-white/30 text-xs cursor-default select-none"
+          onClick={() => {
+            const next = versionTaps + 1;
+            setVersionTaps(next);
+            if (next >= 10) {
+              setVersionTaps(0);
+              onAudit?.();
+            }
+          }}
+        >
+          v{__APP_VERSION__}
+        </span>
       </div>
     </div>
   );

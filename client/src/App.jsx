@@ -9,6 +9,7 @@ import Question from "./pages/Question";
 import Results from "./pages/Results";
 import LeaderboardPage from "./pages/LeaderboardPage";
 import GameOver from "./pages/GameOver";
+import AuditPage from "./pages/AuditPage";
 
 const SCREENS = {
   HOME: "home",
@@ -18,6 +19,7 @@ const SCREENS = {
   RESULTS: "results",
   LEADERBOARD: "leaderboard",
   GAME_OVER: "game_over",
+  AUDIT: "audit",
 };
 
 export default function App() {
@@ -228,7 +230,11 @@ export default function App() {
   let content = null;
   switch (screen) {
     case SCREENS.HOME:
-      content = <Home onHost={handleHostGame} onJoin={() => setScreen(SCREENS.JOIN)} />;
+      content = <Home onHost={handleHostGame} onJoin={() => setScreen(SCREENS.JOIN)} onAudit={() => setScreen(SCREENS.AUDIT)} />;
+      break;
+
+    case SCREENS.AUDIT:
+      content = <AuditPage onBack={() => setScreen(SCREENS.HOME)} />;
       break;
 
     case SCREENS.JOIN:
