@@ -44,7 +44,7 @@ export default function Timer({ timeLeft, total = 10, isBonusTime = false }) {
         </text>
       </svg>
       {isBonusTime && (
-        <span className="text-xs text-brand-gold font-bold -mt-1">
+        <span className="text-xs text-brand-amber dark:text-brand-gold font-bold -mt-1">
           ⚡ +10s
         </span>
       )}

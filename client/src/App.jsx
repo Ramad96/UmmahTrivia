@@ -298,7 +298,7 @@ export default function App() {
     <Fragment>
       {content}
       {notification && (
-        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-brand-midnight text-white px-5 py-2 rounded-2xl shadow-xl text-sm font-medium pointer-events-none">
+        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-brand-ink dark:bg-brand-surface text-white dark:text-brand-cream px-5 py-2 rounded-2xl shadow-xl text-sm font-medium pointer-events-none">
           {notification}
         </div>
       )}

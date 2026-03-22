@@ -1,12 +1,30 @@
 @import "tailwindcss";
 
+/* Enable class-based dark mode (dark: prefix applies when <html class="dark">) */
+@custom-variant dark (&:is(.dark *));
+
 @theme {
-  --color-brand-green: #0F5132;
-  --color-brand-forest: #1A3D20;
-  --color-brand-gold: #D4A017;
-  --color-brand-white: #F7F7F7;
-  --color-brand-midnight: #0B2E26;
-  --color-brand-sky: #E6F2F2;
+  /* ── Light mode palette (Noor brand guide v1.2 light) ── */
+  --color-brand-parchment: #F5F0E8;   /* --bg-void          */
+  --color-brand-linen:     #EDE7DB;   /* --bg-surface/cards */
+  --color-brand-elevated:  #E4DDD0;   /* --bg-elevated      */
+  --color-brand-ink:       #1C1610;   /* --text-primary      */
+  --color-brand-amber:     #A0601A;   /* --gold (light)      */
+  --color-brand-amber-mid: #7A4510;   /* --gold-mid (light)  */
+
+  /* ── Dark mode palette (Noor brand guide v1.2 dark) ── */
+  --color-brand-void:      #080610;   /* --bg-void          */
+  --color-brand-surface:   #0e0c1a;   /* --bg-surface       */
+  --color-brand-deep:      #14112a;   /* --bg-elevated      */
+  --color-brand-gold:      #F5C97A;   /* --gold (dark)      */
+  --color-brand-gold-mid:  #C8884A;   /* --gold-mid (dark)  */
+  --color-brand-cream:     #e8e0d8;   /* --text-primary     */
+
+  /* ── Shared / UI ── */
+  --color-brand-green:     #0F5132;   /* lobby buttons, light-mode accents */
+  --color-brand-forest:    #1A3D20;
+  --color-brand-midnight:  #0B2E26;
+  --color-brand-sky:       #E6F2F2;   /* lobby selection bg, player chips  */
 }
 
 body {
@@ -14,5 +32,9 @@ body {
   font-family: "Segoe UI", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F7F7F7;
+  background-color: #F5F0E8;
+}
+
+html.dark body {
+  background-color: #080610;
 }
