@@ -14,7 +14,9 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
   const [questionCount, setQuestionCount] = useState(10);
   const [bonusTimeEnabled, setBonusTimeEnabled] = useState(true);
 
-  const canStart = (together || players.length > 0) && selectedTopics.size > 0;
+  const topicsOk = selectedTopics.size > 0;
+  const playersOk = together || players.length > 0;
+  const canStart = topicsOk && playersOk;
 
   function toggleTopic(key) {
     setSelectedTopics((prev) => {
@@ -266,7 +268,9 @@ export default function Lobby({ gameCode, players, isHost, playerName, topics, o
             >
               {canStart
                 ? together ? "Start Session" : "Start Game"
-                : "Pick at least one topic to start"}
+                : !topicsOk
+                ? "Pick at least one topic to start"
+                : "Waiting for players to join…"}
             </button>
           </div>
         )}

@@ -214,9 +214,13 @@ export default function App() {
   }
 
   // ── Host: Start Game ───────────────────────────────────────────
-  function handleStartGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount, bonusTimeEnabled }) {
+  async function handleStartGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount, bonusTimeEnabled }) {
     setTogetherMode(together);
-    hostRef.current?.startGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount, bonusTimeEnabled });
+    try {
+      await hostRef.current?.startGame({ topicKeys, topicLabel, difficulty, mode, timePerQuestion, together, questionCount, bonusTimeEnabled });
+    } catch (err) {
+      alert(`Failed to start game: ${err.message ?? err}`);
+    }
   }
 
   // ── Player: Submit Answer ──────────────────────────────────────
